@@ -32,7 +32,9 @@ public class bullet : MonoBehaviour
     {
         if(collision.collider.CompareTag(tag))
         {
-            Destroy(collision.collider.gameObject);
+            //Destroy(collision.collider.gameObject);
+            var target = collision.gameObject.GetComponent<HpPool>();
+            target.takeDamage(damage);
             kill();
         }
     }
