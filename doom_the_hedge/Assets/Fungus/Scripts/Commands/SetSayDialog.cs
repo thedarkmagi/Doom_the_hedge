@@ -1,0 +1,51 @@
+// This code is part of the Fungus library (https://github.com/snozbot/fungus)
+// It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
+
+using UnityEngine;
+
+namespace Fungus
+{
+    /// <summary>
+    /// Sets a custom say dialog to use when displaying story text.
+    /// </summary>
+    [CommandInfo("Narrative", 
+                 "Set Say Dialog", 
+                 "Sets a custom say dialog to use when displaying story text")]
+    [AddComponentMenu("")]
+    public class SetSayDialog : Command 
+    {
+        [Tooltip("The Say Dialog to use for displaying Say story text")]
+        [SerializeField] protected GameObject sayDialog;
+
+        #region Public members
+
+        public override void OnEnter()
+        {
+            if (sayDialog != null)
+            {
+
+                GameObject go = Instantiate(sayDialog);
+                SayDialog.ActiveSayDialog = go.GetComponent<SayDialog>();
+            }
+
+            Continue();
+        }
+
+        public override string GetSummary()
+        {
+            if (sayDialog == null)
+            {
+                return "Error: No say dialog selected";
+            }
+
+            return sayDialog.name;
+        }
+
+        public override Color GetButtonColor()
+        {
+            return new Color32(184, 210, 235, 255);
+        }
+
+        #endregion
+    }
+}
