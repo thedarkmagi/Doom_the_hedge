@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870635d10b3e2b344b057802407d47e1, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: b8a7f7cae086624897e550aea4fd902c
+    GuidInternal: 
+    m_lastTime: -8585875149656744344
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a83fed95abf6094faf3a5148ed4df5bb
+    GuidInternal: 
+    m_lastTime: -8585875139059171696
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: Music Bus
+      guid: fabd5e2391e5d74899a9b4452ae840c6
+      id: 3127962312
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Music Bus
+    - name: SFX Bus
+      guid: 33d125a1a296d94495311aca18f51176
+      id: 1502772432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\SFX Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: b92a42c93c818744839ae6f90e5f226f
+    GuidInternal: 
+    m_lastTime: -8585875149657252986
+    List: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a75c45de65f72442911ce50edccb6100
+    GuidInternal: 
+    m_lastTime: -8585875149656943811
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 11a7a3a6b7b28046834dbcde858b40f9
+    GuidInternal: 
+    m_lastTime: -8585875149656883964
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c458ab2d58966a42b45bbe174e472962
+    GuidInternal: 
+    m_lastTime: -8585875149657113360
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 13a3e16e03d84746a79613ca799fa9d3
+    GuidInternal: 
+    m_lastTime: -8585875149657163225
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0f17ca3b0f01294abfee04ba5847aa32
+    GuidInternal: 
+    m_lastTime: -8585875149657053514
+    List: []
+  ExpandedItems:
+  - /doom_the_hedge_WwiseProject
+  - /doom_the_hedge_WwiseProject/Events
+  - /doom_the_hedge_WwiseProject/SoundBanks
+  - /doom_the_hedge_WwiseProject/Virtual Acoustics
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
