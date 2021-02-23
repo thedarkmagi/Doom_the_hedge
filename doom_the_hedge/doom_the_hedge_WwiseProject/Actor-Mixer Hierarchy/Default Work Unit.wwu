@@ -271,6 +271,967 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Forest_Loops" ID="{EA62C436-6BDB-46C5-A463-559AF49D343C}" ShortID="92967205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_forest_birds_1_loop" ID="{F49FEFC8-3532-4C05-8C51-E240EDCDEDF7}" ShortID="321920100">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_loop" ID="{8DDF1E90-4CA8-4AA4-A3C1-A935070F9A9E}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="86954005"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_loop" ID="{8DDF1E90-4CA8-4AA4-A3C1-A935070F9A9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_loop" ID="{F002B350-C3E0-4F78-BB0F-3DC945735AC3}" ShortID="960601849">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{DC5E1279-0A33-4727-9FEA-317D8D32258D}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="4"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_loop" ID="{FB592470-AE59-4C85-B6BC-F67DF3758D59}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="381102631"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_loop" ID="{FB592470-AE59-4C85-B6BC-F67DF3758D59}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_main_1_loop" ID="{E12AD938-C0D7-424E-ACC6-23398F0D85F9}" ShortID="803289685">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_main_1_loop" ID="{461C2F5A-262E-4133-ABF9-15C2216DA899}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_main_1_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="343788459"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_main_1_loop" ID="{461C2F5A-262E-4133-ABF9-15C2216DA899}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_main_2_loop" ID="{5B3FE27F-AEC9-4F55-85C4-DD391CEF6873}" ShortID="120315550">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7C539354-534B-4362-8881-2CA648A9EDBB}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="6"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_main_2_loop" ID="{EE4269E0-0F48-4D64-A03B-B9154CA74D50}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_main_2_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="589176548"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_main_2_loop" ID="{EE4269E0-0F48-4D64-A03B-B9154CA74D50}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_main_3_loop" ID="{BE3F2434-5140-48FE-824D-4062CE9FC9EE}" ShortID="836531232">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_main_3_loop" ID="{04CAE2E0-E2C2-4313-962B-B9F77CF52517}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_main_3_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="991261903"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_main_3_loop" ID="{04CAE2E0-E2C2-4313-962B-B9F77CF52517}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<RandomSequenceContainer Name="Wind" ID="{2358A63C-DAB5-4BE5-80F7-4D1A7E0E4733}" ShortID="146007125">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{527E5A3A-E6BF-4B56-94DA-5D0744265EF8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="6"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0149AD4E-238E-4DD9-AA33-4E1F5C7910F1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="126"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{ACDB129C-5719-471E-8DEE-E2B4D66E41E2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_forest_wind_oneshots-001" ID="{08E043A8-F7BD-40D3-B023-A76D819910F6}" ShortID="1056328307">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-001" ID="{83B370DA-2CCA-4EAD-B7F0-D25ECFC0B096}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="523119103"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-001" ID="{83B370DA-2CCA-4EAD-B7F0-D25ECFC0B096}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-002" ID="{07C2F1CB-04FD-4F48-9457-3F72F8B6A8AA}" ShortID="581446026">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-002" ID="{5759843F-4C5B-46DC-A208-297B849C3009}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="342705299"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-002" ID="{5759843F-4C5B-46DC-A208-297B849C3009}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-003" ID="{13130300-2DDE-4B2D-AA2F-6554C2D83C6C}" ShortID="134462499">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-003" ID="{26024A94-B2A4-49E9-B60A-002A5B72F8EB}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="64593458"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-003" ID="{26024A94-B2A4-49E9-B60A-002A5B72F8EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-004" ID="{846AA259-4D38-4795-BDD6-DA2E7D3F39C3}" ShortID="757655821">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-004" ID="{C6E5DDE0-BEBC-4872-B157-80E395C4EB7B}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="799436469"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-004" ID="{C6E5DDE0-BEBC-4872-B157-80E395C4EB7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-005" ID="{D531FEC8-F884-4EA8-9EA6-2200765C7C37}" ShortID="34122799">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-005" ID="{2CC61A82-6FF3-4C19-9B1F-A4C50D342999}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="473343831"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-005" ID="{2CC61A82-6FF3-4C19-9B1F-A4C50D342999}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-006" ID="{E1654FB0-DB7B-4A06-BA12-D0B74F11B82C}" ShortID="38455233">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-006" ID="{8AA09859-F008-4C51-B2E5-63BEFC38ACEC}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1041231393"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-006" ID="{8AA09859-F008-4C51-B2E5-63BEFC38ACEC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-007" ID="{D09650D0-2B26-4DE0-8B6D-3B1114A0E7C8}" ShortID="735713489">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-007" ID="{B6DBEDB7-8FC3-4E81-9227-0B24259BFF93}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="762764177"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-007" ID="{B6DBEDB7-8FC3-4E81-9227-0B24259BFF93}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-008" ID="{2D80E3C4-950D-4BCF-8713-E4C448490DA8}" ShortID="808972773">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-008" ID="{312673F8-8434-4FF5-8B85-C7D3255A8568}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="634916399"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-008" ID="{312673F8-8434-4FF5-8B85-C7D3255A8568}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-009" ID="{6AA69C70-F878-49ED-B8A5-FDFD37F15BAC}" ShortID="845019014">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-009" ID="{A2585D2A-B410-4BD5-BEE3-D72F29A470FF}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="15114888"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-009" ID="{A2585D2A-B410-4BD5-BEE3-D72F29A470FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-010" ID="{7867BC0A-E84D-4910-9A1A-66C4D72EF7B2}" ShortID="651262306">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-010" ID="{5D860D24-A8A6-423B-9039-A45A03F9F3F4}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37173838"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-010" ID="{5D860D24-A8A6-423B-9039-A45A03F9F3F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-011" ID="{84144F0E-3DBA-403B-8C42-522DCE89FFAC}" ShortID="689405154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-011" ID="{3E95FF2C-1582-493B-8C1A-8044A602C364}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="835384661"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-011" ID="{3E95FF2C-1582-493B-8C1A-8044A602C364}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_wind_oneshots-012" ID="{DD19F78F-5BD2-449D-AC7D-F57D3C108EED}" ShortID="244269286">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_wind_oneshots-012" ID="{B0D66944-FAA6-48D6-B917-02FF9C711DEA}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_wind_oneshots-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="878968533"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_wind_oneshots-012" ID="{B0D66944-FAA6-48D6-B917-02FF9C711DEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Birds_1" ID="{AB99C565-0734-42CC-9E77-ECAD3059674D}" ShortID="431990447">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0855D579-4EB8-4A0D-8DE4-7E8ABD18EF9C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{97C5EC49-EDEF-42F3-B588-FEACA0BADA4F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="76"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9512F769-13B4-401D-B3EE-64E8983935F9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-001" ID="{D3610DF7-002D-4443-BB74-1C706F033EF3}" ShortID="817708133">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-001" ID="{EDE78050-937A-4B81-B747-15738FD27FBA}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="676472768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-001" ID="{EDE78050-937A-4B81-B747-15738FD27FBA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-002" ID="{BD08FBEE-A997-42A9-AD5C-5363EAB99768}" ShortID="813463345">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-002" ID="{14A3D36B-51A5-461D-B394-4BB5B9B59446}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1033241586"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-002" ID="{14A3D36B-51A5-461D-B394-4BB5B9B59446}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-003" ID="{7936167E-B6E1-437B-8E22-CBB7EE7CA72B}" ShortID="39567073">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-003" ID="{51A3C5B8-14B7-4578-9CCE-8C9ABF34CE01}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="2124173"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-003" ID="{51A3C5B8-14B7-4578-9CCE-8C9ABF34CE01}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-004" ID="{7EEB32C9-09D6-4D4E-9E19-94301AC5CAAB}" ShortID="533927437">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-004" ID="{94646C06-B9E0-49D3-8CC0-258724529FB1}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="313122891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-004" ID="{94646C06-B9E0-49D3-8CC0-258724529FB1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-005" ID="{99B348B7-1F74-4304-ABC5-D341E551EFD5}" ShortID="521664353">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-005" ID="{4F814109-44FD-495E-96EB-E3C25082B012}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="190314991"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-005" ID="{4F814109-44FD-495E-96EB-E3C25082B012}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-006" ID="{C82716EA-ABCC-4A1B-8F9E-1B1EEF829E1B}" ShortID="837781423">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-006" ID="{C77B2C36-621C-45BC-A89F-752878525BE6}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="775474802"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-006" ID="{C77B2C36-621C-45BC-A89F-752878525BE6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-007" ID="{FDAB4696-38FD-4489-B725-B9FC578F964F}" ShortID="471090658">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-007" ID="{CF00C8FD-AC05-43DD-9D20-085D6DA86711}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="582474956"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-007" ID="{CF00C8FD-AC05-43DD-9D20-085D6DA86711}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_1_oneshots-008" ID="{166B2390-6857-4C94-A72A-E005845B020B}" ShortID="956762118">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_1_oneshots-008" ID="{1B5FA27F-99BE-489D-B37D-D7D4C5A0D278}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_1_oneshots-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="943423573"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_1_oneshots-008" ID="{1B5FA27F-99BE-489D-B37D-D7D4C5A0D278}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Birds_2" ID="{7C1C015D-217F-41C3-8321-D346A6DC5AA2}" ShortID="983398070">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>4.5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7EFCA014-A96D-46A5-AF30-F674B37240D2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{62B32AFC-BE38-4CEB-8FE0-6399205DACF5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="51"/>
+																	<Property Name="Min" Type="Real64" Value="-51"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BA4DDCD0-7B78-4801-9F88-CE02CCD33C85}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-003" ID="{EAFCB775-DD70-4FF2-921F-D01CB7127384}" ShortID="502282750">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-003" ID="{673438E0-9D7A-4B0D-ACE8-B4E44178952F}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1016054808"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-003" ID="{673438E0-9D7A-4B0D-ACE8-B4E44178952F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-004" ID="{2A634447-535B-429C-AC87-61228A2973BC}" ShortID="1049812204">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-004" ID="{0E974DA0-FF82-48DF-8EFF-717AA3EF7303}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="131590435"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-004" ID="{0E974DA0-FF82-48DF-8EFF-717AA3EF7303}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-005" ID="{67602595-BCD4-4A14-91C4-3A23A7F31B1B}" ShortID="27776986">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-005" ID="{C23C6A0E-0292-4364-B60A-1E62FB56EF48}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="668206694"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-005" ID="{C23C6A0E-0292-4364-B60A-1E62FB56EF48}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-006" ID="{588FA567-07C8-40F7-8129-3F59DCAD7C8E}" ShortID="332353735">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-006" ID="{8B0D1BC7-E298-4EB5-B7F9-2C01CAD1986F}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="346070132"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-006" ID="{8B0D1BC7-E298-4EB5-B7F9-2C01CAD1986F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-007" ID="{D2862ED7-C4AB-4E9A-A71F-96376028CDB3}" ShortID="658699664">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-007" ID="{BB2B3870-6714-4D18-AE5C-A2BEF5C63A90}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="107483721"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-007" ID="{BB2B3870-6714-4D18-AE5C-A2BEF5C63A90}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-008" ID="{EA090AD3-3CBA-4616-B73B-D37999AB7D88}" ShortID="621617267">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-008" ID="{4D7618ED-1FD2-48BD-B323-264FAFB681EC}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="976978619"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-008" ID="{4D7618ED-1FD2-48BD-B323-264FAFB681EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-001" ID="{1A7E84E6-D144-4FFB-84F8-BC3860F0CAC5}" ShortID="604431805">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-001" ID="{0375DE4E-241F-4183-926B-35BEEA525E58}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="838604769"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-001" ID="{0375DE4E-241F-4183-926B-35BEEA525E58}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_forest_birds_2_oneshots-002" ID="{B36B9F14-388D-4A90-90B0-1D5BAB9DDAEF}" ShortID="718498110">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_forest_birds_2_oneshots-002" ID="{D01C9ED2-3DDB-4542-9438-B3C2FA95E1F2}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_forest_birds_2_oneshots-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="209895263"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_forest_birds_2_oneshots-002" ID="{D01C9ED2-3DDB-4542-9438-B3C2FA95E1F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
