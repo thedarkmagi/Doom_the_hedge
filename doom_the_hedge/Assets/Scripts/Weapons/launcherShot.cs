@@ -1,12 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bullet : MonoBehaviour
+public class launcherShot : bullet
 {
-    public float damage;
-    public float lifetime;
-    public string targetTag;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +14,7 @@ public class bullet : MonoBehaviour
     void Update()
     {
         lifetime -= Time.deltaTime;
-        if(lifetime<0)
+        if (lifetime < 0)
         {
             kill();
         }
@@ -31,7 +28,7 @@ public class bullet : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("hit something");
-        if(collision.collider.CompareTag(targetTag))
+        if (collision.collider.CompareTag(targetTag))
         {
             //Destroy(collision.collider.gameObject);
             var target = collision.gameObject.GetComponent<HpPool>();
