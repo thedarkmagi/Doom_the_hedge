@@ -69,6 +69,14 @@ public class gun : MonoBehaviour
         return result;
     }
 
+    public void changeWeapon(int wepIndex)
+    {
+        if((wepIndex<weapons.Count))
+        {
+            currentGun = weapons[wepIndex];
+        }
+    }
+
     public void fire()
     {
         if (currentGun.currAmmo > 0)
