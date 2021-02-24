@@ -243,6 +243,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<ActorMixer Name="Level 3 - Ocean" ID="{EA728FF9-9E6E-47BC-B29F-CA1AE92A113C}" ShortID="32227044">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0155958A-37CA-42D3-8B7A-A7ECE085E3FB}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
@@ -251,6 +260,848 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Ocean_Loops" ID="{5CCE3D44-67F0-4AF7-B8E8-5F657D000C92}" ShortID="644466602">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5C48395C-CB1F-4AF1-A100-4E5591B92525}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_sea_underwater_1_loop" ID="{AE3B03B1-3BF4-4992-ABFD-AB9A9567D0B3}" ShortID="204314491">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{BD3002A2-3DDF-4E0A-B2F5-73FD2DB82CF3}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_underwater_1_loop" ID="{24242003-67FF-48FE-AE04-706FD51B7EF8}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_underwater_1_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="895655384"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_underwater_1_loop" ID="{24242003-67FF-48FE-AE04-706FD51B7EF8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_underwater_2_loop" ID="{95F2095B-2F32-4D7A-BA80-FBBDD5FF8F51}" ShortID="686978013">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D8AF3867-0C3A-4BB6-A4EC-1C281DCB3B4F}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_underwater_2_loop" ID="{7F87F4C8-D750-4510-B267-30CE4D600F9C}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_underwater_2_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="905945979"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_underwater_2_loop" ID="{7F87F4C8-D750-4510-B267-30CE4D600F9C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_underwater_3_loop" ID="{8FC79749-999E-42D1-B34F-EE1008FF6CBA}" ShortID="340040952">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8065BBF5-737F-4F77-A901-A55CB4E61956}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_underwater_3_loop" ID="{B41E0B3D-4FF2-469D-865A-3204E2447B77}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_underwater_3_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="481803296"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_underwater_3_loop" ID="{B41E0B3D-4FF2-469D-865A-3204E2447B77}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_underwater_4_loop" ID="{FCF27835-949B-4D57-B877-9F6ED583C75E}" ShortID="1062161873">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{07460A7E-BE7D-46DF-8D74-155912BB9143}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_underwater_4_loop" ID="{ACA9FEE6-9905-4861-B9C3-592036499240}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_underwater_4_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="453914364"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_underwater_4_loop" ID="{ACA9FEE6-9905-4861-B9C3-592036499240}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<RandomSequenceContainer Name="Bubbles_1" ID="{AB378ACA-4868-463B-9F54-BB3A389AF1A2}" ShortID="105119890">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3DA27DA2-6018-47A0-A408-D5D3CC9E4548}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5DA11790-1712-46EF-B674-B249660E0CD9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="51"/>
+																	<Property Name="Min" Type="Real64" Value="-51"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AFBA62B7-ADEC-4C5C-8788-85B7F1BDA923}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0DC1813F-AC6F-46FE-B0FD-51678B17FC06}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-001" ID="{A631A4FB-5C01-4750-8570-5321A8728D6E}" ShortID="937556711">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-001" ID="{E604B077-BDEA-47C4-B516-E895133DDAF0}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="195612102"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-001" ID="{E604B077-BDEA-47C4-B516-E895133DDAF0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-002" ID="{090CA110-5699-4328-8D2F-D5F9E8C409B6}" ShortID="896184514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-002" ID="{506C974A-870E-404C-8A5C-B832F3016DF0}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="633248026"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-002" ID="{506C974A-870E-404C-8A5C-B832F3016DF0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-003" ID="{FC92027F-2D4A-460F-B24A-CE0E973C543A}" ShortID="776881938">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-003" ID="{169E3D4D-456E-43EF-9C24-14334599556E}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1043054122"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-003" ID="{169E3D4D-456E-43EF-9C24-14334599556E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-004" ID="{2E8A2585-74E0-4C8E-AF7A-93A54F47676B}" ShortID="780994125">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-004" ID="{DE252694-9109-40E8-B066-DF5E6D410A78}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="519456003"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-004" ID="{DE252694-9109-40E8-B066-DF5E6D410A78}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-005" ID="{4B7024AE-6D19-4E27-8283-FE11F4552BD4}" ShortID="729631668">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-005" ID="{81CC1606-E25E-41FF-91A3-BB388A690371}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="490410443"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-005" ID="{81CC1606-E25E-41FF-91A3-BB388A690371}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-006" ID="{70801A80-3B39-402D-B801-8A9B152586F4}" ShortID="1042200494">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-006" ID="{37D16B18-B54A-4EF1-A9A7-D005FACB3879}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="411496103"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-006" ID="{37D16B18-B54A-4EF1-A9A7-D005FACB3879}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-007" ID="{BD6479E4-7C91-4827-A25E-CA600B94E8FC}" ShortID="344646517">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-007" ID="{E7FC52DB-C3F0-4573-ACA3-0E69320120DE}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310133422"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-007" ID="{E7FC52DB-C3F0-4573-ACA3-0E69320120DE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-008" ID="{D529D6E5-CEFF-4C01-9C8F-E5076C25B269}" ShortID="217750920">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-008" ID="{A40292D2-F75C-47B3-BAA3-FEA59EA9AE56}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="806058648"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-008" ID="{A40292D2-F75C-47B3-BAA3-FEA59EA9AE56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-009" ID="{23D7BCCE-99C9-406B-AD7C-9C4BE551E11D}" ShortID="615915643">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-009" ID="{912BA40E-9CE0-4BD2-8B45-3E160758B031}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="230580826"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-009" ID="{912BA40E-9CE0-4BD2-8B45-3E160758B031}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_1_oneshots-010" ID="{E329AD3C-C3DB-4AC9-852C-C9449D3317AF}" ShortID="914212942">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_1_oneshots-010" ID="{424D8343-B293-4F39-9888-49C8F9659456}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_1_oneshots-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="30390027"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_1_oneshots-010" ID="{424D8343-B293-4F39-9888-49C8F9659456}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bubbles_2" ID="{ACDC61DE-AE2C-4DDA-9C33-6A3FE0CC49D5}" ShortID="156983816">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>3.5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C40408F6-774F-4AFB-B3AE-CF1EDB7245A1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7FBE962D-1D51-47CA-A9BF-3BD62484AB06}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="76"/>
+																	<Property Name="Min" Type="Real64" Value="-51"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{66B0797F-22BF-4101-8FE5-766756559224}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8E6333C6-FABE-4968-B5FB-50FA29F30E5A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-008" ID="{5B14CD60-19D9-4EE3-B846-FAE262BE8FEE}" ShortID="922808528">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-008" ID="{F5BBD5E5-81FE-4002-AAC3-4C37081A3BF2}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="401449601"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-008" ID="{F5BBD5E5-81FE-4002-AAC3-4C37081A3BF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-009" ID="{3B9EDD36-8255-420C-97AB-7F7D283B57AB}" ShortID="1045263899">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-009" ID="{EB00F657-5D83-454C-847B-0C4958A1562A}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="27730014"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-009" ID="{EB00F657-5D83-454C-847B-0C4958A1562A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-010" ID="{E615A54C-4D43-43B2-9FCC-0575E2C74794}" ShortID="115066174">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-010" ID="{7233BC2B-EF84-4CF8-9C5B-E772951F84C9}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="640234805"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-010" ID="{7233BC2B-EF84-4CF8-9C5B-E772951F84C9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-011" ID="{6975B3E7-581F-4BEC-AC0D-F25AEABA0F65}" ShortID="472492034">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-011" ID="{EBAD3464-6269-4EE4-B023-94566933C382}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="432728372"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-011" ID="{EBAD3464-6269-4EE4-B023-94566933C382}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-012" ID="{BF6F48DB-A56C-417E-9C90-B3CF10D34B10}" ShortID="706997763">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-012" ID="{8B47AEA1-97FF-42CF-80C1-680AAA984006}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="338115584"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-012" ID="{8B47AEA1-97FF-42CF-80C1-680AAA984006}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-013" ID="{067DD2D1-F2BB-4C9E-8AFA-1A45CFE69A5B}" ShortID="448291002">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-013" ID="{A548AB97-EAC1-4454-98A4-3E88E4E87937}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="430578917"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-013" ID="{A548AB97-EAC1-4454-98A4-3E88E4E87937}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-014" ID="{2A015AB6-23A7-425F-84E3-65934FBDB232}" ShortID="873532884">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-014" ID="{A293F201-B22E-4777-89C5-BE8796B6CADC}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-014.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="679603308"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-014" ID="{A293F201-B22E-4777-89C5-BE8796B6CADC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-001" ID="{03497304-E1B1-4F63-B497-308903EB6CEE}" ShortID="679044965">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-001" ID="{C17CBA3A-3B69-4489-9201-1BE644F19DC5}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="473676393"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-001" ID="{C17CBA3A-3B69-4489-9201-1BE644F19DC5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-002" ID="{8A086035-BD39-4FE5-AEA3-F8577AA17606}" ShortID="947685420">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-002" ID="{D6714380-98F1-480A-B3BA-68B336F030B1}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="937875671"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-002" ID="{D6714380-98F1-480A-B3BA-68B336F030B1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-003" ID="{C4A6BF0D-18D6-4703-8CED-F7EB6EEA9583}" ShortID="334269301">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-003" ID="{ED5020EB-F353-4CE6-9B3A-12BF4386726C}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="452573186"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-003" ID="{ED5020EB-F353-4CE6-9B3A-12BF4386726C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-004" ID="{33FDE8B2-EB32-4DD9-8E61-0532859879C7}" ShortID="70241503">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-004" ID="{AF35B11C-85FF-489D-9575-4FED6CE155B5}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="746898162"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-004" ID="{AF35B11C-85FF-489D-9575-4FED6CE155B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-005" ID="{AC5E14F5-F21E-4462-9732-47A76AF9FE62}" ShortID="559413605">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-005" ID="{CF8CC5C1-60A1-4F3A-867C-2CF0B5C14D41}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="303332965"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-005" ID="{CF8CC5C1-60A1-4F3A-867C-2CF0B5C14D41}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-006" ID="{45E393A6-5CEF-4619-9CD7-DE26DB19841C}" ShortID="585312937">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-006" ID="{427BE705-8E55-4899-9D9C-2E3E155A75EC}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="369568934"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-006" ID="{427BE705-8E55-4899-9D9C-2E3E155A75EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_sea_bubbles_2_oneshots-007" ID="{5D739BD4-5F10-4316-B6FF-E84499802CD8}" ShortID="450290888">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_sea_bubbles_2_oneshots-007" ID="{63FF3C2E-0F30-4366-969D-AD56F4D94741}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_sea_bubbles_2_oneshots-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="442874059"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_sea_bubbles_2_oneshots-007" ID="{63FF3C2E-0F30-4366-969D-AD56F4D94741}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="Level 2 - Beach" ID="{E419E2DA-AEE0-47C0-BDB3-DABEE8E9BA6B}" ShortID="335399361">
 									<ReferenceList>
@@ -261,6 +1112,594 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Beach_Loops" ID="{C3056469-FD9C-4C98-9F2A-EC97CE6F9DD9}" ShortID="622118914">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{79415190-783C-40AE-97BD-0919000ABCD6}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_beach_marina_loop" ID="{F37ABFD5-2173-406D-8894-5A58E9EDEFD8}" ShortID="968743211">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{84BF7929-7E4B-4FA0-AF93-6E5555B1D7DE}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="3"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_marina_loop" ID="{89BD8D77-5A7D-43F9-8D4A-0E85CE9DFD7D}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_marina_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="560421240"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_marina_loop" ID="{89BD8D77-5A7D-43F9-8D4A-0E85CE9DFD7D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_sea_rocks_1_loop" ID="{32091C88-E7DB-4412-AA21-BA29354529ED}" ShortID="753292102">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_sea_rocks_1_loop" ID="{CF3D9BF8-CB9C-4409-9ED6-9A835B3B071F}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_sea_rocks_1_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="537235978"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_sea_rocks_1_loop" ID="{CF3D9BF8-CB9C-4409-9ED6-9A835B3B071F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_sea_rocks_2_loop" ID="{ACB3046A-D165-4E81-A9F1-4F0EBBDA9E18}" ShortID="949660850">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B78D0C3C-1F8B-423E-A9EB-6D590C8198C2}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="3"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_sea_rocks_2_loop" ID="{347818A4-33BD-4729-B989-26980541AFEF}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_sea_rocks_2_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="958795706"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_sea_rocks_2_loop" ID="{347818A4-33BD-4729-B989-26980541AFEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_water_lap_loop" ID="{C33C598D-E2C1-436D-96B2-6D1F686645BA}" ShortID="550528480">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{0A65945F-B42A-43F6-9C0B-70F1E8525096}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_water_lap_loop" ID="{1F1CDFD6-1F81-4656-8B64-AECD405358F9}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_water_lap_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="602888783"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_water_lap_loop" ID="{1F1CDFD6-1F81-4656-8B64-AECD405358F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_waves_loop" ID="{413B55A2-EFE0-468E-BAD4-CE751C1C313F}" ShortID="637998000">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B0AEDA75-0E1A-4B47-B5E9-DF3EB520FE07}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_waves_loop" ID="{491C372C-CD58-4E5B-A766-06E46A476407}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_waves_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="967655867"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_waves_loop" ID="{491C372C-CD58-4E5B-A766-06E46A476407}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_main_loop" ID="{EFEE500B-D288-4900-9574-9119EDE8991D}" ShortID="927972587">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_main_loop" ID="{3FF9039D-B5FA-4424-9D74-0967B7D63927}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_main_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="887433053"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_main_loop" ID="{3FF9039D-B5FA-4424-9D74-0967B7D63927}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<RandomSequenceContainer Name="Seagulls" ID="{BA0EBAF0-03CF-4809-8E3F-278D1641D9D4}" ShortID="307320023">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0D87694A-6648-41E8-AB08-ED061DA11757}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="6"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{29A6DAF1-547A-492F-AE68-05B3E23201BD}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="76"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EE018630-B920-4DBC-A742-40A5F6BD7687}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A84E1F74-EA33-4EBD-9DC1-7A201D75FAD6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-001" ID="{E5449775-73DE-4421-ABEC-37793D4EA805}" ShortID="992380982">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-001" ID="{5D193418-35DF-4938-8204-4868940F5A90}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1034841575"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-001" ID="{5D193418-35DF-4938-8204-4868940F5A90}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-002" ID="{3822E553-87D7-4D58-B62C-228CD42568C7}" ShortID="593928753">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-002" ID="{03EED051-F8DF-4B7E-8000-9CD77433B35A}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="85154312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-002" ID="{03EED051-F8DF-4B7E-8000-9CD77433B35A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-003" ID="{B5CDDB27-0788-422F-88BD-3B1FA5D81F8D}" ShortID="1028129790">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-003" ID="{4D72C93A-8B18-478C-8EFB-E3950FB72400}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="25190131"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-003" ID="{4D72C93A-8B18-478C-8EFB-E3950FB72400}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-004" ID="{1C408CB6-E300-4B49-8DEC-0FEA4A5B6C1C}" ShortID="179587116">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-004" ID="{486A3742-5EA7-4952-AD64-C91BC2DF4F48}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1041405353"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-004" ID="{486A3742-5EA7-4952-AD64-C91BC2DF4F48}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-005" ID="{BC0AA7A6-1FCF-4DE7-8DD3-F48FDCBB6370}" ShortID="533600793">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-005" ID="{B384F5EE-6D18-4097-9077-80C396C70460}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="116483313"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-005" ID="{B384F5EE-6D18-4097-9077-80C396C70460}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-006" ID="{EF37D565-4B8F-4C75-BE2B-F6DAE28B812E}" ShortID="871752347">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-006" ID="{61B11046-4572-43B3-B728-FA036C6B4C77}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="76198258"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-006" ID="{61B11046-4572-43B3-B728-FA036C6B4C77}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-007" ID="{BF96FF24-B7E3-447F-9B8C-29DA0D324493}" ShortID="521831009">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-007" ID="{973F10A8-F44E-4F8A-BEA1-0A9354B5C867}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="855219861"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-007" ID="{973F10A8-F44E-4F8A-BEA1-0A9354B5C867}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-008" ID="{E88958C5-F19A-4912-9430-5F9C38F2A53D}" ShortID="835217429">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-008" ID="{41E44C46-2EF7-463C-B2EF-1A0E8268E9B9}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="694026916"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-008" ID="{41E44C46-2EF7-463C-B2EF-1A0E8268E9B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-009" ID="{A389EF06-E1E5-48BA-8A2F-6BC4D1039E79}" ShortID="1061838040">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-009" ID="{EDA6C4D7-C085-4582-8771-72985EEC9A0F}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046722080"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-009" ID="{EDA6C4D7-C085-4582-8771-72985EEC9A0F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-010" ID="{EF3E9255-3BE1-4E15-9E1E-ABEB240B05A6}" ShortID="213137247">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-010" ID="{FB7BD33A-75CA-4BBD-8412-0C25C8F994BE}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1049200819"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-010" ID="{FB7BD33A-75CA-4BBD-8412-0C25C8F994BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-011" ID="{975F4EF2-2059-4202-8D8A-91C56BC87358}" ShortID="678933459">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-011" ID="{1A713F6F-A009-4685-A087-31171F31C23B}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936947862"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-011" ID="{1A713F6F-A009-4685-A087-31171F31C23B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-012" ID="{016EA1F5-559E-44A6-99AF-1F97486F5631}" ShortID="436865592">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-012" ID="{A1ABC904-45BB-4C08-AF47-6FA0092DBB21}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="68550190"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-012" ID="{A1ABC904-45BB-4C08-AF47-6FA0092DBB21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_dth_beach_seagulls_oneshots-013" ID="{3BF3D730-DF3F-4D83-88D1-D2969A4D87AF}" ShortID="479339205">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_dth_beach_seagulls_oneshots-013" ID="{05B88456-ADFC-4E38-91BD-E4489FB3838A}">
+															<Language>SFX</Language>
+															<AudioFile>amb_dth_beach_seagulls_oneshots-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="516438481"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_dth_beach_seagulls_oneshots-013" ID="{05B88456-ADFC-4E38-91BD-E4489FB3838A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="Level 1 - Forest" ID="{74DDA6C2-B9F1-4D68-98EF-34DA64BA575D}" ShortID="160695239">
 									<ReferenceList>
@@ -471,6 +1910,21 @@
 													</ModifierList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DFC76EB3-9CEB-4342-8F95-F92EF20E03A2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 												<Property Name="Volume" Type="Real64">
@@ -793,6 +2247,21 @@
 													</ModifierList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AB7CC6D0-0CD9-44DB-A434-C266C794FF89}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
@@ -1028,6 +2497,20 @@
 													</ModifierList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AC1920FA-9DD4-485A-B40C-55F2F15AF3DD}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
