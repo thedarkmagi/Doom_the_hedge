@@ -52,37 +52,60 @@ public class gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+    }
+
+    public bool tick()
+    {
+        bool result = false;
         currentGun.curFireRate += Time.deltaTime;
         //can fire
         if (currentGun.curFireRate > currentGun.fireRate)
         {
-            if(Input.GetMouseButtonDown(0))
+            result = true;
+        }
+
+
+        return result;
+    }
+
+    public void fire()
+    {
+        if (currentGun.currAmmo > 0)
+        {
+
+            switch (currentGun.type)
             {
-                fire();
+                case gunTypes.shotgun:
+                    fire_shotgun();
+                    break;
+                case gunTypes.rifle:
+                    fire_rifle();
+                    break;
+                case gunTypes.launcher:
+                    fire_launcher();
+                    break;
+                default:
+                    break;
             }
+            currentGun.curFireRate = 0;
+        }
+        else
+        {
+            reload();
         }
     }
-    void fire()
+
+    public void reload()
     {
-        switch (currentGun.type)
-        {
-            case gunTypes.shotgun:
-                fire_shotgun();
-                break;
-            case gunTypes.rifle:
-                fire_rifle();
-                break;
-            case gunTypes.launcher:
-                fire_launcher();
-                break;
-            default:
-                break;
-        }
+        //play anim or whatever reload delay
+
+        currentGun.currAmmo = currentGun.maxAmmo;
     }
 
     void fire_rifle()
     {
-        var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, transform);
+        var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
         var bullet = shot.GetComponent<bullet>();
 
@@ -93,6 +116,8 @@ public class gun : MonoBehaviour
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;
         bullet.targetTag = targetTag;
+
+        currentGun.currAmmo--;
     }
 
     void fire_shotgun()
@@ -108,11 +133,12 @@ public class gun : MonoBehaviour
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;
         bullet.targetTag = targetTag;
+        currentGun.currAmmo--;
     }
 
     void fire_launcher()
     {
-        var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, transform);
+        var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
         var bullet = shot.GetComponent<bullet>();
 
@@ -123,5 +149,6 @@ public class gun : MonoBehaviour
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;
         bullet.targetTag = targetTag;
+        currentGun.currAmmo--;
     }
 }

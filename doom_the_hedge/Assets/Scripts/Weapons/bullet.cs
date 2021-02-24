@@ -39,4 +39,15 @@ public class bullet : MonoBehaviour
             kill();
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(targetTag))
+        {
+            //Destroy(collision.collider.gameObject);
+            var target = other.gameObject.GetComponent<HpPool>();
+            target.takeDamage(damage);
+            kill();
+        }
+    }
 }
