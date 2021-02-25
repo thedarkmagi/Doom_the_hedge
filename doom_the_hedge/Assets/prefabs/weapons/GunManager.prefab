@@ -188,14 +188,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5073555632645735520}
-  m_LocalRotation: {x: -0, y: 0.055035394, z: -0, w: 0.99848443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5073555632488118276}
   m_Father: {fileID: 5073555634130482516}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 6.3100004, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5073555632645735524
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -514,6 +514,9 @@ MonoBehaviour:
     damage: 5
     velocity: 10
     lifetime: 5
+    reloadTime: 0
+    currReloadTime: 0
+    radius: 0
   - name: salad blow
     type: 0
     the_gun: {fileID: 5073555634073963007}
@@ -526,6 +529,9 @@ MonoBehaviour:
     damage: 5
     velocity: 10
     lifetime: 10
+    reloadTime: 0
+    currReloadTime: 0
+    radius: 0
   - name: launcher
     type: 2
     the_gun: {fileID: 5073555632645735520}
@@ -539,6 +545,9 @@ MonoBehaviour:
     damage: 5
     velocity: 10
     lifetime: 1
+    reloadTime: 0
+    currReloadTime: 0
+    radius: 0
   currentGun:
     name: 
     type: 0
@@ -552,7 +561,11 @@ MonoBehaviour:
     damage: 0
     velocity: 0
     lifetime: 0
+    reloadTime: 0
+    currReloadTime: 0
+    radius: 0
   currentWeapon: 0
+  reloaded: 0
 --- !u!1 &5073555634193625193
 GameObject:
   m_ObjectHideFlags: 0

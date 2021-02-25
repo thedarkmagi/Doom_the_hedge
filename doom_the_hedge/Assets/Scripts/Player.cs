@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     public animal skunk;
     public animal rabbit;
 
-    slots tower;
+    public slots tower;
     // Start is called before the first frame update
     void Start()
     {
