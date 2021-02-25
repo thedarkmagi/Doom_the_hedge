@@ -810,9 +810,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Ammo:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 890f059a90c08954681595bc1a4d6a35, type: 2}
-  m_sharedMaterial: {fileID: -2246040410267542730, guid: 890f059a90c08954681595bc1a4d6a35,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1601,6 +1600,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7fd5506e72c13bc499dd758a5f0b7905,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d36167b8c4802a64fa489a7c45b778f7, type: 2}
     - target: {fileID: 919132149155446097, guid: 7fd5506e72c13bc499dd758a5f0b7905,
         type: 3}
       propertyPath: m_Name
@@ -2977,6 +2981,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 374ebbe6a5419c54fb75c80c2bdaaba7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d36167b8c4802a64fa489a7c45b778f7, type: 2}
     - target: {fileID: 919132149155446097, guid: 374ebbe6a5419c54fb75c80c2bdaaba7,
         type: 3}
       propertyPath: m_Name
@@ -3194,9 +3203,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Objective:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2b1cb982382e3c5418d0e4a60b629b95, type: 2}
-  m_sharedMaterial: {fileID: 5474564927855451955, guid: 2b1cb982382e3c5418d0e4a60b629b95,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3220,7 +3228,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.55
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5109,6 +5117,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 261eb226b7180cc4ea45ff4d603227cf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d36167b8c4802a64fa489a7c45b778f7, type: 2}
     - target: {fileID: 919132149155446097, guid: 261eb226b7180cc4ea45ff4d603227cf,
         type: 3}
       propertyPath: m_Name
@@ -5178,6 +5191,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c13f408697a428a43ad9cf115e71ef16,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d36167b8c4802a64fa489a7c45b778f7, type: 2}
     - target: {fileID: 919132149155446097, guid: c13f408697a428a43ad9cf115e71ef16,
         type: 3}
       propertyPath: m_Name
@@ -6141,9 +6159,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ' 100/100'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2b1cb982382e3c5418d0e4a60b629b95, type: 2}
-  m_sharedMaterial: {fileID: 5474564927855451955, guid: 2b1cb982382e3c5418d0e4a60b629b95,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6167,11 +6184,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
+  m_fontSize: 22.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 25
+  m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
