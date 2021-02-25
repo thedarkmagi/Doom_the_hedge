@@ -1,13 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    public HpPool hp; 
+    public HpPool hp;
+    NavMeshAgent agent;
+
+    public gun _gun;
+    public SphereCollider agroRange;
+    public argo agg;
     // Start is called before the first frame update
     void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
         
     }
 
@@ -18,8 +25,15 @@ public class Enemy : MonoBehaviour
         {
             kill();
         }
+        if (agg.agrroed)
+        {
+            if (_gun.tick())
+            {
+                _gun.fire();
+            }
 
-        
+            agent.SetDestination(gamemanager.instance.player.transform.position);
+        }
     }
 
     private void LateUpdate()
