@@ -7,6 +7,7 @@ public class animal
     public string name;
     public int weaponIndexValue;
     public slot currentSlot;
+    public Sprite logo;
 }
 
 public enum slot
@@ -97,6 +98,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //things update.
     void changeSystemsBasedOnTowerSlots(slot position)
     {
         switch (position)
