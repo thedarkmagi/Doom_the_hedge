@@ -19,6 +19,7 @@ public struct gunData
 
     public float reloadTime;
     public float currReloadTime;
+    public float radius;
 }
 
 public enum gunTypes
@@ -164,7 +165,7 @@ public class gun : MonoBehaviour
     {
         var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
-        var bullet = shot.GetComponent<bullet>();
+        var bullet = shot.GetComponent<launcherShot>();
 
         // set direction 
         Vector3 dir = currentGun.aimTarget.transform.position - transform.position;
@@ -173,6 +174,7 @@ public class gun : MonoBehaviour
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;
         bullet.targetTag = targetTag;
+        bullet.radius = currentGun.radius;
         currentGun.currAmmo--;
     }
 }
