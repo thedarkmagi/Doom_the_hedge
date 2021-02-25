@@ -16,6 +16,9 @@ public struct gunData
     public float damage;
     public float velocity;
     public float lifetime;
+
+    public float reloadTime;
+    public float currReloadTime;
 }
 
 public enum gunTypes
@@ -39,6 +42,8 @@ public class gun : MonoBehaviour
     public List<gunData> weapons;
     public gunData currentGun;
     public int currentWeapon;
+
+    public bool reloaded;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +57,16 @@ public class gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        currentGun.currReloadTime -= Time.deltaTime;
+        if(currentGun.currReloadTime<0)
+        {
+            reloaded = true;
+        }
+    }
+
+    public bool isFinishedReloading()
+    {
+        return reloaded && currentGun.currReloadTime < 0;
     }
 
     public bool tick()
@@ -63,6 +77,7 @@ public class gun : MonoBehaviour
         if (currentGun.curFireRate > currentGun.fireRate)
         {
             result = true;
+            result = reloaded;
         }
 
 
@@ -107,7 +122,8 @@ public class gun : MonoBehaviour
     public void reload()
     {
         //play anim or whatever reload delay
-
+        reloaded = false;
+        currentGun.currReloadTime = currentGun.reloadTime;
         currentGun.currAmmo = currentGun.maxAmmo;
     }
 
