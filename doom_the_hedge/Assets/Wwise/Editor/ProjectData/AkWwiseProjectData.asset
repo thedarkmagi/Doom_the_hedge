@@ -71,8 +71,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b92a42c93c818744839ae6f90e5f226f
     GuidInternal: 
-    m_lastTime: -8585874867820646638
-    List: []
+    m_lastTime: -8585872328721139205
+    List:
+    - name: SaladShotgun_TestSoundbank
+      guid: 828506187ef3964db17186cf2b283eda
+      id: 1843385192
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SaladShotgun_TestSoundbank
+        ObjectType: 7
+      Path: Default Work Unit\SaladShotgun_TestSoundbank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -81,8 +90,58 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585874867843758067
-    List: []
+    m_lastTime: -8585872328721577177
+    List:
+    - name: Music Soundbanks
+      guid: 1e122abc35d3d54da5441b940482e693
+      id: 294769652
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Soundbanks
+        ObjectType: 4
+      Path: Default Work Unit\Music Soundbanks
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SaladShotgun_Fire_Test
+      guid: 365dde25139d2b47bcc5ac6bb9dc027f
+      id: 2682107836
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ShotgunTest Soundbank
+        ObjectType: 4
+      - ElementName: SaladShotgun_Fire_Test
+        ObjectType: 3
+      Path: Default Work Unit\ShotgunTest Soundbank\SaladShotgun_Fire_Test
+      maxAttenuation: 0
+      maxDuration: 1.797125
+      minDuration: 1.349208
+    - name: SFX Soundbanks
+      guid: 21a6400f6f83944ea3e29b6e4125754b
+      id: 2247949164
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      Path: Default Work Unit\SFX Soundbanks
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ShotgunTest Soundbank
+      guid: 2c59996d7a26e6488299af5a1bced0e9
+      id: 2997378982
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ShotgunTest Soundbank
+        ObjectType: 4
+      Path: Default Work Unit\ShotgunTest Soundbank
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
