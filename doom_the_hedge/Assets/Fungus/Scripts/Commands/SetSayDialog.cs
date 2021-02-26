@@ -15,7 +15,7 @@ namespace Fungus
     public class SetSayDialog : Command 
     {
         [Tooltip("The Say Dialog to use for displaying Say story text")]
-        [SerializeField] protected GameObject sayDialog;
+        [SerializeField] protected SayDialog sayDialog;
 
         #region Public members
 
@@ -23,9 +23,7 @@ namespace Fungus
         {
             if (sayDialog != null)
             {
-
-                GameObject go = Instantiate(sayDialog);
-                SayDialog.ActiveSayDialog = go.GetComponent<SayDialog>();
+                SayDialog.ActiveSayDialog = sayDialog;
             }
 
             Continue();

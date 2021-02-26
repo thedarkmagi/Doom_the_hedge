@@ -19,18 +19,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: SayPCDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 188902, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11431470, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: b2f6b6213954c374e9e2021c0d804c3e, type: 3}
+      objectReference: {fileID: 12800000, guid: 0f8cb887f4e4f35408881cf01f1b7744,
+        type: 3}
     - target: {fileID: 11488896, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: 4ae04090e41f79345981f2960661d4c3, type: 3}
+      objectReference: {fileID: 12800000, guid: 0f8cb887f4e4f35408881cf01f1b7744,
+        type: 3}
     - target: {fileID: 11488904, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 722d67f400cc82946b3b8fa2ec44186c, type: 3}
+      objectReference: {fileID: 21300000, guid: 47001e884e0f8e440aa5916f7774e43d,
+        type: 3}
     - target: {fileID: 11488904, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_PreserveAspect
       value: 0

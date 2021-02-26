@@ -123,10 +123,6 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585874867820626719
     List: []
-  ExpandedItems:
-  - /doom_the_hedge_WwiseProject
-  - /doom_the_hedge_WwiseProject/Events
-  - /doom_the_hedge_WwiseProject/SoundBanks
-  - /doom_the_hedge_WwiseProject/Virtual Acoustics
+  ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

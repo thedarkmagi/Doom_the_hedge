@@ -14,6 +14,7 @@ namespace Fungus.EditorUtils
         protected SerializedProperty characterProp;
         protected SerializedProperty replacedCharacterProp;
         protected SerializedProperty portraitProp;
+        protected SerializedProperty porProp;
         protected SerializedProperty offsetProp;
         protected SerializedProperty fromPositionProp;
         protected SerializedProperty toPositionProp;

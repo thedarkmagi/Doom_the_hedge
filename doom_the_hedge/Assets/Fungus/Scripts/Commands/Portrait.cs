@@ -25,6 +25,7 @@ namespace Fungus
         [Tooltip("Portrait to display")]
         [SerializeField] protected Sprite portrait;
 
+
         [Tooltip("Move the portrait from/to this offset position")]
         [SerializeField] protected PositionOffset offset;
 

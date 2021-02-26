@@ -18,7 +18,7 @@ namespace Fungus
     {
         [Tooltip("Target monobehavior which contains the method we want to call")]
         [SerializeField] protected GameObject targetObject;
-        [SerializeField] protected string GOname;
+
         [Tooltip("Name of the method to call")]
         [SerializeField] protected string methodName = "";
 
@@ -34,17 +34,12 @@ namespace Fungus
 
         public override void OnEnter()
         {
-
-            if (targetObject == null) {
-
-                targetObject = GameObject.Find(GOname);
-
-                if (targetObject == null ||
-                    methodName.Length == 0)
-                {
-                    Continue();
-                    return;
-                } }
+            if (targetObject == null ||
+                methodName.Length == 0)
+            {
+                Continue();
+                return;
+            }
 
             if (Mathf.Approximately(delay, 0f))
             {
@@ -61,10 +56,8 @@ namespace Fungus
         public override string GetSummary()
         {
             if (targetObject == null)
-            {              
-
-                    return "Error: No target GameObject or Name specified";
-                
+            {
+                return "Error: No target GameObject specified";
             }
 
             if (methodName.Length == 0)
