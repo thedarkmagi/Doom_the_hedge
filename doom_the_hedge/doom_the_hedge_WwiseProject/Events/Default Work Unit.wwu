@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music Soundbanks" ID="{BC2A121E-D335-4DD5-A544-1B940482E693}" ShortID="65650847"/>
+				<Folder Name="SFX Soundbanks" ID="{0F40A621-836F-4E94-A3E2-9B6E4125754B}" ShortID="271148373"/>
+				<Folder Name="ShotgunTest Soundbank" ID="{6D99592C-267A-48E6-8299-AF5A1BCED0E9}" ShortID="318650863">
+					<ChildrenList>
+						<Event Name="SaladShotgun_Fire_Test" ID="{25DE5D36-9D13-472B-BCC5-AC6BB9DC027F}">
+							<ChildrenList>
+								<Action Name="" ID="{09B9C82B-51C4-49D9-990F-16351A2AEE8C}" ShortID="150880945">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WeaponFire" ID="{3BC73D2E-6849-45D9-BE33-80C28653DFB7}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{028ED380-C056-4DA8-A229-9A73654F45CB}" ShortID="883010968">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WeaponTail" ID="{CB072FB0-324D-412A-83AC-2325AB73F736}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

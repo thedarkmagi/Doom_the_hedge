@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -15,6 +15,233 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1843385192" Language="SFX" Hash="1873986544">
+			<ObjectPath>\SoundBanks\Default Work Unit\SaladShotgun_TestSoundbank</ObjectPath>
+			<ShortName>SaladShotgun_TestSoundbank</ShortName>
+			<Path>SaladShotgun_TestSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2682107836" Name="SaladShotgun_Fire_Test" ObjectPath="\Events\Default Work Unit\ShotgunTest Soundbank\SaladShotgun_Fire_Test" DurationType="OneShot" DurationMin="1.349208" DurationMax="1.797125">
+					<IncludedMemoryFiles>
+						<File Id="34103374" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-005_10C4C929.wem</Path>
+						</File>
+						<File Id="43086021" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="89208102" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-006_10C4C929.wem</Path>
+						</File>
+						<File Id="97150882" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-006_10C4C929.wem</Path>
+						</File>
+						<File Id="113506800" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-001_10C4C929.wem</Path>
+						</File>
+						<File Id="136055860" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-005_10C4C929.wem</Path>
+						</File>
+						<File Id="157639461" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-002_10C4C929.wem</Path>
+						</File>
+						<File Id="158635808" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-003_10C4C929.wem</Path>
+						</File>
+						<File Id="170602507" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-004_10C4C929.wem</Path>
+						</File>
+						<File Id="205404140" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="248316132" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-006_10C4C929.wem</Path>
+						</File>
+						<File Id="289597554" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-004_10C4C929.wem</Path>
+						</File>
+						<File Id="294319950" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="308975593" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-006_10C4C929.wem</Path>
+						</File>
+						<File Id="317675168" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-005_10C4C929.wem</Path>
+						</File>
+						<File Id="336634153" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-001_10C4C929.wem</Path>
+						</File>
+						<File Id="340786776" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-004_10C4C929.wem</Path>
+						</File>
+						<File Id="357936858" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-004_10C4C929.wem</Path>
+						</File>
+						<File Id="382921520" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-001_10C4C929.wem</Path>
+						</File>
+						<File Id="402031891" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="418334104" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="450970893" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-001_10C4C929.wem</Path>
+						</File>
+						<File Id="456291477" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="470302562" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-001_10C4C929.wem</Path>
+						</File>
+						<File Id="476280359" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-002_10C4C929.wem</Path>
+						</File>
+						<File Id="489933212" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-005_10C4C929.wem</Path>
+						</File>
+						<File Id="534335361" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-006_10C4C929.wem</Path>
+						</File>
+						<File Id="538193416" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-002_10C4C929.wem</Path>
+						</File>
+						<File Id="539155215" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-003_10C4C929.wem</Path>
+						</File>
+						<File Id="599762076" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-004_10C4C929.wem</Path>
+						</File>
+						<File Id="603517926" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-002_10C4C929.wem</Path>
+						</File>
+						<File Id="604842958" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-001_10C4C929.wem</Path>
+						</File>
+						<File Id="626142627" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-005_10C4C929.wem</Path>
+						</File>
+						<File Id="664273762" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="664311677" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-002_10C4C929.wem</Path>
+						</File>
+						<File Id="669748126" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-003_10C4C929.wem</Path>
+						</File>
+						<File Id="669785341" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-005_10C4C929.wem</Path>
+						</File>
+						<File Id="716901820" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-006_10C4C929.wem</Path>
+						</File>
+						<File Id="746796912" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-003_10C4C929.wem</Path>
+						</File>
+						<File Id="798090850" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="802623149" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="807891644" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="839308799" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-002_10C4C929.wem</Path>
+						</File>
+						<File Id="841943100" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="908509275" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-003_10C4C929.wem</Path>
+						</File>
+						<File Id="954984202" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-006_10C4C929.wem</Path>
+						</File>
+						<File Id="972174749" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-005_10C4C929.wem</Path>
+						</File>
+						<File Id="992972982" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-004_10C4C929.wem</Path>
+						</File>
+						<File Id="999659026" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1005858738" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1008545100" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1029862697" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-004_10C4C929.wem</Path>
+						</File>
+						<File Id="1032079371" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1055237490" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
