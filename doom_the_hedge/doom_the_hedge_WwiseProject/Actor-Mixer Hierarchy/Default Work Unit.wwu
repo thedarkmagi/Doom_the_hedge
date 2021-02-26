@@ -3242,10 +3242,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="WeaponFire" ID="{CA5CBF2F-49D4-4DC0-86DF-B15BF5D0475F}" ShortID="40434369">
-													<PropertyList>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-													</PropertyList>
+												<BlendContainer Name="WeaponFire" ID="{3BC73D2E-6849-45D9-BE33-80C28653DFB7}" ShortID="196628697">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
@@ -3254,11 +3251,1162 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Fire1" ID="{744CC63C-83AA-410E-A0ED-2A003E32753F}" ShortID="155678043">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_1-001" ID="{505E7B0F-DA72-4B75-BB64-70FFB80A2DA9}" ShortID="734907351">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_1-001" ID="{7515162B-EDE3-459D-ADA0-EF9DD9A6EAEC}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_1-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="798090850"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_1-001" ID="{7515162B-EDE3-459D-ADA0-EF9DD9A6EAEC}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_1-002" ID="{007C5EA1-07BD-4349-875A-40AC69CF2F66}" ShortID="157070771">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_1-002" ID="{A24D50E5-5458-4ABE-9123-2D66EB18D15E}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_1-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="294319950"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_1-002" ID="{A24D50E5-5458-4ABE-9123-2D66EB18D15E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_1-003" ID="{02EB6760-8C35-4748-8707-6D228E1F190A}" ShortID="1063285709">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_1-003" ID="{83A5C6B9-D102-47A4-9DB6-3F6C0C885B78}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_1-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="664273762"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_1-003" ID="{83A5C6B9-D102-47A4-9DB6-3F6C0C885B78}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_1-004" ID="{9D9280FD-1F20-49AC-AC90-74ECAC64E507}" ShortID="513894737">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_1-004" ID="{A794C195-FA54-4826-9A9E-914A7CE24101}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_1-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="841943100"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_1-004" ID="{A794C195-FA54-4826-9A9E-914A7CE24101}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_1-005" ID="{20878453-ABE9-4632-9899-2D96CB275BCD}" ShortID="49818642">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_1-005" ID="{7E6C9781-D1AF-4A16-A8D5-EDEAA5F444A6}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_1-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="802623149"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_1-005" ID="{7E6C9781-D1AF-4A16-A8D5-EDEAA5F444A6}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_1-006" ID="{9BCC921D-9C49-4482-98A7-9DC5B0755295}" ShortID="896077097">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_1-006" ID="{52B7304C-E416-47AA-B99D-DF68763353E4}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_1-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="402031891"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_1-006" ID="{52B7304C-E416-47AA-B99D-DF68763353E4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Fire2" ID="{DE7F383D-9277-49E8-A8C2-F75D0CCCDF2A}" ShortID="944007923">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_2-001" ID="{EE96C736-EB4C-455F-9813-FC69FF5817AA}" ShortID="430968695">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_2-001" ID="{6E7D203A-8021-4EB9-BCE8-3FAB456B9327}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_2-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1005858738"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_2-001" ID="{6E7D203A-8021-4EB9-BCE8-3FAB456B9327}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_2-002" ID="{222B9551-1561-48B2-8B13-6DF8D5C3D83F}" ShortID="317795694">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_2-002" ID="{FE6473A4-572B-4C33-AAC6-3D47F16D7E16}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_2-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="476280359"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_2-002" ID="{FE6473A4-572B-4C33-AAC6-3D47F16D7E16}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_2-003" ID="{1317A9FC-96E9-4808-AE80-6BFC5A98807C}" ShortID="336204909">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_2-003" ID="{FC2EAD92-E86E-4F87-AB29-B01560A8E832}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_2-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="669748126"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_2-003" ID="{FC2EAD92-E86E-4F87-AB29-B01560A8E832}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_2-004" ID="{2B30FDDF-9F77-43F7-8444-55CD04C1C950}" ShortID="1020946811">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_2-004" ID="{25AEFDF2-C2B3-400A-B153-3D9061D15DBB}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_2-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="599762076"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_2-004" ID="{25AEFDF2-C2B3-400A-B153-3D9061D15DBB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_2-005" ID="{17E19F6A-150A-4E91-8DE6-E144C2DB7C51}" ShortID="789049801">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_2-005" ID="{8DBDDB6F-4408-4D19-8842-4F58EF7C2F2D}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_2-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="317675168"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_2-005" ID="{8DBDDB6F-4408-4D19-8842-4F58EF7C2F2D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_2-006" ID="{919AC210-78FE-489B-94A0-2866D962F35D}" ShortID="18170610">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_2-006" ID="{E677182E-83D9-4E50-AD5E-D710854830D6}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_2-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="954984202"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_2-006" ID="{E677182E-83D9-4E50-AD5E-D710854830D6}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Fire3" ID="{E27B4F8D-3712-4FF1-B174-C8DBADAF9BF4}" ShortID="609966289">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_3-001" ID="{1748B25C-0466-41A9-B07E-9274554502D2}" ShortID="444100446">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_3-001" ID="{3BE94431-E474-4C9C-8D70-CCD66932FB87}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_3-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="336634153"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_3-001" ID="{3BE94431-E474-4C9C-8D70-CCD66932FB87}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_3-002" ID="{DC04567F-86A5-47BD-9062-D7D2C418E216}" ShortID="874847553">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_3-002" ID="{73C515E3-C637-426E-813E-728D4B8E9904}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_3-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="839308799"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_3-002" ID="{73C515E3-C637-426E-813E-728D4B8E9904}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_3-003" ID="{F8F1C72A-0792-4C68-A029-BDFC2A551448}" ShortID="835663996">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_3-003" ID="{D63779AA-461F-4F95-BC42-A38099E498B0}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_3-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="908509275"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_3-003" ID="{D63779AA-461F-4F95-BC42-A38099E498B0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_3-004" ID="{9A6F7E6C-1CAF-498C-903B-6E400996DD52}" ShortID="512192505">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_3-004" ID="{026E0931-92E4-4B4A-9DA6-F5E9EAB850D7}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_3-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="992972982"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_3-004" ID="{026E0931-92E4-4B4A-9DA6-F5E9EAB850D7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_3-005" ID="{1F4F6A5A-F565-4A33-A2B3-ADA736F13F10}" ShortID="99898521">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_3-005" ID="{E8F33B8D-364D-4008-8795-EF7DCEE6C379}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_3-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="489933212"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_3-005" ID="{E8F33B8D-364D-4008-8795-EF7DCEE6C379}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_3-006" ID="{6D737B31-5E2B-42B7-9A56-40C381BE66CA}" ShortID="389341322">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_3-006" ID="{22E1C7B7-D0F1-460A-9E2B-43D32E4CA5E1}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_3-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="308975593"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_3-006" ID="{22E1C7B7-D0F1-460A-9E2B-43D32E4CA5E1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Fire4" ID="{72E07869-1E09-436A-A493-F6ED235D401C}" ShortID="320026690">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_4-001" ID="{88BEC33E-56C9-48F5-8315-A6E4AEBB6F29}" ShortID="26498679">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_4-001" ID="{6A283BFC-0B8A-4FC0-9091-1626F4249E2F}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_4-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="382921520"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_4-001" ID="{6A283BFC-0B8A-4FC0-9091-1626F4249E2F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_4-002" ID="{385EAA6D-8CC1-4F83-B430-92A6C1B89ABF}" ShortID="457556155">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_4-002" ID="{F20EA02D-4D6F-437D-B50B-866D2BFD064D}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_4-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1055237490"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_4-002" ID="{F20EA02D-4D6F-437D-B50B-866D2BFD064D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_4-003" ID="{65341A51-431F-415D-BD94-5EEB6D350D7B}" ShortID="962999045">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_4-003" ID="{8AFE8126-0F07-48B6-8EB9-3E7AD159996F}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_4-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="158635808"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_4-003" ID="{8AFE8126-0F07-48B6-8EB9-3E7AD159996F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_4-004" ID="{E5C9F32A-0A14-4FCD-885C-155800BAAA00}" ShortID="493169244">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_4-004" ID="{A0C8C3D7-A831-4D42-AEBB-9FCEB3CE7014}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_4-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="357936858"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_4-004" ID="{A0C8C3D7-A831-4D42-AEBB-9FCEB3CE7014}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_4-005" ID="{92800E27-4353-4E83-8D21-182CB601605D}" ShortID="466372843">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_4-005" ID="{35F2F586-8BED-42FA-A5F7-E59012DE5D0D}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_4-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="972174749"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_4-005" ID="{35F2F586-8BED-42FA-A5F7-E59012DE5D0D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_4-006" ID="{D24F9CA6-95EE-4974-BBC2-B3CB8F8C4970}" ShortID="77008024">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_4-006" ID="{7E6C4652-49FD-4093-AB9B-8E6C9672D9F9}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_4-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="534335361"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_4-006" ID="{7E6C4652-49FD-4093-AB9B-8E6C9672D9F9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Fire5" ID="{412CC731-A1E6-44AE-A350-7FB6F7729BD6}" ShortID="242006149">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_5-001" ID="{A52B59B6-1498-4AE2-AE02-85CC5C142DF5}" ShortID="718426339">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_5-001" ID="{3750110E-890E-4C68-91F1-A025BBDB239F}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_5-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="450970893"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_5-001" ID="{3750110E-890E-4C68-91F1-A025BBDB239F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_5-002" ID="{3007C191-E05C-40B3-A5B6-1C1E8CF28AAE}" ShortID="506971807">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_5-002" ID="{2729AD75-0660-41BC-BFBC-B77C18BA99FD}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_5-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="664311677"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_5-002" ID="{2729AD75-0660-41BC-BFBC-B77C18BA99FD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_5-003" ID="{8A550C50-BAD0-41DA-822E-F54418EE6F1D}" ShortID="30774680">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_5-003" ID="{B131E090-7706-4300-8A19-C877FE784C68}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_5-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1008545100"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_5-003" ID="{B131E090-7706-4300-8A19-C877FE784C68}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_5-004" ID="{FD408479-CE9E-494C-A534-DC0453F0282D}" ShortID="197123357">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_5-004" ID="{9D0CE598-230B-446B-9B12-5EC38742E8BD}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_5-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="170602507"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_5-004" ID="{9D0CE598-230B-446B-9B12-5EC38742E8BD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_5-005" ID="{4B920EDC-B3E8-48A4-9F79-ED85D5CD3B69}" ShortID="178834042">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_5-005" ID="{F9D4F312-9092-497F-87C7-D520E3DBE46C}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_5-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="626142627"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_5-005" ID="{F9D4F312-9092-497F-87C7-D520E3DBE46C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_5-006" ID="{3A43EDBA-0722-4E0B-BA2B-F2BBD16DF95E}" ShortID="25870030">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_5-006" ID="{8D6FC72E-0262-4C69-9B21-910A3DC8425D}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_5-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="89208102"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_5-006" ID="{8D6FC72E-0262-4C69-9B21-910A3DC8425D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Fire6" ID="{B7618081-C0B5-499B-8865-A5272C862437}" ShortID="49097102">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_6-001" ID="{BA2DF241-4A20-4A3D-A7AB-A3B858DA1EF2}" ShortID="78924757">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_6-001" ID="{3C03B8A3-8B92-4D5C-845B-A5673D11C948}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_6-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="113506800"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_6-001" ID="{3C03B8A3-8B92-4D5C-845B-A5673D11C948}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_6-002" ID="{82B3D7CF-60F7-4A48-9B8F-3313CA7F62D5}" ShortID="763828355">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_6-002" ID="{A4D5FD60-1471-4690-9FD3-3666C0AF441E}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_6-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="538193416"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_6-002" ID="{A4D5FD60-1471-4690-9FD3-3666C0AF441E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_6-003" ID="{E31B8AFF-781A-49B4-B4A4-E8552B70944A}" ShortID="996184640">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_6-003" ID="{769F07E2-7CD9-43D0-8C0B-9E9039B68A48}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_6-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="746796912"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_6-003" ID="{769F07E2-7CD9-43D0-8C0B-9E9039B68A48}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_6-004" ID="{D2C8FA98-BEDE-45C9-8C4E-DF9A7DCF0782}" ShortID="732857469">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_6-004" ID="{5829F337-EA91-4740-8628-AC3F89C81D60}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_6-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="289597554"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_6-004" ID="{5829F337-EA91-4740-8628-AC3F89C81D60}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_6-005" ID="{0C7DAB89-C2CC-4F1E-A957-B8FF71B5D83C}" ShortID="787424543">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_6-005" ID="{B1632CE0-7523-495F-AC88-071407955734}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_6-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="136055860"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_6-005" ID="{B1632CE0-7523-495F-AC88-071407955734}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_6-006" ID="{BDFDB963-73C1-4DF2-AC8B-7CB961E8F172}" ShortID="774977709">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_6-006" ID="{48D9C196-3A16-4A5A-922B-612B2178E27D}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_6-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="716901820"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_6-006" ID="{48D9C196-3A16-4A5A-922B-612B2178E27D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Fire7" ID="{6278A2A7-26E2-4230-897A-F93E454D2A9A}" ShortID="780835155">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_fire_7-001" ID="{BDDAC29D-2C04-4B35-ADDA-E9ACB336CFF7}" ShortID="478648236">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_7-001" ID="{6E657CCF-23AA-4A42-91CF-6145CF8364E2}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_7-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="604842958"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_7-001" ID="{6E657CCF-23AA-4A42-91CF-6145CF8364E2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_7-002" ID="{B306B5B4-C3DB-4A31-9AA1-64A319E37C48}" ShortID="277665374">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_7-002" ID="{4DB33733-3720-43CF-B027-7955E18C37A2}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_7-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="157639461"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_7-002" ID="{4DB33733-3720-43CF-B027-7955E18C37A2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_7-003" ID="{F8092D20-9BB9-48FA-818F-981874537CE2}" ShortID="130968818">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_7-003" ID="{ABC5BF18-D760-4208-B92A-E625235CA651}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_7-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="539155215"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_7-003" ID="{ABC5BF18-D760-4208-B92A-E625235CA651}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_7-004" ID="{04BA948A-52E1-4095-AAD1-869423A5738B}" ShortID="96023438">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_7-004" ID="{3D12BBCC-CF98-4383-B136-81C4A3C385A5}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_7-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1029862697"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_7-004" ID="{3D12BBCC-CF98-4383-B136-81C4A3C385A5}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_7-005" ID="{D200DBCA-013F-432F-92F1-8C08EFE87D42}" ShortID="410895093">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_7-005" ID="{E62267D8-86D9-4E31-97CA-8F9CEAE331E2}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_7-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="34103374"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_7-005" ID="{E62267D8-86D9-4E31-97CA-8F9CEAE331E2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_fire_7-006" ID="{EE5B8FEE-A0C1-4229-ACB9-A749BAFB90AC}" ShortID="166500571">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_fire_7-006" ID="{CA1BB960-456C-4517-A6E0-52E988B5FDA6}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_fire_7-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="248316132"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_fire_7-006" ID="{CA1BB960-456C-4517-A6E0-52E988B5FDA6}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</BlendContainer>
+												<RandomSequenceContainer Name="WeaponShells" ID="{4A9A34EA-60EA-4473-BE25-F259FC93FE34}" ShortID="12735692">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="dth_sfx_shotgun_shells-001" ID="{042D4BF8-3492-4B5E-BA4A-DB9A887F0A3A}" ShortID="486042297">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_shells-001" ID="{C887D45D-7F60-473F-9E7A-DEF0C6934428}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_shells-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="156802360"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_shells-001" ID="{C887D45D-7F60-473F-9E7A-DEF0C6934428}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_shells-002" ID="{5AE73E6B-0868-4C96-87DC-34D74E4CB4F6}" ShortID="620252574">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_shells-002" ID="{A62357CA-FD00-429A-9ED2-90669CAA7038}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_shells-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="22219188"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_shells-002" ID="{A62357CA-FD00-429A-9ED2-90669CAA7038}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_shells-003" ID="{31E599E7-AA78-455A-A999-94B73076AE6D}" ShortID="138988214">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_shells-003" ID="{DF89C43D-02B6-44AC-BA84-F9CD0EEF63FE}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_shells-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="297756353"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_shells-003" ID="{DF89C43D-02B6-44AC-BA84-F9CD0EEF63FE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_shells-004" ID="{42B04993-3107-4F02-853A-F0AE2BAB819F}" ShortID="589930602">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_shells-004" ID="{0BFF32FF-78AD-4547-B2A6-3122DAB71ACF}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_shells-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="217500826"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_shells-004" ID="{0BFF32FF-78AD-4547-B2A6-3122DAB71ACF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_shells-005" ID="{3119CA18-78BE-4658-8B47-188BDF3C1757}" ShortID="781179272">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_shells-005" ID="{EC5F38D1-BE1A-404E-989A-995DE6686F9F}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_shells-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="842589504"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_shells-005" ID="{EC5F38D1-BE1A-404E-989A-995DE6686F9F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_shells-006" ID="{C780DA50-8E77-4B9D-9055-5B5922BB24E5}" ShortID="953366744">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_shells-006" ID="{B4320349-CEEA-4062-B694-7C05FFDF6C35}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_shells-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="462503223"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_shells-006" ID="{B4320349-CEEA-4062-B694-7C05FFDF6C35}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="WeaponReload" ID="{1EF25C8D-9106-4503-BF3B-D06F06187F26}" ShortID="645770179">
-													<PropertyList>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-													</PropertyList>
+												<BlendContainer Name="WeaponTail" ID="{CB072FB0-324D-412A-83AC-2325AB73F736}" ShortID="646048075">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
@@ -3267,6 +4415,440 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Tail1" ID="{0FCAA176-FCDE-4AA4-AB95-9CDE4E04BF64}" ShortID="497612880">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_tail_1-001" ID="{8FE029A8-FF32-47C6-A689-BD533E0EEE1A}" ShortID="593277037">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_1-001" ID="{B8DB9C9C-FA50-4F2B-B8CD-6332464D24BA}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_1-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1032079371"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_1-001" ID="{B8DB9C9C-FA50-4F2B-B8CD-6332464D24BA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_1-002" ID="{D972B411-EF54-40C7-AB3D-8D4F412C5AA5}" ShortID="236809525">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_1-002" ID="{F69164C9-A07C-42C6-AB56-8F588A572F1C}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_1-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="205404140"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_1-002" ID="{F69164C9-A07C-42C6-AB56-8F588A572F1C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_1-003" ID="{F028E63B-4172-418E-B791-7CACD6AF88FD}" ShortID="164694459">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_1-003" ID="{FD1EB3C4-F8AD-42F9-9653-42470B1F9851}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_1-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="43086021"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_1-003" ID="{FD1EB3C4-F8AD-42F9-9653-42470B1F9851}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_1-004" ID="{FCF52CC4-506B-46FA-AC60-07ED96743E14}" ShortID="900466363">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_1-004" ID="{C11CBF34-5826-4BFA-B174-76205A70CB3F}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_1-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="456291477"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_1-004" ID="{C11CBF34-5826-4BFA-B174-76205A70CB3F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_1-005" ID="{E5EDAF09-DBEA-4D99-B5CB-56B4D6C37F6B}" ShortID="697325418">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_1-005" ID="{47FA5290-4438-43FF-B13B-6A8A1B3395F9}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_1-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="418334104"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_1-005" ID="{47FA5290-4438-43FF-B13B-6A8A1B3395F9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_1-006" ID="{FE4FA1FC-8950-4658-8070-E3B4E5497154}" ShortID="471820748">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_1-006" ID="{E41BDB6B-00D8-4E21-A2E2-ABA1563024CC}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_1-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="807891644"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_1-006" ID="{E41BDB6B-00D8-4E21-A2E2-ABA1563024CC}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Tail2" ID="{05376986-65A4-4432-AC16-19F93CAD9A1E}" ShortID="932984816">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="dth_sfx_shotgun_tail_2-001" ID="{4AD2434E-F376-4431-9EC7-26B1185FA9C8}" ShortID="929744313">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_2-001" ID="{7669293D-D2F4-4145-AAFC-71BE7E2B36AB}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_2-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="470302562"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_2-001" ID="{7669293D-D2F4-4145-AAFC-71BE7E2B36AB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_2-002" ID="{9EE73678-45BC-4B4A-9A63-BA1DC62E33AE}" ShortID="1026365730">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_2-002" ID="{24386DA7-9183-4E0A-BB80-5914745D61CB}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_2-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="603517926"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_2-002" ID="{24386DA7-9183-4E0A-BB80-5914745D61CB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_2-003" ID="{519E733A-7454-4421-83BE-78E14DF267BF}" ShortID="1004173522">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_2-003" ID="{B5000240-9042-4B10-A329-05A85522E8AA}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_2-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="999659026"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_2-003" ID="{B5000240-9042-4B10-A329-05A85522E8AA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_2-004" ID="{BF8A3903-0895-49B0-8BC1-D0E27323EA33}" ShortID="18479500">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_2-004" ID="{F3791ED6-3143-4AAB-9BB5-D4FE50FE2AF1}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_2-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="340786776"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_2-004" ID="{F3791ED6-3143-4AAB-9BB5-D4FE50FE2AF1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_2-005" ID="{5DCE690D-896D-4544-9E41-F96D98F09B04}" ShortID="76965955">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_2-005" ID="{8BE78564-5380-4C81-A628-13BDB3AA1A49}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_2-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="669785341"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_2-005" ID="{8BE78564-5380-4C81-A628-13BDB3AA1A49}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="dth_sfx_shotgun_tail_2-006" ID="{238BA6A3-D24A-4199-A908-3C5E3C6B2EA4}" ShortID="159149398">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="dth_sfx_shotgun_tail_2-006" ID="{53831932-FA23-431D-BC49-531AC1245D26}">
+																			<Language>SFX</Language>
+																			<AudioFile>dth_sfx_shotgun_tail_2-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="97150882"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="dth_sfx_shotgun_tail_2-006" ID="{53831932-FA23-431D-BC49-531AC1245D26}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</BlendContainer>
+												<RandomSequenceContainer Name="WeaponReload" ID="{96DA015A-39E5-4137-9C4D-3051BE395997}" ShortID="112217373">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="dth_sfx_shotgun_reload" ID="{6142C906-6371-4A45-A93D-041CFF5DEDEE}" ShortID="1040543303">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_reload" ID="{BC7F0CFF-45AD-4857-9D56-7428C1B35C99}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_reload.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="139366367"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_reload" ID="{BC7F0CFF-45AD-4857-9D56-7428C1B35C99}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_reload-001" ID="{DDEA2369-4FC0-474A-A678-8A1B5A7FBD6F}" ShortID="743011747">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_reload-001" ID="{E0A4CB4F-6883-4987-8ADD-C9E037E8DE04}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_reload-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="305945133"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_reload-001" ID="{E0A4CB4F-6883-4987-8ADD-C9E037E8DE04}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_reload-002" ID="{ED21853D-378E-40DB-B726-9ABDD3E0F9DD}" ShortID="821580296">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_reload-002" ID="{FDE78733-569D-49F7-973F-0AE5510F7E83}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_reload-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="288122913"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_reload-002" ID="{FDE78733-569D-49F7-973F-0AE5510F7E83}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_reload-003" ID="{FA219334-425E-4EB5-B3D3-42A787D303B8}" ShortID="984177886">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_reload-003" ID="{5A5E1972-5FAD-455F-B76F-F87F79A2000C}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_reload-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="534011907"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_reload-003" ID="{5A5E1972-5FAD-455F-B76F-F87F79A2000C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_reload-004" ID="{318AE01A-8B7A-403C-9FEE-C19B9B7FE9D0}" ShortID="335369531">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_reload-004" ID="{20F0ACD3-6027-401A-ACEB-F24677336116}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_reload-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1002640844"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_reload-004" ID="{20F0ACD3-6027-401A-ACEB-F24677336116}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_shotgun_reload-005" ID="{DC0FBD29-9D91-41C2-9BF1-7E7E8A50D720}" ShortID="172038868">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_shotgun_reload-005" ID="{8CFF3508-2757-48A2-B375-9D341AED45DB}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_shotgun_reload-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="945563650"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_shotgun_reload-005" ID="{8CFF3508-2757-48A2-B375-9D341AED45DB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
