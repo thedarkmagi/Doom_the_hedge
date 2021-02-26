@@ -2014,9 +2014,15 @@ MonoBehaviour:
   - {fileID: 1904718862}
   - {fileID: 942415041}
   descriptionChr:
-  - Hog
-  - Bunny
-  - Skunk
+  - "Spike Mike is a sad, old hedgehog. Top: Mike\u2019s military experience increases
+    weapon range.        Middle: Mike wields a longrange rapid-fire Spine Rifle.           
+    Bottom: Mike gains speed on hit, but slows down on taking damage."
+  - 'Farrah Bunny is tuff as fluff! Top: Farrah heals an additional amount from Health
+    Carrots.  Middle: Farrah carries her trusty two-barrel Salad Shotgun!      Bottom:
+    Speedy bunny hops!'
+  - 'Jass Stripe is a skunk with spunk! Top: Jass catches enemies off-guard to deal
+    more damage.         Middle: Jass carries their unique Stink Bomb Launcher.                
+    Bottom: Standard paw movement.'
   desciptionGO: []
 --- !u!4 &374743779
 Transform:
