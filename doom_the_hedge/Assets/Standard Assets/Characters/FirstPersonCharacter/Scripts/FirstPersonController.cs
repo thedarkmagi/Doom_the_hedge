@@ -42,6 +42,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private bool Paused;
+
+        public GameObject GameplayUI, PauseUI;
 
         // Use this for initialization
         private void Start()
@@ -62,6 +65,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
+            if(!Paused)
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
@@ -82,6 +86,27 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+
+
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                Paused = !Paused;
+                if (Paused)
+                {
+                    //Cursor.lockState = CursorLockMode.Confined;
+                    GameplayUI.GetComponent<Canvas>().enabled = false;
+                    PauseUI.GetComponent<Canvas>().enabled = true;
+
+                }
+                else
+                {
+                    //Cursor.lockState = CursorLockMode.Locked;
+
+                    GameplayUI.GetComponent<Canvas>().enabled = true;
+                    PauseUI.GetComponent<Canvas>().enabled = false;
+                }
+            }
         }
 
 
@@ -96,7 +121,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void FixedUpdate()
         {
             float speed;
-            GetInput(out speed);
+
+            if (!Paused)
+                GetInput(out speed);
+            else speed = 0;
             // always move along the camera forward as it is the direction that it being aimed at
             Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
 

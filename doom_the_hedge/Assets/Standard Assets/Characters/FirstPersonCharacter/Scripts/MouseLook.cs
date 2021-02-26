@@ -74,7 +74,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void InternalLockUpdate()
         {
-            if(Input.GetKeyUp(KeyCode.Escape))
+            if(Input.GetKeyUp(KeyCode.P))
             {
                 m_cursorIsLocked = false;
             }
@@ -90,7 +90,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             else if (!m_cursorIsLocked)
             {
-                Cursor.lockState = CursorLockMode.None;
+                Cursor.lockState = CursorLockMode.Confined;
                 Cursor.visible = true;
             }
         }
