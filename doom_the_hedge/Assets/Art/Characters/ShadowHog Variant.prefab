@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: nameText
-      value: Bunny
+      value: Spike Mike
       objectReference: {fileID: 0}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
@@ -80,25 +80,31 @@ PrefabInstance:
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: portraits.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: portraits.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 52d8d5bdc86e8b545a13f501b365f773,
+      objectReference: {fileID: 21300000, guid: 37e07b814ad6cf946b48b663a6e58570,
         type: 3}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: portraits.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: e8a9122c4dc10b14da3b625e1f2634c9,
+      objectReference: {fileID: 21300000, guid: 181f86fe3b6f0654a976dda066bf46a2,
+        type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 52d8d5bdc86e8b545a13f501b365f773,
         type: 3}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: portraits.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: 016de568d0fe25e45bc32a6c01c0e456,
+      objectReference: {fileID: 21300000, guid: 863b34ab77b46db48811568e1e4eecfb,
         type: 3}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}

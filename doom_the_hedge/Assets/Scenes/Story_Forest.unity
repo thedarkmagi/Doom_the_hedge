@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -255,8 +255,12 @@ GameObject:
   - component: {fileID: 572250536}
   - component: {fileID: 572250537}
   - component: {fileID: 572250535}
-  - component: {fileID: 572250538}
   - component: {fileID: 572250539}
+  - component: {fileID: 572250540}
+  - component: {fileID: 572250541}
+  - component: {fileID: 572250538}
+  - component: {fileID: 572250544}
+  - component: {fileID: 572250543}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -293,9 +297,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 73
-    width: 111
+    x: -222.67845
+    y: -68.04174
+    width: 112.0253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -306,9 +310,13 @@ MonoBehaviour:
   commandList:
   - {fileID: 572250537}
   - {fileID: 572250536}
-  - {fileID: 572250535}
-  - {fileID: 572250538}
+  - {fileID: 572250540}
   - {fileID: 572250539}
+  - {fileID: 572250535}
+  - {fileID: 572250541}
+  - {fileID: 572250538}
+  - {fileID: 572250544}
+  - {fileID: 572250543}
   suppressAllAutoSelections: 0
 --- !u!114 &572250533
 MonoBehaviour:
@@ -323,11 +331,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 376, y: 214}
+  scrollPos: {x: 347.79193, y: 345.66312}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 417
-  zoom: 1
+  blockViewHeight: 419
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -336,8 +344,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 572250532}
-  selectedCommands:
-  - {fileID: 572250535}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -379,13 +386,16 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Hedgehog confident: Watson, have you seen my violin?
-
-      Bunny
-      bunnyworry <<<: No, why don''t you find it yourself using your amazing powers
-      of deduction...
-
-      Hedgehog hedgehogangry fade : dont cross me ever again'
+    stringVal: "Skunk skunkblush >>>: ... We should introduce ourselves, we barely
+      know each other after all.\nSkunk skunkneutral >>>: My name is Jass Stripe,
+      my pronouns are they/them, and I\u2019m a specialist-in-training! I just graduated
+      with a masters in Military Aromachology.\nBunny bunnyneutral <<<: Great to
+      meet you Jass! As the leader of this squad, I should learn everything I can
+      about you two.\nBunny bunnyspeak <<<: I\u2019m Farrah Bunny, artiste extraordinaire
+      and decorated soldier. You may know me from my one-woman performance of Hare-Spray,
+      or my regiment\u2019s contributions in the Burrow Wars.\nSkunk skunkopenmouth
+      >>>: Wow, that\u2019s so cool!\nSkunk skunkneutral >>>: What about you Mr.
+      Hedgehog, what\u2019s your name?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -416,7 +426,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1484761751}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 745612c7f5bf2964695e29345353d2f9, type: 3}
+  portrait: {fileID: 21300000, guid: 4f5ced912e7877548affee9295a0a66f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 606657036}
@@ -446,7 +456,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 474308688}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 52d8d5bdc86e8b545a13f501b365f773, type: 3}
+  portrait: {fileID: 21300000, guid: 181f86fe3b6f0654a976dda066bf46a2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 111752823}
@@ -467,27 +477,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 572250530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 5
+  itemId: 9
   indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 474308688}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1307494446}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "ShadowHog hedgehogspeak <<<: Name\u2019s Spike Mike. Last member
+      of the Oakridge Battalion. I don\u2019t do chitchat.\nSkunk skunkteeth fade
+      >>>: O-o-okay."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &572250539
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -502,14 +513,138 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  display: 1
+  display: 3
   stage: {fileID: 0}
   character: {fileID: 858490493}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 8b01c3cd61221a44a985bcfddacd815f, type: 3}
+  replacedCharacter: {fileID: 474308688}
+  portrait: {fileID: 21300000, guid: 185709c90050a1347b35c209c1750891, type: 3}
   offset: 0
   fromPosition: {fileID: 433043188}
-  toPosition: {fileID: 111752823}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250540
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Bunny bunnyspeak <<<: Excellent job everyone, what a creative strategy!
+
+      ShadowHog
+      hedgehogneutral fade: If you say so.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250541
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 474308688}
+  replacedCharacter: {fileID: 1484761751}
+  portrait: {fileID: 21300000, guid: 863b34ab77b46db48811568e1e4eecfb, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1307494446}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Bunny bunnycrazy:  Be nice to the kid, asshole, it\u2019s their first
+      day on the frontline.\nShadowHog hedgehogsomber <<<: Hmph.\nBunny bunnyneutral:
+      Anyway, it\u2019s getting late. Sleep well, we\u2019re taking back the beach
+      tomorrow."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 1484761751}
+  replacedCharacter: {fileID: 858490493}
+  portrait: {fileID: 21300000, guid: 745612c7f5bf2964695e29345353d2f9, type: 3}
+  offset: 0
+  fromPosition: {fileID: 433043188}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -1257,40 +1392,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowHog
       objectReference: {fileID: 0}
-    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
-        type: 3}
-      propertyPath: nameText
-      value: Hedgehog
-      objectReference: {fileID: 0}
-    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
-        type: 3}
-      propertyPath: portraits.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
-        type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 37e07b814ad6cf946b48b663a6e58570,
-        type: 3}
-    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
-        type: 3}
-      propertyPath: portraits.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 181f86fe3b6f0654a976dda066bf46a2,
-        type: 3}
-    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
-        type: 3}
-      propertyPath: portraits.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 52d8d5bdc86e8b545a13f501b365f773,
-        type: 3}
-    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
-        type: 3}
-      propertyPath: portraits.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 863b34ab77b46db48811568e1e4eecfb,
-        type: 3}
     - target: {fileID: 6142128870832138366, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
         type: 3}
       propertyPath: m_RootOrder
@@ -1410,34 +1511,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
-        type: 3}
-      propertyPath: portraits.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
-        type: 3}
-      propertyPath: portraits.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: a8f132018a487824f9e7d74cc1b980f7,
-        type: 3}
-    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
-        type: 3}
-      propertyPath: portraits.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 4f5ced912e7877548affee9295a0a66f,
-        type: 3}
-    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
-        type: 3}
-      propertyPath: portraits.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: eb38a3f9c9ec06e469d21092524d49fb,
-        type: 3}
     - target: {fileID: 9156275175417816805, guid: e3ef5bbb8869ee243832f56092917754,
         type: 3}
       propertyPath: m_Name
@@ -1507,20 +1580,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
-        type: 3}
-      propertyPath: nameText
-      value: Skunk
-      objectReference: {fileID: 0}
     - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
         type: 3}
       propertyPath: m_Name
       value: Skunk
-      objectReference: {fileID: 0}
-    - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d9acc6cecd92924f9f52a55832d4308, type: 3}
