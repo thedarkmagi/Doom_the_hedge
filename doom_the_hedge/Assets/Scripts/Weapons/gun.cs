@@ -87,10 +87,22 @@ public class gun : MonoBehaviour
 
     public void changeWeapon(int wepIndex)
     {
-        if((wepIndex<weapons.Count))
+        foreach(gunData guns in weapons)
         {
-            currentGun = weapons[wepIndex];
+            guns.the_gun.SetActive(false);
+
+            if ((wepIndex < weapons.Count))
+            {
+
+                currentGun = weapons[wepIndex];
+                currentGun.the_gun.SetActive(true);
+            }
+
         }
+
+
+        
+        
     }
 
     public void fire()
@@ -130,7 +142,7 @@ public class gun : MonoBehaviour
 
     void fire_rifle()
     {
-        var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, null);
+        var shot = Instantiate(currentGun.projectile, currentGun.the_gun.transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
         var bullet = shot.GetComponent<bullet>();
 
@@ -163,7 +175,7 @@ public class gun : MonoBehaviour
 
     void fire_launcher()
     {
-        var shot = Instantiate(currentGun.projectile, transform.position, Quaternion.identity, null);
+        var shot = Instantiate(currentGun.projectile, currentGun.the_gun.transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
         var bullet = shot.GetComponent<launcherShot>();
 
@@ -176,5 +188,6 @@ public class gun : MonoBehaviour
         bullet.targetTag = targetTag;
         bullet.radius = currentGun.radius;
         currentGun.currAmmo--;
+       
     }
 }
