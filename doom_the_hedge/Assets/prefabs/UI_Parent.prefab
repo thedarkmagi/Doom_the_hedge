@@ -2020,7 +2020,7 @@ RectTransform:
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 60.599976, y: -25}
   m_SizeDelta: {x: -200, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2095,7 +2095,7 @@ RectTransform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 7.7999725, y: -25}
   m_SizeDelta: {x: -200, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2470,7 +2470,7 @@ RectTransform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.5}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -97.9, y: -25}
   m_SizeDelta: {x: -200, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3000,6 +3000,13 @@ MonoBehaviour:
   - 'Jass Stripe is a skunk with spunk! Top: Jass catches enemies off-guard to deal
     more damage.         Middle: Jass carries their unique Stink Bomb Launcher.                
     Bottom: Standard paw movement.'
+  healthBars:
+  - {fileID: 7394151079583582898}
+  - {fileID: 4965908212174457982}
+  - {fileID: 4124012320071298826}
+  - {fileID: 4013271031903170941}
+  - {fileID: 5715059749704569727}
+  healthtext: {fileID: 579709766893173950}
 --- !u!1 &579709767336236319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5501,7 +5508,7 @@ RectTransform:
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -45.500023, y: -25}
   m_SizeDelta: {x: -200, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
