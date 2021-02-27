@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     public GameObject[] portraitsGO;
     public GameObject[] portraitsGOPAUSE;
     public string[] descriptionChr;
-    public GameObject[] desciptionGO;
+    
     
 
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {if((Input.GetKeyDown(KeyCode.Q))|| (Input.GetKeyDown(KeyCode.E)))
+    {//if((Input.GetKeyDown(KeyCode.Q))|| (Input.GetKeyDown(KeyCode.E)))//updates only when a change in the stack happens
         updateStack();
     }
 
@@ -94,7 +94,7 @@ public class UIManager : MonoBehaviour
                 break;
         }//update bottom position of the stack
        
-        for (i = 0; i < 3; i++)
+        for (i = 0; i < 3; i++)//updates the pause menu
         {
             portraitsGOPAUSE[i].GetComponent<Image>().sprite = portraitsGO[i].GetComponent<Image>().sprite;
             if(portraitsGOPAUSE[i].GetComponent<Image>().sprite.name=="bunui")

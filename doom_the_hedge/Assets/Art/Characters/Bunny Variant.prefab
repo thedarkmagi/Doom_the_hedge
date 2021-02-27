@@ -74,6 +74,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
+      propertyPath: nameColor.b
+      value: 0.9058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
+      propertyPath: nameColor.g
+      value: 0.7294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
+      propertyPath: nameColor.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 0}

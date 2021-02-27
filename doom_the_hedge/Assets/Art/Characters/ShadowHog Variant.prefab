@@ -70,7 +70,22 @@ PrefabInstance:
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: nameText
-      value: Spike Mike
+      value: Hedgehog
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
+      propertyPath: nameColor.b
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
+      propertyPath: nameColor.g
+      value: 0.8235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
+        type: 3}
+      propertyPath: nameColor.r
+      value: 0.6039216
       objectReference: {fileID: 0}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
