@@ -3658,19 +3658,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="WeaponFire" ID="{C9EB0209-0B28-44A5-82A4-41BAD153D051}" ShortID="274690660">
-													<PropertyList>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="WeaponReload" ID="{7DF2DB22-4354-400D-B686-F915B39E2FDA}" ShortID="520707494">
 													<PropertyList>
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
@@ -3684,6 +3671,53 @@
 														</Reference>
 													</ReferenceList>
 												</RandomSequenceContainer>
+												<Sound Name="WeaponFire" ID="{C80BB3C8-460D-4446-BB17-E3753CDE827A}" ShortID="865344524">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="dth_sfx_hedgehog_fire_loop" ID="{C749A8EC-8F9F-42EB-9204-41F5124B00E4}">
+															<Language>SFX</Language>
+															<AudioFile>dth_sfx_hedgehog_fire_loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="911340084"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="dth_sfx_hedgehog_fire_loop" ID="{C749A8EC-8F9F-42EB-9204-41F5124B00E4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WeaponTail" ID="{97947A7A-6E57-4B40-8A03-A00153083A48}" ShortID="233167041">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="dth_sfx_hedgehog_fire_tail" ID="{D5F444C0-BDF0-46BD-A413-ED7993E2A891}">
+															<Language>SFX</Language>
+															<AudioFile>dth_sfx_hedgehog_fire_tail.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="459973741"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="dth_sfx_hedgehog_fire_tail" ID="{D5F444C0-BDF0-46BD-A413-ED7993E2A891}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>

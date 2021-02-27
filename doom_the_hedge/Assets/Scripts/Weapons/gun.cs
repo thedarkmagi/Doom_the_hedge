@@ -163,6 +163,7 @@ public class gun : MonoBehaviour
         currentGun.projectile.SetActive(true);
         //var rb = shot.GetComponent<Rigidbody>();
         var bullet = currentGun.projectile.GetComponent<shotgunBlast>();
+        bullet.fire();
         bullet._collider.enabled = true;
         // set direction 
 

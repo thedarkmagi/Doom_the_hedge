@@ -15,7 +15,7 @@ public class shotgunBlast : MonoBehaviour
     public float m_MaxDistance;
     bool m_HitDetect;
 
-
+    public GameObject bullet;
     RaycastHit[] m_Hit;
     // Start is called before the first frame update
     void Start()
@@ -57,7 +57,14 @@ public class shotgunBlast : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-
+    public void fire()
+    {
+        gameObject.SetActive(true);
+        //sounds play here
+        var shot = Instantiate(bullet, transform.position, Quaternion.identity, null);
+        var data = shot.GetComponent<dumbyShot>();
+        data.lifetime = 4;
+    }
 
     void OnDrawGizmos()
     {
