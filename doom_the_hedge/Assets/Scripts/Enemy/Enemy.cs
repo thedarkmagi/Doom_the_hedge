@@ -28,6 +28,8 @@ public class Enemy : MonoBehaviour
     float currAimTime;
     Animator anim;
     bool hasAnim;
+
+    string deathanimName;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,25 @@ public class Enemy : MonoBehaviour
             hasAnim = false;
         }
         lastFramesHP = hp.HP;
+
+        switch (type)
+        {
+            case enemyType.otter:
+                deathanimName = "otterDeath";
+                break;
+            case enemyType.sniper:
+                deathanimName = "doplinDeath";
+                break;
+            case enemyType.porpoise:
+                deathanimName = "porpDeath";
+                break;
+            case enemyType.flying_fish:
+                break;
+            case enemyType.walrus_tank:
+                break;
+            default:
+                break;
+        }
     }
 
     // Update is called once per frame
@@ -57,7 +78,8 @@ public class Enemy : MonoBehaviour
         {
             kill();
         }
-
+        transform.forward = new Vector3(Camera.main.transform.forward.x,
+            transform.forward.y, Camera.main.transform.forward.z);
         switch (type)
         {
             case enemyType.otter:
@@ -104,15 +126,25 @@ public class Enemy : MonoBehaviour
             if (_gun.tick())
             {
                 currAimTime += Time.deltaTime;
+                if (hasAnim)
+                    anim.SetBool("aiming",true);
                 if (currAimTime > aimTime)
                 {
                     if (hasAnim)
+                    {
+                        anim.SetBool("aiming", false);
                         anim.SetTrigger("shoot");
+                    }
                     currAimTime = 0;
                     _gun.fire();
                 }
             }
 
+        }
+        else
+        {
+            if (hasAnim)
+                anim.SetBool("aiming", false);
         }
     }
     void porpoise()
@@ -137,8 +169,8 @@ public class Enemy : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.forward = new Vector3(Camera.main.transform.forward.x,
-            transform.forward.y, Camera.main.transform.forward.z);
+        //transform.forward = new Vector3(Camera.main.transform.forward.x,
+        //    transform.forward.y, Camera.main.transform.forward.z);
     }
 
     bool hpChanged()
@@ -160,7 +192,8 @@ public class Enemy : MonoBehaviour
             if (hasAnim)
             {
                 anim.SetBool("dead", true);
-                if (anim.GetCurrentAnimatorStateInfo(0).IsName("otterDeath"))
+                
+                if (anim.GetCurrentAnimatorStateInfo(0).IsName(deathanimName))
                 {
                     Destroy(this.gameObject);
                 }
