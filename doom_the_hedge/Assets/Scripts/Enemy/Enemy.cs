@@ -15,6 +15,7 @@ public enum enemyType
 public class Enemy : MonoBehaviour
 {
     public HpPool hp;
+    float lastFramesHP;
     public enemyType type;
     NavMeshAgent agent;
 
@@ -25,16 +26,33 @@ public class Enemy : MonoBehaviour
     public float minDistance;
     public float aimTime;
     float currAimTime;
+    Animator anim;
+    bool hasAnim;
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        
+        if(TryGetComponent<Animator>(out anim))
+        {
+            anim = anim;
+            hasAnim = true;
+        }
+        else
+        {
+            hasAnim = false;
+        }
+        lastFramesHP = hp.HP;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(hpChanged())
+        {
+            if (hasAnim)
+                anim.SetTrigger("hit");
+        }
+
         if(hp.HP<0)
         {
             kill();
@@ -68,6 +86,8 @@ public class Enemy : MonoBehaviour
         {
             if (_gun.tick())
             {
+                if(hasAnim)
+                    anim.SetTrigger("shoot");
                 _gun.fire();
             }
             
@@ -114,9 +134,27 @@ public class Enemy : MonoBehaviour
             transform.forward.y, Camera.main.transform.forward.z);
     }
 
+    bool hpChanged()
+    {
+        bool result = false;
+        if(hp.HP != lastFramesHP)
+        {
+            lastFramesHP = hp.HP;
+            result = true;
+        }
+
+        return result;
+    }
 
     void kill()
     {
-        Destroy(this.gameObject);
+        if (hasAnim)
+        {
+            anim.SetBool("dead", true);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
