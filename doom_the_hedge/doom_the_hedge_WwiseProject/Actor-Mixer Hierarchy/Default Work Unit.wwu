@@ -219,6 +219,133 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Intro Cutscene - A Rousing Risk" ID="{EA9A276E-639D-4875-9B3E-FD1C6BCC3F49}" ShortID="1048613361">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Intro Cutscene - A Rousing Risk" ID="{87477F3F-B52B-4673-B68D-9BB2928151D6}">
+											<Language>SFX</Language>
+											<AudioFile>Intro Cutscene - A Rousing Risk.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="651632369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Intro Cutscene - A Rousing Risk" ID="{87477F3F-B52B-4673-B68D-9BB2928151D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Story 1 - Woodland Words" ID="{83D3F42E-8AF4-476F-B966-F48D2CC8AE96}" ShortID="6895423">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Story 1 - Woodland Words" ID="{5093ACA7-EED8-4C25-9332-7EDA3A97E2A0}">
+											<Language>SFX</Language>
+											<AudioFile>Story 1 - Woodland Words.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739124575"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Story 1 - Woodland Words" ID="{5093ACA7-EED8-4C25-9332-7EDA3A97E2A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Story 2 - Costal Conversation" ID="{DDA2D881-E303-4C28-AB7E-551B42279808}" ShortID="1007581602">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Story 2 - Costal Conversation" ID="{646BDAF9-75F7-40C2-ABB6-7944734C9020}">
+											<Language>SFX</Language>
+											<AudioFile>Story 2 - Costal Conversation.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802209778"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Story 2 - Costal Conversation" ID="{646BDAF9-75F7-40C2-ABB6-7944734C9020}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Story 3 - Tidal Talk" ID="{785A2AC5-64F2-4177-8F80-E33E7D44DFEC}" ShortID="538434673">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Story 3 - Tidal Talk" ID="{46EC9F53-373E-4B28-9070-E9687984E95D}">
+											<Language>SFX</Language>
+											<AudioFile>Story 3 - Tidal Talk.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337484419"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Story 3 - Tidal Talk" ID="{46EC9F53-373E-4B28-9070-E9687984E95D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Victory! (Level Complete)" ID="{F6BB1016-5EA4-4F0F-8FB0-7ADA9FBCBB65}" ShortID="937675788">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Victory! (Level Complete)" ID="{E01212FF-E61B-4814-87D6-93A6F32E1D3D}">
+											<Language>SFX</Language>
+											<AudioFile>Victory! (Level Complete).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149839199"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Victory! (Level Complete)" ID="{E01212FF-E61B-4814-87D6-93A6F32E1D3D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
@@ -3581,45 +3708,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="Grass" ID="{7F85A5BE-534B-45F1-8DDF-D34B88F0A91B}" ShortID="954344336">
-													<PropertyList>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Sand" ID="{4E1DD756-275A-454C-9CE3-998B87594FEA}" ShortID="865779552">
-													<PropertyList>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Water" ID="{E76AC4AB-6A5E-44EE-B1D5-754C645C9159}" ShortID="836508275">
-													<PropertyList>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
-														</Reference>
-													</ReferenceList>
-												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Generic" ID="{CE696CE0-A9EA-414B-AA0E-9C4E94001517}" ShortID="643980380">
 													<ReferenceList>
 														<Reference Name="Conversion">

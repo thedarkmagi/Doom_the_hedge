@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1123532588	OtterWeapon_Fire			\Default Work Unit\SFX Events\Enemy\Otter\OtterWeapon_Fire	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2498134	dth_sfx_otter_slingshot-002	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_otter_slingshot-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\Otter\OtterWeapon\dth_sfx_otter_slingshot-002		47276
+	68478102	dth_sfx_otter_slingshot-004	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_otter_slingshot-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\Otter\OtterWeapon\dth_sfx_otter_slingshot-004		47376
+	289930912	dth_sfx_otter_slingshot-005	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_otter_slingshot-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\Otter\OtterWeapon\dth_sfx_otter_slingshot-005		46176
+	525818432	dth_sfx_otter_slingshot-003	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_otter_slingshot-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\Otter\OtterWeapon\dth_sfx_otter_slingshot-003		47512
+	542119513	dth_sfx_otter_slingshot-001	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_otter_slingshot-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\Otter\OtterWeapon\dth_sfx_otter_slingshot-001		49112
+	847751535	dth_sfx_otter_slingshot	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_otter_slingshot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\Otter\OtterWeapon\dth_sfx_otter_slingshot		44682
+

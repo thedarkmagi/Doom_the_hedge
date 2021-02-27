@@ -13,13 +13,51 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID SALADSHOTGUN_FIRE_TEST = 2682107836U;
+        static const AkUniqueID BEACHAMBIENCE_PLAY = 4036018679U;
+        static const AkUniqueID FORESTAMBIENCE_PLAY = 3299866627U;
+        static const AkUniqueID HEALTHPICKUP = 3065686491U;
+        static const AkUniqueID HEDGEHOGFOOTSTEPS = 331083659U;
+        static const AkUniqueID HITMARKER = 3733553022U;
+        static const AkUniqueID LOWHEALTH = 1017222595U;
+        static const AkUniqueID MENUTOGGLE = 3876141876U;
+        static const AkUniqueID OTTERWEAPON_FIRE = 1123532588U;
+        static const AkUniqueID PLAY_GAMECOMPLETEMUSIC = 3646633498U;
+        static const AkUniqueID PLAY_INTROCUTSCENEMUSIC = 509751257U;
+        static const AkUniqueID PLAY_LEVEL1MUSIC = 3605952550U;
+        static const AkUniqueID PLAY_LEVEL2MUSIC = 565626987U;
+        static const AkUniqueID PLAY_LEVEL3ESCALATIONMUSIC = 2759422985U;
+        static const AkUniqueID PLAY_LEVEL3MUSIC = 1946308780U;
+        static const AkUniqueID PLAY_MAINMENU = 3738780720U;
+        static const AkUniqueID PLAY_STORY1MUSIC = 1348496591U;
+        static const AkUniqueID PLAY_STORY2MUSIC = 1978838842U;
+        static const AkUniqueID PLAY_STORY3MUSIC = 14830353U;
+        static const AkUniqueID PLAYERDAMAGE = 337406793U;
+        static const AkUniqueID RABBITFOOTSTEP = 1494531899U;
+        static const AkUniqueID ROOMCLEAR = 1974576135U;
+        static const AkUniqueID SALADSHOTGUN_FIRE = 4010101365U;
+        static const AkUniqueID SALADSHOTGUN_RELOAD = 2863745006U;
+        static const AkUniqueID SKUNKFOOTSTEPS = 1269630546U;
+        static const AkUniqueID SKUNKWEAPON_FIRE = 1650535520U;
+        static const AkUniqueID SKUNKWEAPON_IMPACT = 1851786378U;
+        static const AkUniqueID UI_BACK = 2024222415U;
+        static const AkUniqueID UI_EXIT = 502835106U;
+        static const AkUniqueID UI_PAUSE = 2792155208U;
+        static const AkUniqueID UI_RESUME = 2391028579U;
+        static const AkUniqueID UI_SELECT = 2774129122U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID SALADSHOTGUN_TESTSOUNDBANK = 1843385192U;
+        static const AkUniqueID BEACHAMBIENCE = 1219391414U;
+        static const AkUniqueID ENEMY = 2299321487U;
+        static const AkUniqueID FORESTAMBIENCE = 1256958010U;
+        static const AkUniqueID LEVELMUSIC = 1321655446U;
+        static const AkUniqueID MENU_OTHERMUSIC = 1369650004U;
+        static const AkUniqueID OTHER = 2376466361U;
+        static const AkUniqueID PLAYERCHARACTERS = 1876669018U;
+        static const AkUniqueID STORYMUSIC = 4184936253U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
     namespace BUSSES

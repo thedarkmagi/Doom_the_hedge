@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	14830353	Play_Story3Music			\Default Work Unit\Music Events\Play_Story3Music	
+	509751257	Play_IntroCutsceneMusic			\Default Work Unit\Music Events\Play_IntroCutsceneMusic	
+	1348496591	Play_Story1Music			\Default Work Unit\Music Events\Play_Story1Music	
+	1978838842	Play_Story2Music			\Default Work Unit\Music Events\Play_Story2Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	337484419	Story 3 - Tidal Talk	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\Story 3 - Tidal Talk_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CutsceneMusic\Story 3 - Tidal Talk		11854144
+	651632369	Intro Cutscene - A Rousing Risk	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\Intro Cutscene - A Rousing Risk_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CutsceneMusic\Intro Cutscene - A Rousing Risk		13910464
+	739124575	Story 1 - Woodland Words	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\Story 1 - Woodland Words_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CutsceneMusic\Story 1 - Woodland Words		13171264
+	802209778	Story 2 - Costal Conversation	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\Story 2 - Costal Conversation_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CutsceneMusic\Story 2 - Costal Conversation		9878464
+

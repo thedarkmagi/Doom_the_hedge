@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3646633498	Play_GameCompleteMusic			\Default Work Unit\Music Events\Play_GameCompleteMusic	
+	3738780720	Play_MainMenu			\Default Work Unit\Music Events\Play_MainMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	149839199	Victory! (Level Complete)	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\Victory! (Level Complete)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CutsceneMusic\Victory! (Level Complete)		6513296
+	577108423	Main Menu	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\Main Menu_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\MenuTheme\Main Menu		15170464
+

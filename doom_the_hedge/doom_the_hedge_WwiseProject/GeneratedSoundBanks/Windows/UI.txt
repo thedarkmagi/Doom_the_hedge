@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	502835106	UI_Exit			\Default Work Unit\SFX Events\UI\UI_Exit	
+	2024222415	UI_Back			\Default Work Unit\SFX Events\UI\UI_Back	
+	2391028579	UI_Resume			\Default Work Unit\SFX Events\UI\UI_Resume	
+	2774129122	UI_Select			\Default Work Unit\SFX Events\UI\UI_Select	
+	2792155208	UI_Pause			\Default Work Unit\SFX Events\UI\UI_Pause	
+	3876141876	MenuToggle			\Default Work Unit\SFX Events\UI\MenuToggle	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40937705	dth_ui_select	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuSelect\dth_ui_select		19708
+	60991830	dth_ui_resume	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_resume_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\GameResume\dth_ui_resume		45078
+	288250320	dth_ui_toggle-004	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_toggle-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuToggle\dth_ui_toggle-004		27474
+	338819010	dth_ui_pause	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_pause_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\GamePause\dth_ui_pause		45078
+	513419423	dth_ui_toggle-002	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_toggle-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuToggle\dth_ui_toggle-002		27474
+	527060519	dth_ui_toggle-005	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_toggle-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuToggle\dth_ui_toggle-005		27474
+	639837337	dth_ui_back	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_back_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuReturn\dth_ui_back		32192
+	825745145	dth_ui_exit	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_exit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\GameExit\dth_ui_exit		42764
+	843542370	dth_ui_toggle-003	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_toggle-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuToggle\dth_ui_toggle-003		27474
+	866893503	dth_ui_toggle-001	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_toggle-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuToggle\dth_ui_toggle-001		27474
+	1017690142	dth_ui_toggle-006	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_ui_toggle-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuToggle\dth_ui_toggle-006		27474
+

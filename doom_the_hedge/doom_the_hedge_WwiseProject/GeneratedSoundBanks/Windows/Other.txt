@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	337406793	PlayerDamage			\Default Work Unit\SFX Events\PlayerDamage	
+	1017222595	LowHealth			\Default Work Unit\SFX Events\LowHealth	
+	1974576135	RoomClear			\Default Work Unit\SFX Events\RoomClear	
+	3065686491	HealthPickup			\Default Work Unit\SFX Events\HealthPickup	
+	3733553022	HitMarker			\Default Work Unit\SFX Events\HitMarker	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	148756817	dth_sfx_hit_marker_3	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_hit_marker_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\HitMarker\dth_sfx_hit_marker_3		20064
+	162812622	dth_sfx_room_clear	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_room_clear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\RoomClear\dth_sfx_room_clear		191382
+	277170315	dth_sfx_player_damage-002	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-002		86308
+	407572630	dth_sfx_player_damage-004	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-004		81432
+	502345099	dth_sfx_player_damage	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage		74892
+	767328228	dth_sfx_hit_marker_1	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_hit_marker_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\HitMarker\dth_sfx_hit_marker_1		19172
+	876307201	dth_sfx_player_damage-001	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-001		67332
+	891339000	dth_sfx_player_damage-005	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-005		69692
+	895399203	dth_sfx_carrot_health	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_carrot_health_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Pick-Ups\HealthPickup\dth_sfx_carrot_health		159332
+	944617042	dth_sfx_low_health	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_low_health_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\LowHealth\dth_sfx_low_health		523396
+	949344277	dth_sfx_hit_marker_2	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_hit_marker_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\HitMarker\dth_sfx_hit_marker_2		18140
+	1036064269	dth_sfx_hit_marker_4	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_hit_marker_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\HitMarker\dth_sfx_hit_marker_4		21752
+	1055448957	dth_sfx_player_damage-003	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-003		71932
+

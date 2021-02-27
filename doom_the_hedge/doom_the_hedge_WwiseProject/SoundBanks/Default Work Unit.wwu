@@ -3,13 +3,88 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{C9422AB9-813C-4487-839A-E6F90E5F226F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="SaladShotgun_TestSoundbank" ID="{18068582-F37E-4D96-B171-86CF2B283EDA}">
-					<ObjectInclusionList>
-						<ObjectRef Name="SaladShotgun_Fire_Test" ID="{25DE5D36-9D13-472B-BCC5-AC6BB9DC027F}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
+				<Folder Name="Music Soundbanks" ID="{CE463BCE-4099-436C-852B-BD7427EFAA53}" ShortID="583975075">
+					<ChildrenList>
+						<SoundBank Name="LevelMusic" ID="{5001559F-714E-4D9D-9D63-DD6312D1968A}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_Level3EscalationMusic" ID="{4A74C2DF-B365-4210-A0D9-3EF06EC1C86D}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Level1Music" ID="{A28601C2-AEB0-4219-89C4-094EA00911E1}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Level3Music" ID="{36C893A0-712E-4D51-8755-A23F1FD0B57D}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Level2Music" ID="{6F054851-E771-4E1D-8C34-77F4717BDB2E}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="StoryMusic" ID="{0A2EF2D1-4516-40C4-96BC-A97C296FF67A}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_Story1Music" ID="{82FD632F-517F-4870-B5DA-1686E893953B}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Story3Music" ID="{CC3ADC05-9520-487A-B956-EA144BA9568E}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Story2Music" ID="{131DBDF2-E48B-4CA3-85F7-868D07855683}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_IntroCutsceneMusic" ID="{F173A314-C7B7-4D71-B3D0-D82633798ED6}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Menu_OtherMusic" ID="{0C066E04-DD92-4DBC-8BBF-5DBF9A2E94EC}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_GameCompleteMusic" ID="{C39A88B3-B328-45A1-9C1B-0B4045CE893E}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_MainMenu" ID="{E260A338-7D1B-4FB6-BA9B-9A3F3279CC14}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX Soundbanks" ID="{E76194C5-B590-40CC-B946-0FC953D7AE1B}" ShortID="872686980">
+					<ChildrenList>
+						<SoundBank Name="ForestAmbience" ID="{D089C1CC-950B-4B3D-AA6E-6BDEAC793C0C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="ForestAmbience_Play" ID="{F847F2A7-589B-4904-B018-1E992F8CD632}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Enemy" ID="{C5D9978A-82AC-41B1-9AFB-89134DD6B3BA}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Enemy" ID="{E3C25C7C-5F9E-4D43-B619-F4FD1942C123}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="PlayerCharacters" ID="{FFDADC47-D43E-440F-8337-C3E6D7B0F312}">
+							<ObjectInclusionList>
+								<ObjectRef Name="PlayerCharacters" ID="{72CE51DA-CC3B-417F-BD01-189867AD8817}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="UI" ID="{DA5065DE-C8E8-4780-9BF3-B21DB9B0501C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="UI" ID="{B34F2AE9-31AD-4AB5-81FE-E1D76C19DC40}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Other" ID="{0CC78557-2EA0-485F-91E5-A783427E97C1}">
+							<ObjectInclusionList>
+								<ObjectRef Name="HealthPickup" ID="{771AE19D-609D-4181-BD08-D65E89B1B637}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerDamage" ID="{DBC93018-8702-46A3-A60E-BE143FB3EF1A}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RoomClear" ID="{9EFCBE2C-9D71-4AC1-AAF0-F746B9B16EE0}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="LowHealth" ID="{C5B9EBDC-7643-4CD1-B6B8-C10734A02A41}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="HitMarker" ID="{6CAB6CC9-E3D6-4DCF-A72E-5BE5B5CD9F11}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="BeachAmbience" ID="{B5C0BCAD-7FFF-485C-A254-AB0C03F84A7C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="BeachAmbience_Play" ID="{7370C00D-1275-41A5-90A1-A58DD7DE5032}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
