@@ -13,9 +13,9 @@ public class HealthPickUP : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        transform.LookAt(Camera.main.transform.position, Vector3.up);
     }
 
     private void OnTriggerEnter(Collider other)
