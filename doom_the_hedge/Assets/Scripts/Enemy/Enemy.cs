@@ -8,7 +8,7 @@ public enum enemyType
     otter,
     sniper,
     porpoise,
-    flying_fish,
+    plat,
     walrus_tank
 }
 
@@ -56,7 +56,9 @@ public class Enemy : MonoBehaviour
             case enemyType.porpoise:
                 deathanimName = "porpDeath";
                 break;
-            case enemyType.flying_fish:
+            case enemyType.plat:
+                //this will need changing once setup
+                deathanimName = "otterDeath";
                 break;
             case enemyType.walrus_tank:
                 break;
@@ -91,7 +93,8 @@ public class Enemy : MonoBehaviour
             case enemyType.porpoise:
                 porpoise();
                 break;
-            case enemyType.flying_fish:
+            case enemyType.plat:
+                otter();
                 break;
             case enemyType.walrus_tank:
                 break;
