@@ -19,6 +19,9 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -50,7 +53,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="sC8Hy00yKkGDrCMlq3P3NjHlWm5LAQ1CvSfHmJtSW5YntbhgEwU7RI7QkCRqsn3WQmC+hZQnmESdIyxXtZ0WBjY5CnYrWp9Gm5OTAHwcJpz5j3Lqbp68R7KfyhrpKhE82uIZ5OCuwEe9s9q+6Om6ay8Cqy3qUF9JuIJoB8/oGPZlvbKb9fcwSpYLuZO+2dJVgDQhndkbt0ycyT29mGVGL8Km3XTxuWhNmO802mS6V10="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="sC8Hy00yKkGDrCMlq3P3NjHlWm5LAQ1CvSfHmJtSW5YntbhgEwU7RI7QkCRqsn3WQmC+hZQnmESdIyxXtZ0WBpC6jCvwp2tGvx8uHqc+heg2OQp2K1qfRpuTkwB8HCac+Y9y6m6evEeyn8oa6SoRPNriGeTgrsBHvbPavujpumsvAqst6lBfSbiCaAfP6Bj2Zb2ym/X3MEqWC7mTvtnSVamjp0O5iaRKtxH33hBkQziANCGd2Ru3TJzJPb2YZUYvwqbddPG5aE2Y7zTaZLpXXQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
