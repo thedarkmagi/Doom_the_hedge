@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
                 anim.SetTrigger("hit");
         }
 
-        if(hp.HP<0)
+        if(hp.HP<=0)
         {
             kill();
         }
@@ -157,7 +157,15 @@ public class Enemy : MonoBehaviour
     {
         if (hasAnim)
         {
-            anim.SetBool("dead", true);
+            if (hasAnim)
+            {
+                anim.SetBool("dead", true);
+                if (anim.GetCurrentAnimatorStateInfo(0).IsName("otterDeath"))
+                {
+                    Destroy(this.gameObject);
+                }
+            }
+
         }
         else
         {

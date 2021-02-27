@@ -71,17 +71,125 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b92a42c93c818744839ae6f90e5f226f
     GuidInternal: 
-    m_lastTime: -8585872236154098403
+    m_lastTime: -8585871649261404697
     List:
-    - name: SaladShotgun_TestSoundbank
-      guid: 828506187ef3964db17186cf2b283eda
-      id: 1843385192
+    - name: BeachAmbience
+      guid: adbcc0b5ff7f5c48a254ab0c03f84a7c
+      id: 1219391414
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: SaladShotgun_TestSoundbank
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: BeachAmbience
         ObjectType: 7
-      Path: Default Work Unit\SaladShotgun_TestSoundbank
+      Path: Default Work Unit\SFX Soundbanks\BeachAmbience
+    - name: Enemy
+      guid: 8a97d9c5ac82b1419afb89134dd6b3ba
+      id: 2299321487
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 7
+      Path: Default Work Unit\SFX Soundbanks\Enemy
+    - name: ForestAmbience
+      guid: ccc189d00b953d4baa6e6bdeac793c0c
+      id: 1256958010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: ForestAmbience
+        ObjectType: 7
+      Path: Default Work Unit\SFX Soundbanks\ForestAmbience
+    - name: LevelMusic
+      guid: 9f5501504e719d4d9d63dd6312d1968a
+      id: 1321655446
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Soundbanks
+        ObjectType: 4
+      - ElementName: LevelMusic
+        ObjectType: 7
+      Path: Default Work Unit\Music Soundbanks\LevelMusic
+    - name: Menu_OtherMusic
+      guid: 046e060c92ddbc4d8bbf5dbf9a2e94ec
+      id: 1369650004
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Soundbanks
+        ObjectType: 4
+      - ElementName: Menu_OtherMusic
+        ObjectType: 7
+      Path: Default Work Unit\Music Soundbanks\Menu_OtherMusic
+    - name: Music Soundbanks
+      guid: ce3b46ce99406c43852bbd7427efaa53
+      id: 294769652
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Soundbanks
+        ObjectType: 4
+      Path: Default Work Unit\Music Soundbanks
+    - name: Other
+      guid: 5785c70ca02e5f4891e5a783427e97c1
+      id: 2376466361
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: Other
+        ObjectType: 7
+      Path: Default Work Unit\SFX Soundbanks\Other
+    - name: PlayerCharacters
+      guid: 47dcdaff3ed40f448337c3e6d7b0f312
+      id: 1876669018
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 7
+      Path: Default Work Unit\SFX Soundbanks\PlayerCharacters
+    - name: SFX Soundbanks
+      guid: c59461e790b5cc40b9460fc953d7ae1b
+      id: 2247949164
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      Path: Default Work Unit\SFX Soundbanks
+    - name: StoryMusic
+      guid: d1f22e0a1645c44096bca97c296ff67a
+      id: 4184936253
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Soundbanks
+        ObjectType: 4
+      - ElementName: StoryMusic
+        ObjectType: 7
+      Path: Default Work Unit\Music Soundbanks\StoryMusic
+    - name: UI
+      guid: de6550dae8c880479bf3b21db9b0501c
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 7
+      Path: Default Work Unit\SFX Soundbanks\UI
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -90,58 +198,756 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585872236154128394
+    m_lastTime: -8585871649294714679
     List:
-    - name: Music Soundbanks
-      guid: 1e122abc35d3d54da5441b940482e693
-      id: 294769652
+    - name: Ambience
+      guid: 1343d89febd694488b268580bc693e81
+      id: 85412153
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Music Soundbanks
+      - ElementName: SFX Events
         ObjectType: 4
-      Path: Default Work Unit\Music Soundbanks
+      - ElementName: Ambience
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: SaladShotgun_Fire_Test
-      guid: 365dde25139d2b47bcc5ac6bb9dc027f
-      id: 2682107836
+    - name: BeachAmbience_Play
+      guid: 0dc070737512a54190a1a58dd7de5032
+      id: 4036018679
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: ShotgunTest Soundbank
+      - ElementName: SFX Events
         ObjectType: 4
-      - ElementName: SaladShotgun_Fire_Test
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: BeachAmbience_Play
         ObjectType: 3
-      Path: Default Work Unit\ShotgunTest Soundbank\SaladShotgun_Fire_Test
+      Path: Default Work Unit\SFX Events\Ambience\BeachAmbience_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enemy
+      guid: 7c5cc2e39e5f434db619f4fd1942c123
+      id: 2299321487
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Enemy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ForestAmbience_Play
+      guid: a7f247f89b580449b0181e992f8cd632
+      id: 3299866627
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: ForestAmbience_Play
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Ambience\ForestAmbience_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HealthPickup
+      guid: 9de11a779d608141bd08d65e89b1b637
+      id: 3065686491
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: HealthPickup
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\HealthPickup
+      maxAttenuation: 0
+      maxDuration: 1.659042
+      minDuration: 1.659042
+    - name: Hedgehog
+      guid: f9aebb9000db32428c138fc1840c25cf
+      id: 3153326686
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HedgehogFootsteps
+      guid: 9c95d77a34fd7a418e74fb1552aab08b
+      id: 331083659
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      - ElementName: HedgehogFootsteps
+        ObjectType: 4
+      - ElementName: HedgehogFootsteps
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps\HedgehogFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.475437
+      minDuration: 0.415771
+    - name: HedgehogFootsteps
+      guid: a3705f975ce93343a168070d2df827c4
+      id: 331083659
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      - ElementName: HedgehogFootsteps
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HedgehogWeapon
+      guid: e13639d595dfd4418a8d6ae2008537f0
+      id: 1300028382
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      - ElementName: HedgehogWeapon
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HitMarker
+      guid: c96cab6cd6e3cf4da72e5be5b5cd9f11
+      id: 3733553022
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: HitMarker
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\HitMarker
+      maxAttenuation: 0
+      maxDuration: 0.225917
+      minDuration: 0.188292
+    - name: LowHealth
+      guid: dcebb9c54376d14cb6b8c10734a02a41
+      id: 1017222595
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: LowHealth
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\LowHealth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MenuToggle
+      guid: 61ba3424bc464146b78895110a2c6baa
+      id: 3876141876
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: MenuToggle
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\UI\MenuToggle
+      maxAttenuation: 0
+      maxDuration: 0.285521
+      minDuration: 0.285521
+    - name: Music Events
+      guid: 1e122abc35d3d54da5441b940482e693
+      id: 3264800193
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      Path: Default Work Unit\Music Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Otter
+      guid: 3961e597a716f84c814175d60be40279
+      id: 2379717861
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Otter
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Enemy\Otter
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: OtterWeapon_Fire
+      guid: 7ef01918f88cfe4b91d6cb03c1987dfd
+      id: 1123532588
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Otter
+        ObjectType: 4
+      - ElementName: OtterWeapon_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Otter\OtterWeapon_Fire
+      maxAttenuation: 0
+      maxDuration: 0.510917
+      minDuration: 0.464771
+    - name: Play_GameCompleteMusic
+      guid: b3889ac328b3a1459c1b0b4045ce893e
+      id: 3646633498
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_GameCompleteMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_GameCompleteMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_IntroCutsceneMusic
+      guid: 14a373f1b7c7714db3d0d82633798ed6
+      id: 509751257
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_IntroCutsceneMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_IntroCutsceneMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Level1Music
+      guid: c20186a2b0ae194289c4094ea00911e1
+      id: 3605952550
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Level1Music
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Level1Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Level2Music
+      guid: 5148056f71e71d4e8c3477f4717bdb2e
+      id: 565626987
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Level2Music
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Level2Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Level3EscalationMusic
+      guid: dfc2744a65b31042a0d93ef06ec1c86d
+      id: 2759422985
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Level3EscalationMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Level3EscalationMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Level3Music
+      guid: a093c8362e71514d8755a23f1fd0b57d
+      id: 1946308780
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Level3Music
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Level3Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MainMenu
+      guid: 38a360e21b7db64fba9b9a3f3279cc14
+      id: 3738780720
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_MainMenu
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_MainMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Story1Music
+      guid: 2f63fd827f517048b5da1686e893953b
+      id: 1348496591
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Story1Music
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Story1Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Story2Music
+      guid: f2bd1d138be4a34c85f7868d07855683
+      id: 1978838842
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Story2Music
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Story2Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Story3Music
+      guid: 05dc3acc20957a48b956ea144ba9568e
+      id: 14830353
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music Events
+        ObjectType: 4
+      - ElementName: Play_Story3Music
+        ObjectType: 3
+      Path: Default Work Unit\Music Events\Play_Story3Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerCharacters
+      guid: da51ce723bcc7f41bd01189867ad8817
+      id: 1876669018
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerDamage
+      guid: 1830c9db0287a346a60ebe143fb3ef1a
+      id: 337406793
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerDamage
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerDamage
+      maxAttenuation: 0
+      maxDuration: 0.449187
+      minDuration: 0.350354
+    - name: Rabbit
+      guid: 58ace03c50b4fa4ea505e26deaff14c7
+      id: 2689485353
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RabbitFootstep
+      guid: beb9bba8afd4964ab8e16203660002b7
+      id: 1494531899
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      - ElementName: RabbitFootsteps
+        ObjectType: 4
+      - ElementName: RabbitFootstep
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitFootsteps\RabbitFootstep
+      maxAttenuation: 0
+      maxDuration: 0.752042
+      minDuration: 0.59125
+    - name: RabbitFootsteps
+      guid: 02416790d0835e409964edae6a4d619c
+      id: 1990789522
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      - ElementName: RabbitFootsteps
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RabbitWeapon
+      guid: f8e714d8435aa245841ca29be45bc13d
+      id: 413142521
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      - ElementName: RabbitWeapon
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RoomClear
+      guid: 2cbefc9e719dc14aaaf0f746b9b16ee0
+      id: 1974576135
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: RoomClear
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\RoomClear
+      maxAttenuation: 0
+      maxDuration: 1.992896
+      minDuration: 1.992896
+    - name: SaladShotgun_Fire
+      guid: 365dde25139d2b47bcc5ac6bb9dc027f
+      id: 4010101365
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      - ElementName: RabbitWeapon
+        ObjectType: 4
+      - ElementName: SaladShotgun_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon\SaladShotgun_Fire
       maxAttenuation: 0
       maxDuration: 1.797125
       minDuration: 1.349208
-    - name: SFX Soundbanks
+    - name: SaladShotgun_Reload
+      guid: 5c00d17b36c57b4ca7798d540af005ef
+      id: 2863745006
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      - ElementName: RabbitWeapon
+        ObjectType: 4
+      - ElementName: SaladShotgun_Reload
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon\SaladShotgun_Reload
+      maxAttenuation: 0
+      maxDuration: 1.15725
+      minDuration: 0.84975
+    - name: SFX Events
       guid: 21a6400f6f83944ea3e29b6e4125754b
-      id: 2247949164
+      id: 3754878377
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: SFX Soundbanks
+      - ElementName: SFX Events
         ObjectType: 4
-      Path: Default Work Unit\SFX Soundbanks
+      Path: Default Work Unit\SFX Events
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: ShotgunTest Soundbank
-      guid: 2c59996d7a26e6488299af5a1bced0e9
-      id: 2997378982
+    - name: Skunk
+      guid: a3e5ea6e9febee44a5699126c615107b
+      id: 4192716265
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: ShotgunTest Soundbank
+      - ElementName: SFX Events
         ObjectType: 4
-      Path: Default Work Unit\ShotgunTest Soundbank
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: SkunkFootsteps
+      guid: 5eb031982d86a346aef292120c2df1c4
+      id: 1269630546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkFootsteps
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.248667
+      minDuration: 0.132
+    - name: SkunkFootsteps
+      guid: e011554cdd25094da57f99dcce7d788f
+      id: 1269630546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkFootsteps
+        ObjectType: 4
+      - ElementName: SkunkFootsteps
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps\SkunkFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SkunkWeapon
+      guid: 259e7e45319c014da484251c268a3f77
+      id: 271517369
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkWeapon
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SkunkWeapon_Fire
+      guid: 96be4b6698f4404587c83cd0cab00b24
+      id: 1650535520
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkWeapon
+        ObjectType: 4
+      - ElementName: SkunkWeapon_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon\SkunkWeapon_Fire
+      maxAttenuation: 0
+      maxDuration: 2.024812
+      minDuration: 1.187688
+    - name: SkunkWeapon_Impact
+      guid: e8ff051c7f51a748835b62c0f5e71ffc
+      id: 1851786378
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkWeapon
+        ObjectType: 4
+      - ElementName: SkunkWeapon_Impact
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon\SkunkWeapon_Impact
+      maxAttenuation: 0
+      maxDuration: 2.056521
+      minDuration: 1.814792
+    - name: UI
+      guid: e92a4fb3ad31b54a81fee1d76c19dc40
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI_Back
+      guid: c80f178986967146b99b4ef3aa025603
+      id: 2024222415
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Back
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\UI\UI_Back
+      maxAttenuation: 0
+      maxDuration: 0.334667
+      minDuration: 0.334667
+    - name: UI_Exit
+      guid: fe5c95a3680a64428fd90957507211c3
+      id: 502835106
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Exit
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\UI\UI_Exit
+      maxAttenuation: 0
+      maxDuration: 0.444792
+      minDuration: 0.444792
+    - name: UI_Pause
+      guid: d3f84bd0dae7db48b2bd9cdd9e05398c
+      id: 2792155208
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Pause
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\UI\UI_Pause
+      maxAttenuation: 0
+      maxDuration: 0.468896
+      minDuration: 0.468896
+    - name: UI_Resume
+      guid: 336d48d99b361f4fb78632275c3722bc
+      id: 2391028579
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Resume
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\UI\UI_Resume
+      maxAttenuation: 0
+      maxDuration: 0.468896
+      minDuration: 0.468896
+    - name: UI_Select
+      guid: 59c6a262a30dc14ea15b94fee8a2fd3f
+      id: 2774129122
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Select
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\UI\UI_Select
+      maxAttenuation: 0
+      maxDuration: 0.204625
+      minDuration: 0.204625
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
