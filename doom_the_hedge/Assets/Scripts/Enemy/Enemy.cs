@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour
                 break;
             case enemyType.plat:
                 //this will need changing once setup
-                deathanimName = "otterDeath";
+                deathanimName = "platDeath";
                 break;
             case enemyType.walrus_tank:
                 break;
