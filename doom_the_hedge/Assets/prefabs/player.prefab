@@ -650,6 +650,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].damage
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].maxAmmo
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].currAmmo
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].lifetime
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
