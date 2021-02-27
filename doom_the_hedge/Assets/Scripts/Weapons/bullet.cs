@@ -49,5 +49,9 @@ public class bullet : MonoBehaviour
             target.takeDamage(damage);
             kill();
         }
+        else if (other.CompareTag("enviroment"))
+        {
+            kill();
+        }
     }
 }

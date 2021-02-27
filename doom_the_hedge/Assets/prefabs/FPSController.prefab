@@ -178,6 +178,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  GameplayUI: {fileID: 0}
+  PauseUI: {fileID: 0}
 --- !u!54 &7207325954213641885
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -303,6 +305,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gun: {fileID: 7207325952952774805}
+  hp: {fileID: 0}
+  hedgeHog:
+    name: 
+    weaponIndexValue: 0
+    currentSlot: 0
+    logo: {fileID: 0}
+  skunk:
+    name: 
+    weaponIndexValue: 0
+    currentSlot: 0
+    logo: {fileID: 0}
+  rabbit:
+    name: 
+    weaponIndexValue: 0
+    currentSlot: 0
+    logo: {fileID: 0}
 --- !u!1 &7207325954208210431
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +421,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7207325954208629215}
     m_Modifications:
+    - target: {fileID: 5073555632423120890, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555632645735520, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634073963007, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482516, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_RootOrder
@@ -462,6 +495,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GunManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634193625193, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92c56ecb1e8bca48bb5f07cc3334c71, type: 3}
