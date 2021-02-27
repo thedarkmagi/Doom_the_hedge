@@ -12,19 +12,24 @@ public class UIManager : MonoBehaviour
     public GameObject[] portraitsGO;
     public GameObject[] portraitsGOPAUSE;
     public string[] descriptionChr;
+    public Slider[] healthBars;
+    private int activebar=4;
+    public TextMeshProUGUI healthtext;
     
     
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach(Slider health in healthBars)
+        health.value = 5;
     }
 
     // Update is called once per frame
     void Update()
     {//if((Input.GetKeyDown(KeyCode.Q))|| (Input.GetKeyDown(KeyCode.E)))//updates only when a change in the stack happens
         updateStack();
+        updateHealth();
     }
 
 
@@ -105,5 +110,42 @@ public class UIManager : MonoBehaviour
                 portraitsGOPAUSE[i].GetComponentInChildren<TextMeshProUGUI>().text = descriptionChr[0];
         }
         
+    }
+
+
+    void updateHealth()
+    {
+        int temp=0,hptemp;
+        hptemp = (int)PC.GetComponent<HpPool>().HP + 1;
+
+        if (hptemp >= 80)
+        {
+            temp = hptemp - 79;
+            activebar = 4;
+        }
+        else if(hptemp >= 60)
+        {
+            temp = hptemp - 59;
+            activebar = 3;
+        }
+        else if (hptemp >= 40)
+        {
+            temp = hptemp - 39;
+            activebar = 2;
+        }
+        else if (hptemp >= 20)
+        {
+            temp = hptemp - 19;
+            activebar = 1;
+        }
+        else if (hptemp > 0)
+        {
+            temp = hptemp;
+            activebar = 0;
+        }
+        healthBars[activebar].value = (int) temp / 4;
+
+        healthtext.text = (""+ (hptemp-1));
+
     }
 }
