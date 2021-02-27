@@ -9,12 +9,15 @@ public class UIManager : MonoBehaviour
 
     public GameObject PC;
     public Sprite[] portraitsSprites;
+    public Sprite[] weaponSprites;
     public GameObject[] portraitsGO;
+    public GameObject weaponUIGO;
     public GameObject[] portraitsGOPAUSE;
     public string[] descriptionChr;
     public Slider[] healthBars;
     private int activebar=4;
     public TextMeshProUGUI healthtext;
+    public TextMeshProUGUI ammotext;
     
     
 
@@ -30,6 +33,8 @@ public class UIManager : MonoBehaviour
     {//if((Input.GetKeyDown(KeyCode.Q))|| (Input.GetKeyDown(KeyCode.E)))//updates only when a change in the stack happens
         updateStack();
         updateHealth();
+        updateweaponUI();
+        updateAmmo();
     }
 
 
@@ -147,5 +152,21 @@ public class UIManager : MonoBehaviour
 
         healthtext.text = (""+ (hptemp-1));
 
+    }
+
+    void updateweaponUI()
+    {
+
+        weaponUIGO.GetComponent<Image>().sprite = weaponSprites[PC.GetComponent<Player>().tower._middle.weaponIndexValue];
+
+    }
+
+    void updateAmmo()
+    {
+        int i, j;
+        i = PC.GetComponent<Player>().Gun.currentGun.currAmmo;
+        j = PC.GetComponent<Player>().Gun.currentGun.maxAmmo;
+
+        ammotext.text = (i + "/" + j);
     }
 }
