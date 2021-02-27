@@ -17,6 +17,8 @@ public class Enemy : MonoBehaviour
     public HpPool hp;
     float lastFramesHP;
     public enemyType type;
+    public GameObject healthdrop;
+    public float dropRate;
     NavMeshAgent agent;
 
     public gun _gun;
@@ -198,6 +200,11 @@ public class Enemy : MonoBehaviour
                 
                 if (anim.GetCurrentAnimatorStateInfo(0).IsName(deathanimName))
                 {
+                    if (Random.Range(0f, 1f) <= dropRate/100)
+                    {
+                        // spawn a dropped item
+                        Instantiate(healthdrop, transform.position, Quaternion.identity);
+                    }
                     Destroy(this.gameObject);
                 }
             }
