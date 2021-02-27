@@ -106,6 +106,8 @@ public class Enemy : MonoBehaviour
                 currAimTime += Time.deltaTime;
                 if (currAimTime > aimTime)
                 {
+                    if (hasAnim)
+                        anim.SetTrigger("shoot");
                     currAimTime = 0;
                     _gun.fire();
                 }
@@ -124,6 +126,11 @@ public class Enemy : MonoBehaviour
             if (_gun.isFinishedReloading())
             {
                 agent.SetDestination(gamemanager.instance.player.transform.position);
+            }
+            else
+            {
+                if (hasAnim)
+                    anim.SetTrigger("reload");
             }
         }
     }
