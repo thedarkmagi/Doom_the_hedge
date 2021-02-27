@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a83fed95abf6094faf3a5148ed4df5bb
     GuidInternal: 
-    m_lastTime: -8585874867843708201
+    m_lastTime: -8585872506528189602
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -198,7 +198,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585871626168097096
+    m_lastTime: -8585871469287324606
     List:
     - name: Ambience
       guid: 1343d89febd694488b268580bc693e81
@@ -328,6 +328,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: HedgehogRifle_Fire
+      guid: 27143d5cd1e14c49b8536640fd5259a1
+      id: 93914375
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      - ElementName: HedgehogWeapon
+        ObjectType: 4
+      - ElementName: HedgehogRifle_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogRifle_Fire
+      maxAttenuation: 0
+      maxDuration: 0.414771
+      minDuration: 0.414771
+    - name: HedgehogRifle_Reload
+      guid: 7573a4d3a20e5345b52bc790328a1d49
+      id: 1806257304
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      - ElementName: HedgehogWeapon
+        ObjectType: 4
+      - ElementName: HedgehogRifle_Reload
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogRifle_Reload
+      maxAttenuation: 0
+      maxDuration: 0.570646
+      minDuration: 0.510063
     - name: HedgehogWeapon
       guid: e13639d595dfd4418a8d6ae2008537f0
       id: 1300028382
@@ -988,6 +1028,14 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585874867820626719
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /doom_the_hedge_WwiseProject
+  - /doom_the_hedge_WwiseProject/Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Ambience
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/PlayerCharacters
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/PlayerCharacters/Skunk
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/PlayerCharacters/Skunk/SkunkWeapon
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
