@@ -56,7 +56,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 7.52
+  m_Radius: 20
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2628950191708136354
 GameObject:
@@ -115,7 +115,7 @@ MonoBehaviour:
   agroRange: {fileID: 2628950191031043518}
   agg: {fileID: 2628950191031043516}
   minDistance: 10
-  aimTime: 5
+  aimTime: 2.9
 --- !u!114 &2628950191708136367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f104a8fb7125c409e349833ee16ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  HP: 350
 --- !u!195 &2628950191708136364
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -436,6 +436,47 @@ PrefabInstance:
         type: 3}
       propertyPath: targetTag
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].damage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].maxAmmo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].currAmmo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].velocity
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].projectile
+      value: 
+      objectReference: {fileID: 1598674821848828328, guid: 7e5598f10292c1c4fa36a637343265c3,
+        type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].reloadTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
