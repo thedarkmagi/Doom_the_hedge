@@ -1,20 +1,1359 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Dev\Unity\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="1219391414" Language="SFX" Hash="1555498036">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\BeachAmbience</ObjectPath>
+			<ShortName>BeachAmbience</ShortName>
+			<Path>BeachAmbience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4036018679" Name="BeachAmbience_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Ambience\BeachAmbience_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="25190131" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-003.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-003_10C4C929.wem</Path>
+						</File>
+						<File Id="68550190" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-012.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-012_10C4C929.wem</Path>
+						</File>
+						<File Id="76198258" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-006.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-006_10C4C929.wem</Path>
+						</File>
+						<File Id="85154312" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-002.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-002_10C4C929.wem</Path>
+						</File>
+						<File Id="116483313" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-005.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-005_10C4C929.wem</Path>
+						</File>
+						<File Id="516438481" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-013.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-013_10C4C929.wem</Path>
+						</File>
+						<File Id="537235978" Language="SFX">
+							<ShortName>amb_dth_beach_sea_rocks_1_loop.wav</ShortName>
+							<Path>SFX\amb_dth_beach_sea_rocks_1_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="560421240" Language="SFX">
+							<ShortName>amb_dth_beach_marina_loop.wav</ShortName>
+							<Path>SFX\amb_dth_beach_marina_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="602888783" Language="SFX">
+							<ShortName>amb_dth_beach_water_lap_loop.wav</ShortName>
+							<Path>SFX\amb_dth_beach_water_lap_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="694026916" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-008.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-008_10C4C929.wem</Path>
+						</File>
+						<File Id="855219861" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-007.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-007_10C4C929.wem</Path>
+						</File>
+						<File Id="887433053" Language="SFX">
+							<ShortName>amb_dth_beach_main_loop.wav</ShortName>
+							<Path>SFX\amb_dth_beach_main_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="936947862" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-011.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-011_10C4C929.wem</Path>
+						</File>
+						<File Id="958795706" Language="SFX">
+							<ShortName>amb_dth_beach_sea_rocks_2_loop.wav</ShortName>
+							<Path>SFX\amb_dth_beach_sea_rocks_2_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="967655867" Language="SFX">
+							<ShortName>amb_dth_beach_waves_loop.wav</ShortName>
+							<Path>SFX\amb_dth_beach_waves_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1034841575" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-001.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1041405353" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-004.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-004_10C4C929.wem</Path>
+						</File>
+						<File Id="1046722080" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-009.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-009_10C4C929.wem</Path>
+						</File>
+						<File Id="1049200819" Language="SFX">
+							<ShortName>amb_dth_beach_seagulls_oneshots-010.wav</ShortName>
+							<Path>SFX\amb_dth_beach_seagulls_oneshots-010_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1256958010" Language="SFX" Hash="3513307616">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\ForestAmbience</ObjectPath>
+			<ShortName>ForestAmbience</ShortName>
+			<Path>ForestAmbience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3299866627" Name="ForestAmbience_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Ambience\ForestAmbience_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="2124173" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-003.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-003_10C4C929.wem</Path>
+						</File>
+						<File Id="15114888" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-009.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-009_10C4C929.wem</Path>
+						</File>
+						<File Id="37173838" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-010.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-010_10C4C929.wem</Path>
+						</File>
+						<File Id="64593458" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-003.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-003_10C4C929.wem</Path>
+						</File>
+						<File Id="86954005" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_loop.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="107483721" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-007.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-007_10C4C929.wem</Path>
+						</File>
+						<File Id="131590435" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-004.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-004_10C4C929.wem</Path>
+						</File>
+						<File Id="190314991" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-005.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-005_10C4C929.wem</Path>
+						</File>
+						<File Id="209895263" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-002.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-002_10C4C929.wem</Path>
+						</File>
+						<File Id="313122891" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-004.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-004_10C4C929.wem</Path>
+						</File>
+						<File Id="342705299" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-002.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-002_10C4C929.wem</Path>
+						</File>
+						<File Id="343788459" Language="SFX">
+							<ShortName>amb_dth_forest_main_1_loop.wav</ShortName>
+							<Path>SFX\amb_dth_forest_main_1_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="346070132" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-006.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-006_10C4C929.wem</Path>
+						</File>
+						<File Id="381102631" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_loop.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="473343831" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-005.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-005_10C4C929.wem</Path>
+						</File>
+						<File Id="523119103" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-001.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-001_10C4C929.wem</Path>
+						</File>
+						<File Id="582474956" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-007.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-007_10C4C929.wem</Path>
+						</File>
+						<File Id="589176548" Language="SFX">
+							<ShortName>amb_dth_forest_main_2_loop.wav</ShortName>
+							<Path>SFX\amb_dth_forest_main_2_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="634916399" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-008.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-008_10C4C929.wem</Path>
+						</File>
+						<File Id="668206694" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-005.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-005_10C4C929.wem</Path>
+						</File>
+						<File Id="676472768" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-001.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-001_10C4C929.wem</Path>
+						</File>
+						<File Id="762764177" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-007.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-007_10C4C929.wem</Path>
+						</File>
+						<File Id="775474802" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-006.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-006_10C4C929.wem</Path>
+						</File>
+						<File Id="799436469" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-004.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-004_10C4C929.wem</Path>
+						</File>
+						<File Id="835384661" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-011.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-011_10C4C929.wem</Path>
+						</File>
+						<File Id="838604769" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-001.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-001_10C4C929.wem</Path>
+						</File>
+						<File Id="878968533" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-012.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-012_10C4C929.wem</Path>
+						</File>
+						<File Id="943423573" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-008.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-008_10C4C929.wem</Path>
+						</File>
+						<File Id="976978619" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-008.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-008_10C4C929.wem</Path>
+						</File>
+						<File Id="991261903" Language="SFX">
+							<ShortName>amb_dth_forest_main_3_loop.wav</ShortName>
+							<Path>SFX\amb_dth_forest_main_3_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1016054808" Language="SFX">
+							<ShortName>amb_dth_forest_birds_2_oneshots-003.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_2_oneshots-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1033241586" Language="SFX">
+							<ShortName>amb_dth_forest_birds_1_oneshots-002.wav</ShortName>
+							<Path>SFX\amb_dth_forest_birds_1_oneshots-002_10C4C929.wem</Path>
+						</File>
+						<File Id="1041231393" Language="SFX">
+							<ShortName>amb_dth_forest_wind_oneshots-006.wav</ShortName>
+							<Path>SFX\amb_dth_forest_wind_oneshots-006_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1321655446" Language="SFX" Hash="271657571">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\LevelMusic</ObjectPath>
+			<ShortName>LevelMusic</ShortName>
+			<Path>LevelMusic.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3605952550" Name="Play_Level1Music" ObjectPath="\Events\Default Work Unit\Music Events\Play_Level1Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="115516120" Language="SFX">
+							<ShortName>Level 1 - Forest Frenzy.wav</ShortName>
+							<Path>SFX\Level 1 - Forest Frenzy_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="565626987" Name="Play_Level2Music" ObjectPath="\Events\Default Work Unit\Music Events\Play_Level2Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="643497216" Language="SFX">
+							<ShortName>Level 2 - Beach Bombardment.wav</ShortName>
+							<Path>SFX\Level 2 - Beach Bombardment_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2759422985" Name="Play_Level3EscalationMusic" ObjectPath="\Events\Default Work Unit\Music Events\Play_Level3EscalationMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="762810497" Language="SFX">
+							<ShortName>Level 3 Boss Fight - Whale Warfare.wav</ShortName>
+							<Path>SFX\Level 3 Boss Fight - Whale Warfare_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1946308780" Name="Play_Level3Music" ObjectPath="\Events\Default Work Unit\Music Events\Play_Level3Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="373016555" Language="SFX">
+							<ShortName>Level 3 - Ocean Onslaught.wav</ShortName>
+							<Path>SFX\Level 3 - Ocean Onslaught_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="1377012252">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1369650004" Language="SFX" Hash="394340281">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\Menu_OtherMusic</ObjectPath>
+			<ShortName>Menu_OtherMusic</ShortName>
+			<Path>Menu_OtherMusic.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3646633498" Name="Play_GameCompleteMusic" ObjectPath="\Events\Default Work Unit\Music Events\Play_GameCompleteMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="149839199" Language="SFX">
+							<ShortName>Victory! (Level Complete).wav</ShortName>
+							<Path>SFX\Victory! (Level Complete)_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3738780720" Name="Play_MainMenu" ObjectPath="\Events\Default Work Unit\Music Events\Play_MainMenu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="577108423" Language="SFX">
+							<ShortName>Main Menu.wav</ShortName>
+							<Path>SFX\Main Menu_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX" Hash="2983173387">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3876141876" Name="MenuToggle" ObjectPath="\Events\Default Work Unit\SFX Events\UI\MenuToggle" DurationType="OneShot" DurationMin="0.285521" DurationMax="0.285521">
+					<IncludedMemoryFiles>
+						<File Id="288250320" Language="SFX">
+							<ShortName>dth_ui_toggle-004.wav</ShortName>
+							<Path>SFX\dth_ui_toggle-004_10C4C929.wem</Path>
+						</File>
+						<File Id="513419423" Language="SFX">
+							<ShortName>dth_ui_toggle-002.wav</ShortName>
+							<Path>SFX\dth_ui_toggle-002_10C4C929.wem</Path>
+						</File>
+						<File Id="527060519" Language="SFX">
+							<ShortName>dth_ui_toggle-005.wav</ShortName>
+							<Path>SFX\dth_ui_toggle-005_10C4C929.wem</Path>
+						</File>
+						<File Id="843542370" Language="SFX">
+							<ShortName>dth_ui_toggle-003.wav</ShortName>
+							<Path>SFX\dth_ui_toggle-003_10C4C929.wem</Path>
+						</File>
+						<File Id="866893503" Language="SFX">
+							<ShortName>dth_ui_toggle-001.wav</ShortName>
+							<Path>SFX\dth_ui_toggle-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1017690142" Language="SFX">
+							<ShortName>dth_ui_toggle-006.wav</ShortName>
+							<Path>SFX\dth_ui_toggle-006_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\SFX Events\UI\UI_Back" DurationType="OneShot" DurationMin="0.334667" DurationMax="0.334667">
+					<IncludedMemoryFiles>
+						<File Id="639837337" Language="SFX">
+							<ShortName>dth_ui_back.wav</ShortName>
+							<Path>SFX\dth_ui_back_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="502835106" Name="UI_Exit" ObjectPath="\Events\Default Work Unit\SFX Events\UI\UI_Exit" DurationType="OneShot" DurationMin="0.444792" DurationMax="0.444792">
+					<IncludedMemoryFiles>
+						<File Id="825745145" Language="SFX">
+							<ShortName>dth_ui_exit.wav</ShortName>
+							<Path>SFX\dth_ui_exit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2792155208" Name="UI_Pause" ObjectPath="\Events\Default Work Unit\SFX Events\UI\UI_Pause" DurationType="OneShot" DurationMin="0.468896" DurationMax="0.468896">
+					<IncludedMemoryFiles>
+						<File Id="338819010" Language="SFX">
+							<ShortName>dth_ui_pause.wav</ShortName>
+							<Path>SFX\dth_ui_pause_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2391028579" Name="UI_Resume" ObjectPath="\Events\Default Work Unit\SFX Events\UI\UI_Resume" DurationType="OneShot" DurationMin="0.468896" DurationMax="0.468896">
+					<IncludedMemoryFiles>
+						<File Id="60991830" Language="SFX">
+							<ShortName>dth_ui_resume.wav</ShortName>
+							<Path>SFX\dth_ui_resume_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\Default Work Unit\SFX Events\UI\UI_Select" DurationType="OneShot" DurationMin="0.204625" DurationMax="0.204625">
+					<IncludedMemoryFiles>
+						<File Id="40937705" Language="SFX">
+							<ShortName>dth_ui_select.wav</ShortName>
+							<Path>SFX\dth_ui_select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1876669018" Language="SFX" Hash="2392052851">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\PlayerCharacters</ObjectPath>
+			<ShortName>PlayerCharacters</ShortName>
+			<Path>PlayerCharacters.bnk</Path>
+			<IncludedEvents>
+				<Event Id="331083659" Name="HedgehogFootsteps" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps\HedgehogFootsteps" DurationType="OneShot" DurationMin="0.415771" DurationMax="0.475437">
+					<IncludedMemoryFiles>
+						<File Id="23433937" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs_10C4C929.wem</Path>
+						</File>
+						<File Id="94837107" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-009.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-009_10C4C929.wem</Path>
+						</File>
+						<File Id="109469875" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-002.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-002_10C4C929.wem</Path>
+						</File>
+						<File Id="238615885" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-003.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-003_10C4C929.wem</Path>
+						</File>
+						<File Id="430405397" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-001.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-001_10C4C929.wem</Path>
+						</File>
+						<File Id="431142356" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-005.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-005_10C4C929.wem</Path>
+						</File>
+						<File Id="722627180" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-006.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-006_10C4C929.wem</Path>
+						</File>
+						<File Id="756582198" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-007.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-007_10C4C929.wem</Path>
+						</File>
+						<File Id="815878603" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-004.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-004_10C4C929.wem</Path>
+						</File>
+						<File Id="849343062" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fs-008.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fs-008_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="108803881" Name="HedgehogWeapon_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogWeapon_Fire" DurationType="OneShot" DurationMin="0.414771" DurationMax="0.414771">
+					<IncludedMemoryFiles>
+						<File Id="129781958" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-007.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-007_10C4C929.wem</Path>
+						</File>
+						<File Id="275312991" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-003.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-003_10C4C929.wem</Path>
+						</File>
+						<File Id="277368314" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-005.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-005_10C4C929.wem</Path>
+						</File>
+						<File Id="319644633" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-001.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-001_10C4C929.wem</Path>
+						</File>
+						<File Id="356069896" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-009.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-009_10C4C929.wem</Path>
+						</File>
+						<File Id="459973741" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire_tail.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire_tail_10C4C929.wem</Path>
+						</File>
+						<File Id="489965562" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-004.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-004_10C4C929.wem</Path>
+						</File>
+						<File Id="838959370" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire_10C4C929.wem</Path>
+						</File>
+						<File Id="918999660" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-002.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-002_10C4C929.wem</Path>
+						</File>
+						<File Id="987281113" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-006.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-006_10C4C929.wem</Path>
+						</File>
+						<File Id="1036465064" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-008.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-008_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2119598834" Name="HedgehogWeapon_Reload" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogWeapon_Reload" DurationType="OneShot" DurationMin="0.510063" DurationMax="0.570646">
+					<IncludedMemoryFiles>
+						<File Id="239753893" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_reload-002.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_reload-002_10C4C929.wem</Path>
+						</File>
+						<File Id="995038768" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_reload-001.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_reload-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1030885910" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_reload.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_reload_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1494531899" Name="RabbitFootstep" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitFootsteps\RabbitFootstep" DurationType="OneShot" DurationMin="0.591250" DurationMax="0.752042">
+					<IncludedMemoryFiles>
+						<File Id="46106980" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-002.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-002_10C4C929.wem</Path>
+						</File>
+						<File Id="89805754" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-008.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-008_10C4C929.wem</Path>
+						</File>
+						<File Id="192931128" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs_10C4C929.wem</Path>
+						</File>
+						<File Id="205379855" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-004.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-004_10C4C929.wem</Path>
+						</File>
+						<File Id="578259976" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-006.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-006_10C4C929.wem</Path>
+						</File>
+						<File Id="594963368" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-001.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-001_10C4C929.wem</Path>
+						</File>
+						<File Id="665934866" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-009.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-009_10C4C929.wem</Path>
+						</File>
+						<File Id="819853269" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-005.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-005_10C4C929.wem</Path>
+						</File>
+						<File Id="847089214" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-003.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-003_10C4C929.wem</Path>
+						</File>
+						<File Id="953494595" Language="SFX">
+							<ShortName>dth_sfx_rabbit_fs-007.wav</ShortName>
+							<Path>SFX\dth_sfx_rabbit_fs-007_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4010101365" Name="SaladShotgun_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon\SaladShotgun_Fire" DurationType="OneShot" DurationMin="1.349208" DurationMax="1.797125">
+					<IncludedMemoryFiles>
+						<File Id="34103374" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-005_10C4C929.wem</Path>
+						</File>
+						<File Id="43086021" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="89208102" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-006_10C4C929.wem</Path>
+						</File>
+						<File Id="97150882" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-006_10C4C929.wem</Path>
+						</File>
+						<File Id="113506800" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-001_10C4C929.wem</Path>
+						</File>
+						<File Id="136055860" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-005_10C4C929.wem</Path>
+						</File>
+						<File Id="157639461" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-002_10C4C929.wem</Path>
+						</File>
+						<File Id="158635808" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-003_10C4C929.wem</Path>
+						</File>
+						<File Id="170602507" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-004_10C4C929.wem</Path>
+						</File>
+						<File Id="205404140" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="248316132" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-006_10C4C929.wem</Path>
+						</File>
+						<File Id="289597554" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-004_10C4C929.wem</Path>
+						</File>
+						<File Id="294319950" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="308975593" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-006_10C4C929.wem</Path>
+						</File>
+						<File Id="317675168" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-005_10C4C929.wem</Path>
+						</File>
+						<File Id="336634153" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-001_10C4C929.wem</Path>
+						</File>
+						<File Id="340786776" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-004_10C4C929.wem</Path>
+						</File>
+						<File Id="357936858" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-004_10C4C929.wem</Path>
+						</File>
+						<File Id="382921520" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-001_10C4C929.wem</Path>
+						</File>
+						<File Id="402031891" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="418334104" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="450970893" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-001_10C4C929.wem</Path>
+						</File>
+						<File Id="456291477" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="470302562" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-001_10C4C929.wem</Path>
+						</File>
+						<File Id="476280359" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-002_10C4C929.wem</Path>
+						</File>
+						<File Id="489933212" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-005_10C4C929.wem</Path>
+						</File>
+						<File Id="534335361" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-006_10C4C929.wem</Path>
+						</File>
+						<File Id="538193416" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-002_10C4C929.wem</Path>
+						</File>
+						<File Id="539155215" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-003_10C4C929.wem</Path>
+						</File>
+						<File Id="599762076" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-004_10C4C929.wem</Path>
+						</File>
+						<File Id="603517926" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-002_10C4C929.wem</Path>
+						</File>
+						<File Id="604842958" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-001_10C4C929.wem</Path>
+						</File>
+						<File Id="626142627" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-005_10C4C929.wem</Path>
+						</File>
+						<File Id="664273762" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="664311677" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-002_10C4C929.wem</Path>
+						</File>
+						<File Id="669748126" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-003_10C4C929.wem</Path>
+						</File>
+						<File Id="669785341" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-005_10C4C929.wem</Path>
+						</File>
+						<File Id="716901820" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-006_10C4C929.wem</Path>
+						</File>
+						<File Id="746796912" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_6-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_6-003_10C4C929.wem</Path>
+						</File>
+						<File Id="798090850" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="802623149" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="807891644" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="839308799" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-002_10C4C929.wem</Path>
+						</File>
+						<File Id="841943100" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="908509275" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-003_10C4C929.wem</Path>
+						</File>
+						<File Id="954984202" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-006_10C4C929.wem</Path>
+						</File>
+						<File Id="972174749" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-005_10C4C929.wem</Path>
+						</File>
+						<File Id="992972982" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_3-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_3-004_10C4C929.wem</Path>
+						</File>
+						<File Id="999659026" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_2-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_2-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1005858738" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_2-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_2-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1008545100" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_5-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_5-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1029862697" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_7-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_7-004_10C4C929.wem</Path>
+						</File>
+						<File Id="1032079371" Language="SFX">
+							<ShortName>dth_sfx_shotgun_tail_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_tail_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1055237490" Language="SFX">
+							<ShortName>dth_sfx_shotgun_fire_4-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_fire_4-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2863745006" Name="SaladShotgun_Reload" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon\SaladShotgun_Reload" DurationType="OneShot" DurationMin="0.849750" DurationMax="1.157250">
+					<IncludedMemoryFiles>
+						<File Id="22219188" Language="SFX">
+							<ShortName>dth_sfx_shotgun_shells-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_shells-002_10C4C929.wem</Path>
+						</File>
+						<File Id="139366367" Language="SFX">
+							<ShortName>dth_sfx_shotgun_reload.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_reload_10C4C929.wem</Path>
+						</File>
+						<File Id="156802360" Language="SFX">
+							<ShortName>dth_sfx_shotgun_shells-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_shells-001_10C4C929.wem</Path>
+						</File>
+						<File Id="217500826" Language="SFX">
+							<ShortName>dth_sfx_shotgun_shells-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_shells-004_10C4C929.wem</Path>
+						</File>
+						<File Id="288122913" Language="SFX">
+							<ShortName>dth_sfx_shotgun_reload-002.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_reload-002_10C4C929.wem</Path>
+						</File>
+						<File Id="297756353" Language="SFX">
+							<ShortName>dth_sfx_shotgun_shells-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_shells-003_10C4C929.wem</Path>
+						</File>
+						<File Id="305945133" Language="SFX">
+							<ShortName>dth_sfx_shotgun_reload-001.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_reload-001_10C4C929.wem</Path>
+						</File>
+						<File Id="462503223" Language="SFX">
+							<ShortName>dth_sfx_shotgun_shells-006.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_shells-006_10C4C929.wem</Path>
+						</File>
+						<File Id="534011907" Language="SFX">
+							<ShortName>dth_sfx_shotgun_reload-003.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_reload-003_10C4C929.wem</Path>
+						</File>
+						<File Id="842589504" Language="SFX">
+							<ShortName>dth_sfx_shotgun_shells-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_shells-005_10C4C929.wem</Path>
+						</File>
+						<File Id="945563650" Language="SFX">
+							<ShortName>dth_sfx_shotgun_reload-005.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_reload-005_10C4C929.wem</Path>
+						</File>
+						<File Id="1002640844" Language="SFX">
+							<ShortName>dth_sfx_shotgun_reload-004.wav</ShortName>
+							<Path>SFX\dth_sfx_shotgun_reload-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1269630546" Name="SkunkFootsteps" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps\SkunkFootsteps" DurationType="OneShot" DurationMin="0.132000" DurationMax="0.248667">
+					<IncludedMemoryFiles>
+						<File Id="171589406" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-005.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-005_10C4C929.wem</Path>
+						</File>
+						<File Id="183819869" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-001.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-001_10C4C929.wem</Path>
+						</File>
+						<File Id="400055488" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-006.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-006_10C4C929.wem</Path>
+						</File>
+						<File Id="713505960" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-007.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-007_10C4C929.wem</Path>
+						</File>
+						<File Id="782810532" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-003.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-003_10C4C929.wem</Path>
+						</File>
+						<File Id="793964757" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-004.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-004_10C4C929.wem</Path>
+						</File>
+						<File Id="892718366" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-002.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-002_10C4C929.wem</Path>
+						</File>
+						<File Id="931762800" Language="SFX">
+							<ShortName>dth_sfx_skunk_beach_fs-008.wav</ShortName>
+							<Path>SFX\dth_sfx_skunk_beach_fs-008_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1650535520" Name="SkunkWeapon_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon\SkunkWeapon_Fire" DurationType="OneShot" DurationMin="1.187688" DurationMax="2.024812">
+					<IncludedMemoryFiles>
+						<File Id="6862118" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_3-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_3-002_10C4C929.wem</Path>
+						</File>
+						<File Id="54938733" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_3-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_3-001_10C4C929.wem</Path>
+						</File>
+						<File Id="64356407" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_7-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_7-002_10C4C929.wem</Path>
+						</File>
+						<File Id="64462570" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_4-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_4-005_10C4C929.wem</Path>
+						</File>
+						<File Id="83094709" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_3-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_3-004_10C4C929.wem</Path>
+						</File>
+						<File Id="92035161" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_3-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_3-003_10C4C929.wem</Path>
+						</File>
+						<File Id="99027138" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_4-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_4-004_10C4C929.wem</Path>
+						</File>
+						<File Id="102523041" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_7-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_7-006_10C4C929.wem</Path>
+						</File>
+						<File Id="108916331" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="125080831" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_8-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_8-003_10C4C929.wem</Path>
+						</File>
+						<File Id="136948669" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_6-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_6-002_10C4C929.wem</Path>
+						</File>
+						<File Id="137078626" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="149934275" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="169312550" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="189330008" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_5-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_5-005_10C4C929.wem</Path>
+						</File>
+						<File Id="219599166" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="224516984" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_5-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_5-003_10C4C929.wem</Path>
+						</File>
+						<File Id="243088579" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_3-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_3-002_10C4C929.wem</Path>
+						</File>
+						<File Id="298053769" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_4-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_4-002_10C4C929.wem</Path>
+						</File>
+						<File Id="334693072" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_9-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_9-002_10C4C929.wem</Path>
+						</File>
+						<File Id="335348825" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_7-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_7-001_10C4C929.wem</Path>
+						</File>
+						<File Id="343744028" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_5-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_5-004_10C4C929.wem</Path>
+						</File>
+						<File Id="347859156" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_4-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_4-005_10C4C929.wem</Path>
+						</File>
+						<File Id="378849312" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_2.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_2_10C4C929.wem</Path>
+						</File>
+						<File Id="379447972" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_6-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_6-006_10C4C929.wem</Path>
+						</File>
+						<File Id="379902718" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_2-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_2-001_10C4C929.wem</Path>
+						</File>
+						<File Id="387098027" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_1-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="390478004" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_6-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_6-003_10C4C929.wem</Path>
+						</File>
+						<File Id="392655106" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_1-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_1-006_10C4C929.wem</Path>
+						</File>
+						<File Id="402987686" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_4-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_4-006_10C4C929.wem</Path>
+						</File>
+						<File Id="410092003" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_2-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_2-004_10C4C929.wem</Path>
+						</File>
+						<File Id="421404577" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_10-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_10-002_10C4C929.wem</Path>
+						</File>
+						<File Id="481848590" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="498876941" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_8-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_8-005_10C4C929.wem</Path>
+						</File>
+						<File Id="505440926" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_8-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_8-004_10C4C929.wem</Path>
+						</File>
+						<File Id="526007384" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_7-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_7-003_10C4C929.wem</Path>
+						</File>
+						<File Id="561059156" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_7-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_7-004_10C4C929.wem</Path>
+						</File>
+						<File Id="575367468" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_3-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_3-003_10C4C929.wem</Path>
+						</File>
+						<File Id="590411499" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_6-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_6-005_10C4C929.wem</Path>
+						</File>
+						<File Id="652659582" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_5-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_5-006_10C4C929.wem</Path>
+						</File>
+						<File Id="656855569" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_6-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_6-001_10C4C929.wem</Path>
+						</File>
+						<File Id="658312938" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_4-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_4-004_10C4C929.wem</Path>
+						</File>
+						<File Id="680411028" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="692872968" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_3-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_3-001_10C4C929.wem</Path>
+						</File>
+						<File Id="694793516" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_8-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_8-006_10C4C929.wem</Path>
+						</File>
+						<File Id="713135085" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_5-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_5-002_10C4C929.wem</Path>
+						</File>
+						<File Id="722912075" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_8-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_8-002_10C4C929.wem</Path>
+						</File>
+						<File Id="725880674" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_7-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_7-005_10C4C929.wem</Path>
+						</File>
+						<File Id="742227044" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_4-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_4-001_10C4C929.wem</Path>
+						</File>
+						<File Id="760666755" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_5-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_5-001_10C4C929.wem</Path>
+						</File>
+						<File Id="770072450" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_2-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_2-002_10C4C929.wem</Path>
+						</File>
+						<File Id="780758226" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="805896095" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_4-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_4-003_10C4C929.wem</Path>
+						</File>
+						<File Id="823364749" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_4-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_4-002_10C4C929.wem</Path>
+						</File>
+						<File Id="823468794" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="875638117" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_4-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_4-001_10C4C929.wem</Path>
+						</File>
+						<File Id="879360798" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_10-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_10-001_10C4C929.wem</Path>
+						</File>
+						<File Id="960062349" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_10-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_10-003_10C4C929.wem</Path>
+						</File>
+						<File Id="968710444" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_2-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_2-003_10C4C929.wem</Path>
+						</File>
+						<File Id="977014348" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_4-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_4-006_10C4C929.wem</Path>
+						</File>
+						<File Id="981377699" Language="SFX">
+							<ShortName>dth_sfx_launcher_flight_4-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_flight_4-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1005274483" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_6-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_6-004_10C4C929.wem</Path>
+						</File>
+						<File Id="1039599956" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="1044156211" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_9-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_9-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1052788957" Language="SFX">
+							<ShortName>dth_sfx_launcher_fire_8-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_fire_8-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1851786378" Name="SkunkWeapon_Impact" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon\SkunkWeapon_Impact" DurationType="OneShot" DurationMin="1.814792" DurationMax="2.056521">
+					<IncludedMemoryFiles>
+						<File Id="47573164" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_2-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_2-002_10C4C929.wem</Path>
+						</File>
+						<File Id="58442442" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_3-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_3-004_10C4C929.wem</Path>
+						</File>
+						<File Id="73836778" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_1-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_1-005_10C4C929.wem</Path>
+						</File>
+						<File Id="194679369" Language="SFX">
+							<ShortName>dth_sfx_launcher_gas-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_gas-005_10C4C929.wem</Path>
+						</File>
+						<File Id="244942537" Language="SFX">
+							<ShortName>dth_sfx_launcher_gas-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_gas-001_10C4C929.wem</Path>
+						</File>
+						<File Id="269323527" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_1-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_1-004_10C4C929.wem</Path>
+						</File>
+						<File Id="271077646" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_2-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_2-004_10C4C929.wem</Path>
+						</File>
+						<File Id="451569257" Language="SFX">
+							<ShortName>dth_sfx_launcher_gas-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_gas-006_10C4C929.wem</Path>
+						</File>
+						<File Id="462581811" Language="SFX">
+							<ShortName>dth_sfx_launcher_gas-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_gas-002_10C4C929.wem</Path>
+						</File>
+						<File Id="476193240" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_1-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_1-001_10C4C929.wem</Path>
+						</File>
+						<File Id="567006969" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_1-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_1-002_10C4C929.wem</Path>
+						</File>
+						<File Id="592718463" Language="SFX">
+							<ShortName>dth_sfx_launcher_gas-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_gas-003_10C4C929.wem</Path>
+						</File>
+						<File Id="673769682" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_2-005.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_2-005_10C4C929.wem</Path>
+						</File>
+						<File Id="722177303" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_2-006.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_2-006_10C4C929.wem</Path>
+						</File>
+						<File Id="724352144" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_3-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_3-003_10C4C929.wem</Path>
+						</File>
+						<File Id="771405128" Language="SFX">
+							<ShortName>dth_sfx_launcher_gas-004.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_gas-004_10C4C929.wem</Path>
+						</File>
+						<File Id="842043579" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_1-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_1-003_10C4C929.wem</Path>
+						</File>
+						<File Id="923109899" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_2-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_2-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1031022664" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_3-001.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_3-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1050728419" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_2-003.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_2-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1071836248" Language="SFX">
+							<ShortName>dth_sfx_launcher_impact_3-002.wav</ShortName>
+							<Path>SFX\dth_sfx_launcher_impact_3-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2299321487" Language="SFX" Hash="1859221483">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Enemy</ObjectPath>
+			<ShortName>Enemy</ShortName>
+			<Path>Enemy.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1123532588" Name="OtterWeapon_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\Enemy\Otter\OtterWeapon_Fire" DurationType="OneShot" DurationMin="0.464771" DurationMax="0.510917">
+					<IncludedMemoryFiles>
+						<File Id="2498134" Language="SFX">
+							<ShortName>dth_sfx_otter_slingshot-002.wav</ShortName>
+							<Path>SFX\dth_sfx_otter_slingshot-002_10C4C929.wem</Path>
+						</File>
+						<File Id="68478102" Language="SFX">
+							<ShortName>dth_sfx_otter_slingshot-004.wav</ShortName>
+							<Path>SFX\dth_sfx_otter_slingshot-004_10C4C929.wem</Path>
+						</File>
+						<File Id="289930912" Language="SFX">
+							<ShortName>dth_sfx_otter_slingshot-005.wav</ShortName>
+							<Path>SFX\dth_sfx_otter_slingshot-005_10C4C929.wem</Path>
+						</File>
+						<File Id="525818432" Language="SFX">
+							<ShortName>dth_sfx_otter_slingshot-003.wav</ShortName>
+							<Path>SFX\dth_sfx_otter_slingshot-003_10C4C929.wem</Path>
+						</File>
+						<File Id="542119513" Language="SFX">
+							<ShortName>dth_sfx_otter_slingshot-001.wav</ShortName>
+							<Path>SFX\dth_sfx_otter_slingshot-001_10C4C929.wem</Path>
+						</File>
+						<File Id="847751535" Language="SFX">
+							<ShortName>dth_sfx_otter_slingshot.wav</ShortName>
+							<Path>SFX\dth_sfx_otter_slingshot_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2376466361" Language="SFX" Hash="2783862883">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Other</ObjectPath>
+			<ShortName>Other</ShortName>
+			<Path>Other.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3065686491" Name="HealthPickup" ObjectPath="\Events\Default Work Unit\SFX Events\HealthPickup" DurationType="OneShot" DurationMin="1.659042" DurationMax="1.659042">
+					<IncludedMemoryFiles>
+						<File Id="895399203" Language="SFX">
+							<ShortName>dth_sfx_carrot_health.wav</ShortName>
+							<Path>SFX\dth_sfx_carrot_health_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3733553022" Name="HitMarker" ObjectPath="\Events\Default Work Unit\SFX Events\HitMarker" DurationType="OneShot" DurationMin="0.188292" DurationMax="0.225917">
+					<IncludedMemoryFiles>
+						<File Id="148756817" Language="SFX">
+							<ShortName>dth_sfx_hit_marker_3.wav</ShortName>
+							<Path>SFX\dth_sfx_hit_marker_3_10C4C929.wem</Path>
+						</File>
+						<File Id="767328228" Language="SFX">
+							<ShortName>dth_sfx_hit_marker_1.wav</ShortName>
+							<Path>SFX\dth_sfx_hit_marker_1_10C4C929.wem</Path>
+						</File>
+						<File Id="949344277" Language="SFX">
+							<ShortName>dth_sfx_hit_marker_2.wav</ShortName>
+							<Path>SFX\dth_sfx_hit_marker_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1036064269" Language="SFX">
+							<ShortName>dth_sfx_hit_marker_4.wav</ShortName>
+							<Path>SFX\dth_sfx_hit_marker_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1017222595" Name="LowHealth" ObjectPath="\Events\Default Work Unit\SFX Events\LowHealth" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="944617042" Language="SFX">
+							<ShortName>dth_sfx_low_health.wav</ShortName>
+							<Path>SFX\dth_sfx_low_health_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="337406793" Name="PlayerDamage" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerDamage" DurationType="OneShot" DurationMin="0.350354" DurationMax="0.449187">
+					<IncludedMemoryFiles>
+						<File Id="277170315" Language="SFX">
+							<ShortName>dth_sfx_player_damage-002.wav</ShortName>
+							<Path>SFX\dth_sfx_player_damage-002_10C4C929.wem</Path>
+						</File>
+						<File Id="407572630" Language="SFX">
+							<ShortName>dth_sfx_player_damage-004.wav</ShortName>
+							<Path>SFX\dth_sfx_player_damage-004_10C4C929.wem</Path>
+						</File>
+						<File Id="502345099" Language="SFX">
+							<ShortName>dth_sfx_player_damage.wav</ShortName>
+							<Path>SFX\dth_sfx_player_damage_10C4C929.wem</Path>
+						</File>
+						<File Id="876307201" Language="SFX">
+							<ShortName>dth_sfx_player_damage-001.wav</ShortName>
+							<Path>SFX\dth_sfx_player_damage-001_10C4C929.wem</Path>
+						</File>
+						<File Id="891339000" Language="SFX">
+							<ShortName>dth_sfx_player_damage-005.wav</ShortName>
+							<Path>SFX\dth_sfx_player_damage-005_10C4C929.wem</Path>
+						</File>
+						<File Id="1055448957" Language="SFX">
+							<ShortName>dth_sfx_player_damage-003.wav</ShortName>
+							<Path>SFX\dth_sfx_player_damage-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1974576135" Name="RoomClear" ObjectPath="\Events\Default Work Unit\SFX Events\RoomClear" DurationType="OneShot" DurationMin="1.992896" DurationMax="1.992896">
+					<IncludedMemoryFiles>
+						<File Id="162812622" Language="SFX">
+							<ShortName>dth_sfx_room_clear.wav</ShortName>
+							<Path>SFX\dth_sfx_room_clear_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4184936253" Language="SFX" Hash="1359848202">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\StoryMusic</ObjectPath>
+			<ShortName>StoryMusic</ShortName>
+			<Path>StoryMusic.bnk</Path>
+			<IncludedEvents>
+				<Event Id="509751257" Name="Play_IntroCutsceneMusic" ObjectPath="\Events\Default Work Unit\Music Events\Play_IntroCutsceneMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="651632369" Language="SFX">
+							<ShortName>Intro Cutscene - A Rousing Risk.wav</ShortName>
+							<Path>SFX\Intro Cutscene - A Rousing Risk_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1348496591" Name="Play_Story1Music" ObjectPath="\Events\Default Work Unit\Music Events\Play_Story1Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="739124575" Language="SFX">
+							<ShortName>Story 1 - Woodland Words.wav</ShortName>
+							<Path>SFX\Story 1 - Woodland Words_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1978838842" Name="Play_Story2Music" ObjectPath="\Events\Default Work Unit\Music Events\Play_Story2Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="802209778" Language="SFX">
+							<ShortName>Story 2 - Costal Conversation.wav</ShortName>
+							<Path>SFX\Story 2 - Costal Conversation_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="14830353" Name="Play_Story3Music" ObjectPath="\Events\Default Work Unit\Music Events\Play_Story3Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="337484419" Language="SFX">
+							<ShortName>Story 3 - Tidal Talk.wav</ShortName>
+							<Path>SFX\Story 3 - Tidal Talk_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

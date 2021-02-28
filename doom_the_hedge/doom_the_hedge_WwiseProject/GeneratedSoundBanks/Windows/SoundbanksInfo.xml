@@ -383,7 +383,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1876669018" Language="SFX" Hash="3850921845">
+		<SoundBank Id="1876669018" Language="SFX" Hash="2392052851">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\PlayerCharacters</ObjectPath>
 			<ShortName>PlayerCharacters</ShortName>
 			<Path>PlayerCharacters.bnk</Path>
@@ -429,6 +429,70 @@
 						<File Id="849343062" Language="SFX">
 							<ShortName>dth_sfx_hedgehog_fs-008.wav</ShortName>
 							<Path>SFX\dth_sfx_hedgehog_fs-008_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="108803881" Name="HedgehogWeapon_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogWeapon_Fire" DurationType="OneShot" DurationMin="0.414771" DurationMax="0.414771">
+					<IncludedMemoryFiles>
+						<File Id="129781958" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-007.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-007_10C4C929.wem</Path>
+						</File>
+						<File Id="275312991" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-003.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-003_10C4C929.wem</Path>
+						</File>
+						<File Id="277368314" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-005.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-005_10C4C929.wem</Path>
+						</File>
+						<File Id="319644633" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-001.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-001_10C4C929.wem</Path>
+						</File>
+						<File Id="356069896" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-009.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-009_10C4C929.wem</Path>
+						</File>
+						<File Id="459973741" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire_tail.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire_tail_10C4C929.wem</Path>
+						</File>
+						<File Id="489965562" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-004.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-004_10C4C929.wem</Path>
+						</File>
+						<File Id="838959370" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire_10C4C929.wem</Path>
+						</File>
+						<File Id="918999660" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-002.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-002_10C4C929.wem</Path>
+						</File>
+						<File Id="987281113" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-006.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-006_10C4C929.wem</Path>
+						</File>
+						<File Id="1036465064" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_fire-008.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_fire-008_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2119598834" Name="HedgehogWeapon_Reload" ObjectPath="\Events\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogWeapon_Reload" DurationType="OneShot" DurationMin="0.510063" DurationMax="0.570646">
+					<IncludedMemoryFiles>
+						<File Id="239753893" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_reload-002.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_reload-002_10C4C929.wem</Path>
+						</File>
+						<File Id="995038768" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_reload-001.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_reload-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1030885910" Language="SFX">
+							<ShortName>dth_sfx_hedgehog_reload.wav</ShortName>
+							<Path>SFX\dth_sfx_hedgehog_reload_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

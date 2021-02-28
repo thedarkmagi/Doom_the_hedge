@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID FORESTAMBIENCE_PLAY = 3299866627U;
         static const AkUniqueID HEALTHPICKUP = 3065686491U;
         static const AkUniqueID HEDGEHOGFOOTSTEPS = 331083659U;
+        static const AkUniqueID HEDGEHOGWEAPON_FIRE = 108803881U;
+        static const AkUniqueID HEDGEHOGWEAPON_RELOAD = 2119598834U;
         static const AkUniqueID HITMARKER = 3733553022U;
         static const AkUniqueID LOWHEALTH = 1017222595U;
         static const AkUniqueID MENUTOGGLE = 3876141876U;

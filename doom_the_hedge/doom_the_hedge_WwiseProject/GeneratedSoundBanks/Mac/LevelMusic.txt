@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	565626987	Play_Level2Music			\Default Work Unit\Music Events\Play_Level2Music	
+	1946308780	Play_Level3Music			\Default Work Unit\Music Events\Play_Level3Music	
+	2759422985	Play_Level3EscalationMusic			\Default Work Unit\Music Events\Play_Level3EscalationMusic	
+	3605952550	Play_Level1Music			\Default Work Unit\Music Events\Play_Level1Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	115516120	Level 1 - Forest Frenzy	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\Level 1 - Forest Frenzy_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Level 1 - Forest\Level 1 - Forest Frenzy		17611840
+	373016555	Level 3 - Ocean Onslaught	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\Level 3 - Ocean Onslaught_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Level 3 - Ocean\OceanLevelMusic\Level 3 - Ocean Onslaught		12700864
+	643497216	Level 2 - Beach Bombardment	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\Level 2 - Beach Bombardment_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Level 2 - Beach\Level 2 - Beach Bombardment		16934464
+	762810497	Level 3 Boss Fight - Whale Warfare	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\Level 3 Boss Fight - Whale Warfare_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Level 3 - Ocean\BossFight\Level 3 Boss Fight - Whale Warfare		16934464
+
