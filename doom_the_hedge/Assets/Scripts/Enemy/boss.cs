@@ -12,21 +12,38 @@ public enum AttackModes
 public class boss : MonoBehaviour
 {
     public List<GameObject> bubbleBlastLevels;
+    public GameObject shockwaveObj;
+    public shockwaveOpperator shock;
     public HpPool hp;
 
     public float fireRate;
     public float currFireRate;
 
     public AttackModes nextAttackMode;
+
+    public travelDirection direction;
+    public GameObject startPos;
+    public GameObject endPos;
+    public float travelUpSpeed;
+    public float travelDownSpeed;
+    private float startTime;
+    private float journeyLength;
     // Start is called before the first frame update
     void Start()
     {
-         
+        //shock = GetComponent<shockwaveOpperator>();
+        startTime = Time.time;
+        journeyLength = Vector3.Distance(startPos.transform.position, endPos.transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (hp.HP <= 0)
+        {
+            kill();
+        }
+
         currFireRate += Time.deltaTime;
         if (currFireRate > fireRate)
         {
@@ -43,6 +60,10 @@ public class boss : MonoBehaviour
                     break;
             }
             currFireRate = 0;
+        }
+        if(nextAttackMode == AttackModes.shockwave)
+        {
+            shockwave();
         }
     }
 
@@ -65,11 +86,61 @@ public class boss : MonoBehaviour
             nextAttackMode = AttackModes.bubbleBlast;
         }
     }
-
-    void shockwave()
+    void shockwaveSlam()
     {
-
+        shock.activateAttack();
 
         nextAttackMode = AttackModes.bubbleBlast;
+    }
+    void shockwave()
+    {
+        switch (direction)
+        {
+            case travelDirection.up:
+                travelInDirection(endPos, travelUpSpeed);
+                if (Vector3.Distance(transform.position, endPos.transform.position) < 1)
+                {
+                    direction = travelDirection.down;
+                }
+                break;
+            case travelDirection.down:
+                travelInDirection(startPos, travelDownSpeed);
+                if (Vector3.Distance(transform.position, startPos.transform.position) < 1)
+                {
+                    transform.localPosition = Vector3.zero;
+                    //setup for next time
+                    direction = travelDirection.up;
+                    //do attack stuff 
+                    shockwaveSlam();
+                }
+                break;
+            case travelDirection.inactive:
+                break;
+            default:
+                break;
+        }
+
+
+
+
+    }
+
+
+    void travelInDirection(GameObject target, float speed)
+    {
+        // Distance moved equals elapsed time times speed..
+        float distCovered = (Time.time - startTime) * speed;
+        ;
+
+        // Fraction of journey completed equals current distance divided by total distance.
+        float fractionOfJourney = distCovered / journeyLength;
+
+        // Set our position as a fraction of the distance between the markers.
+        transform.position = Vector3.Lerp(transform.position, target.transform.position, fractionOfJourney);
+    }
+
+    void kill()
+    {
+        Destroy(gameObject);
     }
 }
