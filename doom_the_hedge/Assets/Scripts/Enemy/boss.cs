@@ -113,7 +113,7 @@ public class boss : MonoBehaviour
                 travelInDirection(startPos, travelDownSpeed);
                 if (Vector3.Distance(transform.position, startPos.transform.position) < 1)
                 {
-                    transform.localPosition = Vector3.zero;
+                    transform.position = startPos.transform.position;
                     //setup for next time
                     direction = travelDirection.up;
                     //do attack stuff 
