@@ -2380,11 +2380,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3930136735" Language="SFX" Hash="2724299767">
+		<SoundBank Id="3930136735" Language="SFX" Hash="1884749952">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Dialogue</ObjectPath>
 			<ShortName>Dialogue</ShortName>
 			<Path>Dialogue.bnk</Path>
 			<IncludedEvents>
+				<Event Id="756778131" Name="DialogueAll_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\DialogueAll_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="281343018" Name="FishDialogue_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\FishDialogue_Play" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="12300195" Language="SFX">

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BEACHAMBIENCE_PLAY = 4036018679U;
+        static const AkUniqueID DIALOGUEALL_STOP = 756778131U;
         static const AkUniqueID DOLPHINDEATH = 4147878575U;
         static const AkUniqueID DOLPHINMOVEMENT = 177596184U;
         static const AkUniqueID DOLPHINWEAPON_FIRE = 2309630522U;

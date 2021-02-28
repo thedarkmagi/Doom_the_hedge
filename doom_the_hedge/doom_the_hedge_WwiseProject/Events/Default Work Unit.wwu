@@ -1075,6 +1075,60 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="DialogueAll_Stop" ID="{678D86C1-B396-4652-83D2-0E9BD8E24C1E}">
+									<ChildrenList>
+										<Action Name="" ID="{059F1431-479C-45E8-9FD2-F3B3E5981D03}" ShortID="381141406">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dth_dia_fish_convo_loop" ID="{255808FA-FA08-4D91-B649-4BB469C00672}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E0011F3D-8859-457A-9817-6C0EA978C4BC}" ShortID="341896617">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dth_dia_whale_convo_loop" ID="{00F8792F-93EB-4601-963E-37B9F36B4588}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{350BD3EA-62E9-46C5-99C5-C2E4BFC01A77}" ShortID="184864352">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dth_dia_hedgehog_convo_loop" ID="{0BBD1FFF-4B59-4AFD-B663-E54ED04ADBC9}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{293ADA22-3D77-4A5A-ABBF-54EB9F1CEDAA}" ShortID="657401599">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dth_dia_rabbit_convo_loop" ID="{0B43A4DB-6CA5-4A29-B655-AB89F59A5B5A}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E8375C4F-1460-4036-B4E4-B72356F05FCB}" ShortID="910794053">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dth_dia_skunk_convo_loop" ID="{F732BD5A-9F99-470E-83AE-BAD200D6AAE1}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

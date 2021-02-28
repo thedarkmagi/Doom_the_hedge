@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	151821121	WhaleDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Stop	
 	162720350	SkunkDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Stop	
 	281343018	FishDialogue_Play			\Default Work Unit\SFX Events\Dialogue\FishDialogue_Play	
+	756778131	DialogueAll_Stop			\Default Work Unit\SFX Events\Dialogue\DialogueAll_Stop	
 	1118508958	RabbitDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Stop	
 	1329157803	WhaleDialogue_Play			\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Play	
 	1685137252	SkunkDialogue_Play			\Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Play	

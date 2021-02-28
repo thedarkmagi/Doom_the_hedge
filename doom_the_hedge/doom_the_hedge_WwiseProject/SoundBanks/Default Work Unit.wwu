@@ -91,6 +91,7 @@
 								<ObjectRef Name="HedgehogDialogue_Stop" ID="{304D5248-FF9F-4414-9054-B8C9A738A9A7}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="WhaleDialogue_Stop" ID="{EE9C67E8-DA18-444A-89E9-B9EDF18257F3}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RabbitDialogue_Stop" ID="{DF681C45-C20D-4535-8EB0-7876FA3405CC}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="DialogueAll_Stop" ID="{678D86C1-B396-4652-83D2-0E9BD8E24C1E}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="HedgehogDialogue_Play" ID="{6B549A00-3A60-4829-A92E-1E7880C97F73}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="WhaleDialogue_Play" ID="{AA05F796-5CB2-4A46-A1CA-52C72C24A11A}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="SkunkDialogue_Play" ID="{F2595ABE-68B2-4BD9-A9D4-E0097E8C98FC}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
