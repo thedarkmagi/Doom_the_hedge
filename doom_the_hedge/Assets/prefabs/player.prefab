@@ -179,8 +179,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
-  GameplayUI: {fileID: 0}
-  PauseUI: {fileID: 0}
 --- !u!54 &5735741852733026700
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -785,6 +783,12 @@ PrefabInstance:
       propertyPath: weapons.Array.data[1].reloadTime
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[2].projectile
+      value: 
+      objectReference: {fileID: 4393415004714826966, guid: e84dfd8420948df4dbb3515decfce5e1,
+        type: 3}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: weapons.Array.data[2].reloadTime

@@ -588,6 +588,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].projectile
+      value: 
+      objectReference: {fileID: 4393415004714826966, guid: 326d9df39d8d2434a9fa8e9579931576,
+        type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].curFireRate
       value: 2
       objectReference: {fileID: 0}
