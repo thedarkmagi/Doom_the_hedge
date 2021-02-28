@@ -507,10 +507,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -643,10 +653,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -779,10 +799,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -915,10 +945,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1051,10 +1091,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1187,10 +1237,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1323,10 +1383,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1459,10 +1529,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1595,10 +1675,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1731,10 +1821,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -1867,10 +1967,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2003,10 +2113,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2139,10 +2259,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2275,10 +2405,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2411,10 +2551,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2547,10 +2697,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2683,10 +2843,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2819,10 +2989,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -2955,10 +3135,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3091,10 +3281,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3227,10 +3427,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3363,10 +3573,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3499,10 +3719,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3635,10 +3865,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3771,10 +4011,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -3907,10 +4157,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4043,10 +4303,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4179,10 +4449,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4315,10 +4595,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4451,10 +4741,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4587,10 +4887,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4723,10 +5033,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4859,10 +5179,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -4995,10 +5325,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5131,10 +5471,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5267,10 +5617,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5403,10 +5763,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5539,10 +5909,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5675,10 +6055,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5811,10 +6201,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -5947,10 +6347,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6083,10 +6493,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6219,10 +6639,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6355,10 +6785,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6491,10 +6931,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6627,10 +7077,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6763,10 +7223,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -6899,10 +7369,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7035,10 +7515,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7171,10 +7661,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7307,10 +7807,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7443,10 +7953,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7579,10 +8099,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7715,10 +8245,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7851,10 +8391,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -7987,10 +8537,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8123,10 +8683,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8259,10 +8829,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8395,10 +8975,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8531,10 +9121,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8667,10 +9267,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8803,10 +9413,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -8939,10 +9559,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9075,10 +9705,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9211,10 +9851,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9347,10 +9997,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9483,10 +10143,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9619,10 +10289,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9755,10 +10435,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -9891,10 +10581,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10027,10 +10727,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10163,10 +10873,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10299,10 +11019,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10435,10 +11165,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10571,10 +11311,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10707,10 +11457,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10843,10 +11603,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -10979,10 +11749,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11115,10 +11895,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11251,10 +12041,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11387,10 +12187,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11523,10 +12333,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11659,10 +12479,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11795,10 +12625,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -11931,10 +12771,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12067,10 +12917,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12203,10 +13063,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12339,10 +13209,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12475,10 +13355,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12611,10 +13501,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12747,10 +13647,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -12883,10 +13793,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13019,10 +13939,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13155,10 +14085,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13291,10 +14231,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13427,10 +14377,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13563,10 +14523,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13699,10 +14669,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13835,10 +14815,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -13971,10 +14961,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14107,10 +15107,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14243,10 +15253,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14379,10 +15399,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14515,10 +15545,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14651,10 +15691,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14787,10 +15837,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -14923,10 +15983,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
@@ -15059,10 +16129,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[0].fireRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[0].projectile
       value: 
       objectReference: {fileID: 8853737048482071671, guid: a91892699403b9c4fafa0f53ea210eb2,
         type: 3}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: weapons.Array.data[0].curFireRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482518, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Name
