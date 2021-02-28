@@ -24,6 +24,7 @@ public class boss : MonoBehaviour
     public travelDirection direction;
     public GameObject startPos;
     public GameObject endPos;
+    public GameObject trigger;
     public float travelUpSpeed;
     public float travelDownSpeed;
     private float startTime;
@@ -33,6 +34,7 @@ public class boss : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        trigger.GetComponent<Collider>().enabled = false;
         //shock = GetComponent<shockwaveOpperator>();
         startTime = Time.time;
         journeyLength = Vector3.Distance(startPos.transform.position, endPos.transform.position);
@@ -151,5 +153,6 @@ public class boss : MonoBehaviour
         {
             Destroy(waveController);
         }
+        trigger.GetComponent<Collider>().enabled=true;
     }
 }
