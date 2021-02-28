@@ -1034,8 +1034,7 @@ MonoBehaviour:
   - /doom_the_hedge_WwiseProject/Events/Default Work Unit
   - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events
   - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Ambience
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/PlayerCharacters
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/PlayerCharacters/Skunk
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/PlayerCharacters/Skunk/SkunkWeapon
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Enemy
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Enemy/Otter
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
