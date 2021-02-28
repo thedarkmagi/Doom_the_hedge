@@ -67,6 +67,7 @@
 						</SoundBank>
 						<SoundBank Name="Other" ID="{0CC78557-2EA0-485F-91E5-A783427E97C1}">
 							<ObjectInclusionList>
+								<ObjectRef Name="CrowdCheer_Play" ID="{2B050181-11D4-4145-BD48-A94E1DC9E73E}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="HealthPickup" ID="{771AE19D-609D-4181-BD08-D65E89B1B637}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="PlayerDamage" ID="{DBC93018-8702-46A3-A60E-BE143FB3EF1A}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="RoomClear" ID="{9EFCBE2C-9D71-4AC1-AAF0-F746B9B16EE0}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>

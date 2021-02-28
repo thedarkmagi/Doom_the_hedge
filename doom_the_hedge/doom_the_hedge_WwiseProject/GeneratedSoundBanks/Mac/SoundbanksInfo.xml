@@ -2305,11 +2305,19 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2376466361" Language="SFX" Hash="2783862883">
+		<SoundBank Id="2376466361" Language="SFX" Hash="2847297419">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Other</ObjectPath>
 			<ShortName>Other</ShortName>
 			<Path>Other.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1408849012" Name="CrowdCheer_Play" ObjectPath="\Events\Default Work Unit\CrowdCheer_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="167358939" Language="SFX">
+							<ShortName>CrowdCheer_Loop.wav</ShortName>
+							<Path>SFX\CrowdCheer_Loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3065686491" Name="HealthPickup" ObjectPath="\Events\Default Work Unit\SFX Events\HealthPickup" DurationType="OneShot" DurationMin="1.659042" DurationMax="1.659042">
 					<IncludedMemoryFiles>
 						<File Id="895399203" Language="SFX">

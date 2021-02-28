@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	337406793	PlayerDamage			\Default Work Unit\SFX Events\PlayerDamage	
 	1017222595	LowHealth			\Default Work Unit\SFX Events\LowHealth	
+	1408849012	CrowdCheer_Play			\Default Work Unit\CrowdCheer_Play	
 	1974576135	RoomClear			\Default Work Unit\SFX Events\RoomClear	
 	3065686491	HealthPickup			\Default Work Unit\SFX Events\HealthPickup	
 	3733553022	HitMarker			\Default Work Unit\SFX Events\HitMarker	
@@ -8,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	148756817	dth_sfx_hit_marker_3	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_hit_marker_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\HitMarker\dth_sfx_hit_marker_3		20064
 	162812622	dth_sfx_room_clear	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_room_clear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\RoomClear\dth_sfx_room_clear		191382
+	167358939	CrowdCheer_Loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\CrowdCheer_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CrowdCheer_Loop		8643664
 	277170315	dth_sfx_player_damage-002	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-002		86308
 	407572630	dth_sfx_player_damage-004	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage-004		81432
 	502345099	dth_sfx_player_damage	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\dth_sfx_player_damage_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Misc\PlayerDamage\dth_sfx_player_damage		74892

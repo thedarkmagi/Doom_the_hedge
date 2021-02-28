@@ -13704,6 +13704,36 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="CrowdCheer_Loop" ID="{994E4BE5-A95A-42B6-BF0D-9350709700F8}" ShortID="466756084">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CrowdCheer_Loop" ID="{B07E017C-6F47-417A-B811-E0E83EC2AB67}">
+									<Language>SFX</Language>
+									<AudioFile>CrowdCheer_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="167358939"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CrowdCheer_Loop" ID="{B07E017C-6F47-417A-B811-E0E83EC2AB67}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

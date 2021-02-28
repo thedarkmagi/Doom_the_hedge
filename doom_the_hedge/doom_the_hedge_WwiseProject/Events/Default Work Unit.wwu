@@ -1147,6 +1147,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="CrowdCheer_Play" ID="{2B050181-11D4-4145-BD48-A94E1DC9E73E}">
+					<ChildrenList>
+						<Action Name="" ID="{2D87AF4E-79AD-4506-8636-78E4FAF53ADA}" ShortID="630165627">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CrowdCheer_Loop" ID="{994E4BE5-A95A-42B6-BF0D-9350709700F8}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
