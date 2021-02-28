@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: -4053726305099007762}
   - component: {fileID: 4526182705194185185}
   - component: {fileID: -1342383065719738025}
+  - component: {fileID: 7617560319293067725}
   m_Layer: 0
   m_Name: otter
   m_TagString: enemy
@@ -317,6 +318,32 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &7617560319293067725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731604418770119838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -3, y: -3, z: 0}
+  - {x: 3, y: -3, z: 0}
+  - {x: 3, y: 3, z: 0}
+  - {x: -3, y: 3, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -31326
 --- !u!1 &731604419791983512
 GameObject:
   m_ObjectHideFlags: 0
