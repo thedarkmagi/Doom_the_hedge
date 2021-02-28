@@ -71,7 +71,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b92a42c93c818744839ae6f90e5f226f
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8585870796462523473
+=======
+    m_lastTime: -8585870790166584708
+>>>>>>> Stashed changes
     List:
     - name: BeachAmbience
       guid: adbcc0b5ff7f5c48a254ab0c03f84a7c
@@ -209,7 +213,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8585870796465066760
+=======
+    m_lastTime: -8585870790166844621
+>>>>>>> Stashed changes
     List:
     - name: Ambience
       guid: 1343d89febd694488b268580bc693e81
@@ -255,6 +263,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: DialogueAll_Stop
+      guid: c1868d6796b3524683d20e9bd8e24c1e
+      id: 756778131
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: DialogueAll_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\DialogueAll_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Dolphin
       guid: a0dfc2ad0e0e3047b39b4e608fa491d8
       id: 3640564759
@@ -1605,5 +1629,6 @@ MonoBehaviour:
   - /doom_the_hedge_WwiseProject/Events/Default Work Unit
   - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events
   - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Ambience
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Dialogue
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
