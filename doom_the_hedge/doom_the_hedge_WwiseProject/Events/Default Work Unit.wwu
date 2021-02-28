@@ -789,19 +789,33 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="BeachAmbience_Play" ID="{7370C00D-1275-41A5-90A1-A58DD7DE5032}">
+								<Event Name="BeachAmbience_Play" ID="{2DE24B5F-0346-481F-9E0D-0109C239DF19}">
 									<ChildrenList>
-										<Action Name="" ID="{A0E2A130-A11E-487E-9106-0E31ABF4CCC3}" ShortID="630129147">
+										<Action Name="" ID="{1E269494-0832-41C5-A42E-7C3928AE0F8D}" ShortID="527394193">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Seagulls" ID="{BA0EBAF0-03CF-4809-8E3F-278D1641D9D4}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+													<ObjectRef Name="amb_dth_beach_main_loop" ID="{EFEE500B-D288-4900-9574-9119EDE8991D}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{C126C11F-4CFC-4E8E-93C5-9F28F1DA71B5}" ShortID="324897386">
+										<Action Name="" ID="{7F22FF35-2ED2-44DB-B5F9-8CA021037291}" ShortID="522391143">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Beach_Loops" ID="{C3056469-FD9C-4C98-9F2A-EC97CE6F9DD9}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+													<ObjectRef Name="amb_dth_beach_marina_loop" ID="{F37ABFD5-2173-406D-8894-5A58E9EDEFD8}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{57152A75-6503-4093-93F2-3AA5BC49D5D7}" ShortID="212626308">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_dth_beach_water_lap_loop" ID="{C33C598D-E2C1-436D-96B2-6D1F686645BA}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{04B7BED0-2DD1-4A12-A8F6-EFC9F7F63C71}" ShortID="924337663">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_dth_beach_waves_loop" ID="{413B55A2-EFE0-468E-BAD4-CE751C1C313F}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

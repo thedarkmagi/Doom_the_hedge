@@ -11,41 +11,13 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1219391414" Language="SFX" Hash="1555498036">
+		<SoundBank Id="1219391414" Language="SFX" Hash="2283911154">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\BeachAmbience</ObjectPath>
 			<ShortName>BeachAmbience</ShortName>
 			<Path>BeachAmbience.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4036018679" Name="BeachAmbience_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Ambience\BeachAmbience_Play" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="25190131" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-003.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-003_10C4C929.wem</Path>
-						</File>
-						<File Id="68550190" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-012.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-012_10C4C929.wem</Path>
-						</File>
-						<File Id="76198258" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-006.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-006_10C4C929.wem</Path>
-						</File>
-						<File Id="85154312" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-002.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-002_10C4C929.wem</Path>
-						</File>
-						<File Id="116483313" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-005.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-005_10C4C929.wem</Path>
-						</File>
-						<File Id="516438481" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-013.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-013_10C4C929.wem</Path>
-						</File>
-						<File Id="537235978" Language="SFX">
-							<ShortName>amb_dth_beach_sea_rocks_1_loop.wav</ShortName>
-							<Path>SFX\amb_dth_beach_sea_rocks_1_loop_D79FB2B7.wem</Path>
-						</File>
 						<File Id="560421240" Language="SFX">
 							<ShortName>amb_dth_beach_marina_loop.wav</ShortName>
 							<Path>SFX\amb_dth_beach_marina_loop_D79FB2B7.wem</Path>
@@ -54,45 +26,13 @@
 							<ShortName>amb_dth_beach_water_lap_loop.wav</ShortName>
 							<Path>SFX\amb_dth_beach_water_lap_loop_D79FB2B7.wem</Path>
 						</File>
-						<File Id="694026916" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-008.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-008_10C4C929.wem</Path>
-						</File>
-						<File Id="855219861" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-007.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-007_10C4C929.wem</Path>
-						</File>
 						<File Id="887433053" Language="SFX">
 							<ShortName>amb_dth_beach_main_loop.wav</ShortName>
 							<Path>SFX\amb_dth_beach_main_loop_D79FB2B7.wem</Path>
 						</File>
-						<File Id="936947862" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-011.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-011_10C4C929.wem</Path>
-						</File>
-						<File Id="958795706" Language="SFX">
-							<ShortName>amb_dth_beach_sea_rocks_2_loop.wav</ShortName>
-							<Path>SFX\amb_dth_beach_sea_rocks_2_loop_D79FB2B7.wem</Path>
-						</File>
 						<File Id="967655867" Language="SFX">
 							<ShortName>amb_dth_beach_waves_loop.wav</ShortName>
 							<Path>SFX\amb_dth_beach_waves_loop_D79FB2B7.wem</Path>
-						</File>
-						<File Id="1034841575" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-001.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-001_10C4C929.wem</Path>
-						</File>
-						<File Id="1041405353" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-004.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-004_10C4C929.wem</Path>
-						</File>
-						<File Id="1046722080" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-009.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-009_10C4C929.wem</Path>
-						</File>
-						<File Id="1049200819" Language="SFX">
-							<ShortName>amb_dth_beach_seagulls_oneshots-010.wav</ShortName>
-							<Path>SFX\amb_dth_beach_seagulls_oneshots-010_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

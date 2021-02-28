@@ -78,7 +78,7 @@
 						</SoundBank>
 						<SoundBank Name="BeachAmbience" ID="{B5C0BCAD-7FFF-485C-A254-AB0C03F84A7C}">
 							<ObjectInclusionList>
-								<ObjectRef Name="BeachAmbience_Play" ID="{7370C00D-1275-41A5-90A1-A58DD7DE5032}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="BeachAmbience_Play" ID="{2DE24B5F-0346-481F-9E0D-0109C239DF19}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>

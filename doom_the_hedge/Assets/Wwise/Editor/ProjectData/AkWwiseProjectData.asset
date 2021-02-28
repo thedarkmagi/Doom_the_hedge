@@ -71,7 +71,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b92a42c93c818744839ae6f90e5f226f
     GuidInternal: 
-    m_lastTime: -8585871626140065952
+    m_lastTime: -8585870842080001786
     List:
     - name: BeachAmbience
       guid: adbcc0b5ff7f5c48a254ab0c03f84a7c
@@ -198,7 +198,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585870895253301767
+    m_lastTime: -8585870842249056141
     List:
     - name: Ambience
       guid: 1343d89febd694488b268580bc693e81
@@ -215,7 +215,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: BeachAmbience_Play
-      guid: 0dc070737512a54190a1a58dd7de5032
+      guid: 5f4be22d46031f489e0d0109c239df19
       id: 4036018679
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -1416,5 +1416,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /doom_the_hedge_WwiseProject
+  - /doom_the_hedge_WwiseProject/Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Ambience
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -4,12 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{29987796-5FC4-41ED-8F68-C60C4A8DB616}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="test session" ID="{9A38DD0F-48A0-40AD-8FB1-C6001672189D}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="SkunkWeapon_FireReload" ID="{C3E0F1D2-DDCC-471B-ACCE-4EBB79DA2BE0}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>

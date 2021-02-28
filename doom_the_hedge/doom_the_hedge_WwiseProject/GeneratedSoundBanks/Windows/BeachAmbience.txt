@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4036018679	BeachAmbience_Play			\Default Work Unit\SFX Events\Ambience\BeachAmbience_Play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	560421240	amb_dth_beach_marina_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\amb_dth_beach_marina_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambience\Level 2 - Beach\Beach_Loops\amb_dth_beach_marina_loop		7460736
+	602888783	amb_dth_beach_water_lap_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\amb_dth_beach_water_lap_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambience\Level 2 - Beach\Beach_Loops\amb_dth_beach_water_lap_loop		14735184
+	887433053	amb_dth_beach_main_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\amb_dth_beach_main_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambience\Level 2 - Beach\Beach_Loops\amb_dth_beach_main_loop		9338760
+	967655867	amb_dth_beach_waves_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Windows\SFX\amb_dth_beach_waves_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambience\Level 2 - Beach\Beach_Loops\amb_dth_beach_waves_loop		12401640
+
