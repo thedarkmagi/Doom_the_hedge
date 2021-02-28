@@ -61,6 +61,7 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.R))
         {
             Gun.reload();
+            Gun.currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
         }
 
         //swapping logic 

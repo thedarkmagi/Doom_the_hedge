@@ -65,7 +65,10 @@ public class gun : MonoBehaviour
         if(currentGun.currReloadTime<0)
         {
             reloaded = true;
-            currentGun.the_gun.GetComponent<Animator>().SetBool("reload", false);
+            if (targetTag == "enemy")
+            {
+                currentGun.the_gun.GetComponent<Animator>().SetBool("reload", false);
+            }
         }
     }
 
@@ -91,7 +94,22 @@ public class gun : MonoBehaviour
 
     public void changeWeapon(int wepIndex)
     {
-        foreach(gunData guns in weapons)
+        //for (int i = 0; i < weapons.Count; i++)
+        //{
+        //    weapons[i].the_gun.SetActive(false);
+
+        //    if ((wepIndex < weapons.Count))
+        //    {
+
+        //        currentGun = weapons[wepIndex];
+        //        currentGun.the_gun.SetActive(true);
+        //        if (targetTag == "enemy")
+        //        {
+        //            currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
+        //        }
+        //    }
+        //}
+        foreach (gunData guns in weapons)
         {
             guns.the_gun.SetActive(false);
 
@@ -100,13 +118,16 @@ public class gun : MonoBehaviour
 
                 currentGun = weapons[wepIndex];
                 currentGun.the_gun.SetActive(true);
+                if (targetTag == "enemy")
+                {
+                    currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
+                }
             }
 
         }
 
 
-        
-        
+
     }
 
     public void fire()
@@ -131,7 +152,11 @@ public class gun : MonoBehaviour
             currentGun.curFireRate = 0;
         }
         else
-        {   currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
+        {
+            if (targetTag == "enemy")
+            {
+                currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
+            }
             reload();
             
         }
