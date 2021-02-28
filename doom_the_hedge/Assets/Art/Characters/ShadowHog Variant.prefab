@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
       propertyPath: nameText
-      value: Hedgehog
+      value: Spike Mike
       objectReference: {fileID: 0}
     - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a,
         type: 3}
