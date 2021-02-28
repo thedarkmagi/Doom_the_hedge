@@ -43,27 +43,29 @@ public class boss : MonoBehaviour
         {
             kill();
         }
-
-        currFireRate += Time.deltaTime;
-        if (currFireRate > fireRate)
+        else
         {
-
-            switch (nextAttackMode)
+            currFireRate += Time.deltaTime;
+            if (currFireRate > fireRate)
             {
-                case AttackModes.bubbleBlast:
-                    bubbleBlast();
-                    break;
-                case AttackModes.shockwave:
-                    shockwave();
-                    break;
-                default:
-                    break;
+
+                switch (nextAttackMode)
+                {
+                    case AttackModes.bubbleBlast:
+                        bubbleBlast();
+                        break;
+                    case AttackModes.shockwave:
+                        shockwave();
+                        break;
+                    default:
+                        break;
+                }
+                currFireRate = 0;
             }
-            currFireRate = 0;
-        }
-        if(nextAttackMode == AttackModes.shockwave)
-        {
-            shockwave();
+            if (nextAttackMode == AttackModes.shockwave)
+            {
+                shockwave();
+            }
         }
     }
 
@@ -141,6 +143,7 @@ public class boss : MonoBehaviour
 
     void kill()
     {
-        Destroy(gameObject);
+        transform.localPosition = Vector3.zero;
+        //Destroy(gameObject);
     }
 }
