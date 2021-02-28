@@ -9,7 +9,7 @@ public class gamemanager : MonoBehaviour
     public static gamemanager instance;
     public GameObject GameplayUI, PauseUI,GameOverUI;
     public GameObject player;
-    private bool Paused;
+    public bool Paused;
     public string mainscene;
 
 
