@@ -10514,6 +10514,118 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="dth_sfx_launcher_reload" ID="{B82FF118-4D6C-474D-A535-8D6F2DEFD83E}" ShortID="774887334">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_launcher_reload" ID="{172FEC1D-CFCF-4B3B-AE08-19B8AE8C417E}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_launcher_reload.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="555359354"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_launcher_reload" ID="{172FEC1D-CFCF-4B3B-AE08-19B8AE8C417E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_launcher_reload-001" ID="{BE3E159B-3F88-4314-BF81-C31ED81C4A3F}" ShortID="362387079">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_launcher_reload-001" ID="{D2262447-6245-417E-A928-228762D5EAAB}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_launcher_reload-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="301636783"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_launcher_reload-001" ID="{D2262447-6245-417E-A928-228762D5EAAB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_launcher_reload-002" ID="{F3D77D41-138D-4244-BF17-5F4BFCCCE9F6}" ShortID="5832015">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_launcher_reload-002" ID="{2C1F15BD-F085-4462-AD34-BB4428BB0CED}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_launcher_reload-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="611344476"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_launcher_reload-002" ID="{2C1F15BD-F085-4462-AD34-BB4428BB0CED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_launcher_reload-003" ID="{9C65D662-D385-4941-8D5B-60595838E70C}" ShortID="261767284">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_launcher_reload-003" ID="{EE1440D0-F164-4E9F-938B-6CD4A3A761AD}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_launcher_reload-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="149140164"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_launcher_reload-003" ID="{EE1440D0-F164-4E9F-938B-6CD4A3A761AD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="dth_sfx_launcher_reload-004" ID="{2E9DE5A2-9987-4741-AA1F-BBBC7DF5B3F3}" ShortID="786867703">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{966E6CF4-ABEC-4080-AC61-BBC381549595}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{95ED3FA8-F6AB-4F09-AF3A-5148ED4DF5BB}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="dth_sfx_launcher_reload-004" ID="{6F6A4685-22E5-46F7-A97C-213494A2F799}">
+																	<Language>SFX</Language>
+																	<AudioFile>dth_sfx_launcher_reload-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="642483169"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="dth_sfx_launcher_reload-004" ID="{6F6A4685-22E5-46F7-A97C-213494A2F799}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fire1" ID="{4BE4FAED-E3D5-45DA-B457-27E4673188DA}" ShortID="612800206">
 													<ReferenceList>
