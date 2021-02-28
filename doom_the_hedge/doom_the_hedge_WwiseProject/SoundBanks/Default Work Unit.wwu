@@ -83,6 +83,22 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="Dialogue" ID="{4049C661-27D6-4E8A-A056-D8C04D7538F0}">
+							<ObjectInclusionList>
+								<ObjectRef Name="FishDialogue_Play" ID="{5D5714B9-8E0D-40F0-A60A-B1A20D89A548}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RabbitDialogue_Play" ID="{B3B4A57C-7210-415E-BC77-70D0E31AB399}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="SkunkDialogue_Stop" ID="{9CF8CC8F-6942-432B-B11A-C0D1BF7BED5C}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="HedgehogDialogue_Stop" ID="{304D5248-FF9F-4414-9054-B8C9A738A9A7}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="WhaleDialogue_Stop" ID="{EE9C67E8-DA18-444A-89E9-B9EDF18257F3}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="RabbitDialogue_Stop" ID="{DF681C45-C20D-4535-8EB0-7876FA3405CC}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="HedgehogDialogue_Play" ID="{6B549A00-3A60-4829-A92E-1E7880C97F73}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="WhaleDialogue_Play" ID="{AA05F796-5CB2-4A46-A1CA-52C72C24A11A}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="SkunkDialogue_Play" ID="{F2595ABE-68B2-4BD9-A9D4-E0097E8C98FC}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="FishDialogue_Stop" ID="{0B7B829B-E666-4BF6-87BC-1A0FBE496F10}" WorkUnitID="{DE455CA7-F765-4224-911C-E50EDCCB6100}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

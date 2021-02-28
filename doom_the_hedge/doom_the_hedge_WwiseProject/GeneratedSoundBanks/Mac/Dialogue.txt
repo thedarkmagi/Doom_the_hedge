@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	151821121	WhaleDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Stop	
+	162720350	SkunkDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Stop	
+	281343018	FishDialogue_Play			\Default Work Unit\SFX Events\Dialogue\FishDialogue_Play	
+	1118508958	RabbitDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Stop	
+	1329157803	WhaleDialogue_Play			\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Play	
+	1685137252	SkunkDialogue_Play			\Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Play	
+	1685545044	FishDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\FishDialogue_Stop	
+	2641029028	RabbitDialogue_Play			\Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Play	
+	2937842769	HedgehogDialogue_Play			\Default Work Unit\SFX Events\Dialogue\HedgehogDialogue_Play	
+	4189257735	HedgehogDialogue_Stop			\Default Work Unit\SFX Events\Dialogue\HedgehogDialogue_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12300195	dth_dia_fish_convo_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\dth_dia_fish_convo_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Dialogue\Enemies\FishVoice\dth_dia_fish_convo_loop		2745940
+	109707523	dth_dia_whale_convo_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\dth_dia_whale_convo_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Dialogue\Enemies\WhaleVoice\dth_dia_whale_convo_loop		4908018
+	149438655	dth_dia_skunk_convo_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\dth_dia_skunk_convo_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Dialogue\PlayerCharacters\Skunk\SkunkVoice\dth_dia_skunk_convo_loop		3036630
+	343946305	dth_dia_hedgehog_convo_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\dth_dia_hedgehog_convo_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Dialogue\PlayerCharacters\Hedgehog\HedgehogVoice\dth_dia_hedgehog_convo_loop		1843958
+	461461228	dth_dia_rabbit_convo_loop	C:\Users\aidan\Documents\GitHub\Doom_the_hedge\doom_the_hedge\doom_the_hedge_WwiseProject\.cache\Mac\SFX\dth_dia_rabbit_convo_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Dialogue\PlayerCharacters\Rabbit\RabbitVoice\dth_dia_rabbit_convo_loop		5206818
+

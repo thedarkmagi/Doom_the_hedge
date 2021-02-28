@@ -17,8 +17,12 @@ namespace AK
         static const AkUniqueID DOLPHINDEATH = 4147878575U;
         static const AkUniqueID DOLPHINMOVEMENT = 177596184U;
         static const AkUniqueID DOLPHINWEAPON_FIRE = 2309630522U;
+        static const AkUniqueID FISHDIALOGUE_PLAY = 281343018U;
+        static const AkUniqueID FISHDIALOGUE_STOP = 1685545044U;
         static const AkUniqueID FORESTAMBIENCE_PLAY = 3299866627U;
         static const AkUniqueID HEALTHPICKUP = 3065686491U;
+        static const AkUniqueID HEDGEHOGDIALOGUE_PLAY = 2937842769U;
+        static const AkUniqueID HEDGEHOGDIALOGUE_STOP = 4189257735U;
         static const AkUniqueID HEDGEHOGFOOTSTEPS = 331083659U;
         static const AkUniqueID HEDGEHOGWEAPON_FIRE = 108803881U;
         static const AkUniqueID HEDGEHOGWEAPON_RELOAD = 2119598834U;
@@ -45,11 +49,15 @@ namespace AK
         static const AkUniqueID PORPOISEDEATH = 4073565546U;
         static const AkUniqueID PORPOISEMOVEMENT = 2624668811U;
         static const AkUniqueID PORPOISEWEAPON_FIRE = 2230862155U;
+        static const AkUniqueID RABBITDIALOGUE_PLAY = 2641029028U;
+        static const AkUniqueID RABBITDIALOGUE_STOP = 1118508958U;
         static const AkUniqueID RABBITFOOTSTEP = 1494531899U;
         static const AkUniqueID ROOMCLEAR = 1974576135U;
         static const AkUniqueID SALADSHOTGUN_FIRE = 4010101365U;
         static const AkUniqueID SALADSHOTGUN_FIRERELOAD = 349320802U;
         static const AkUniqueID SALADSHOTGUN_RELOAD = 2863745006U;
+        static const AkUniqueID SKUNKDIALOGUE_PLAY = 1685137252U;
+        static const AkUniqueID SKUNKDIALOGUE_STOP = 162720350U;
         static const AkUniqueID SKUNKFOOTSTEPS = 1269630546U;
         static const AkUniqueID SKUNKWEAPON_FIRE = 1650535520U;
         static const AkUniqueID SKUNKWEAPON_FIRERELOAD = 3687401063U;
@@ -60,6 +68,8 @@ namespace AK
         static const AkUniqueID UI_RESUME = 2391028579U;
         static const AkUniqueID UI_SELECT = 2774129122U;
         static const AkUniqueID WHALEDEATH = 2205501422U;
+        static const AkUniqueID WHALEDIALOGUE_PLAY = 1329157803U;
+        static const AkUniqueID WHALEDIALOGUE_STOP = 151821121U;
         static const AkUniqueID WHALESHOCKWAVE_JUMP = 2395666464U;
         static const AkUniqueID WHALESHOCKWAVE_LAND = 3864760795U;
         static const AkUniqueID WHALEWEAPONBUBBLE_FIRE = 1166130081U;
@@ -69,6 +79,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID BEACHAMBIENCE = 1219391414U;
+        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID ENEMY = 2299321487U;
         static const AkUniqueID FORESTAMBIENCE = 1256958010U;
         static const AkUniqueID LEVELMUSIC = 1321655446U;

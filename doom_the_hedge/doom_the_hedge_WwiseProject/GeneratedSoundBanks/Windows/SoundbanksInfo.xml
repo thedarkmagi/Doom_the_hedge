@@ -2380,6 +2380,58 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
+		<SoundBank Id="3930136735" Language="SFX" Hash="2724299767">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Dialogue</ObjectPath>
+			<ShortName>Dialogue</ShortName>
+			<Path>Dialogue.bnk</Path>
+			<IncludedEvents>
+				<Event Id="281343018" Name="FishDialogue_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\FishDialogue_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="12300195" Language="SFX">
+							<ShortName>dth_dia_fish_convo_loop.wav</ShortName>
+							<Path>SFX\dth_dia_fish_convo_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1685545044" Name="FishDialogue_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\FishDialogue_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2937842769" Name="HedgehogDialogue_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\HedgehogDialogue_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="343946305" Language="SFX">
+							<ShortName>dth_dia_hedgehog_convo_loop.wav</ShortName>
+							<Path>SFX\dth_dia_hedgehog_convo_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4189257735" Name="HedgehogDialogue_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\HedgehogDialogue_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2641029028" Name="RabbitDialogue_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="461461228" Language="SFX">
+							<ShortName>dth_dia_rabbit_convo_loop.wav</ShortName>
+							<Path>SFX\dth_dia_rabbit_convo_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1118508958" Name="RabbitDialogue_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1685137252" Name="SkunkDialogue_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="149438655" Language="SFX">
+							<ShortName>dth_dia_skunk_convo_loop.wav</ShortName>
+							<Path>SFX\dth_dia_skunk_convo_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="162720350" Name="SkunkDialogue_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1329157803" Name="WhaleDialogue_Play" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="109707523" Language="SFX">
+							<ShortName>dth_dia_whale_convo_loop.wav</ShortName>
+							<Path>SFX\dth_dia_whale_convo_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="151821121" Name="WhaleDialogue_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="4184936253" Language="SFX" Hash="1359848202">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\StoryMusic</ObjectPath>
 			<ShortName>StoryMusic</ShortName>
