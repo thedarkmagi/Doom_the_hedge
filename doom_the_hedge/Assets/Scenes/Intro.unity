@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -181,6 +181,125 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &259687323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816803, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: nameText
+      value: News Reporter
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: nameColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: nameColor.g
+      value: 0.5250456
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: nameColor.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156275175417816805, guid: e3ef5bbb8869ee243832f56092917754,
+        type: 3}
+      propertyPath: m_Name
+      value: News Reporter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3ef5bbb8869ee243832f56092917754, type: 3}
 --- !u!1 &355703944
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +417,15 @@ GameObject:
   - component: {fileID: 572250537}
   - component: {fileID: 572250540}
   - component: {fileID: 572250539}
+  - component: {fileID: 572250541}
+  - component: {fileID: 572250543}
+  - component: {fileID: 572250544}
+  - component: {fileID: 572250552}
+  - component: {fileID: 572250553}
+  - component: {fileID: 572250548}
+  - component: {fileID: 572250550}
+  - component: {fileID: 572250554}
+  - component: {fileID: 572250555}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -347,11 +475,20 @@ MonoBehaviour:
   commandList:
   - {fileID: 572250549}
   - {fileID: 572250536}
+  - {fileID: 572250544}
+  - {fileID: 572250543}
   - {fileID: 572250542}
   - {fileID: 572250535}
   - {fileID: 572250539}
   - {fileID: 572250538}
+  - {fileID: 572250553}
+  - {fileID: 572250552}
+  - {fileID: 572250554}
   - {fileID: 572250537}
+  - {fileID: 572250555}
+  - {fileID: 572250541}
+  - {fileID: 572250550}
+  - {fileID: 572250548}
   - {fileID: 572250540}
   - {fileID: 572250545}
   suppressAllAutoSelections: 0
@@ -368,7 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 347.79193, y: 345.66312}
+  scrollPos: {x: 183.23454, y: 264.65103}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 419
@@ -382,7 +519,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 572250532}
   selectedCommands:
-  - {fileID: 572250535}
+  - {fileID: 572250539}
   variables:
   - {fileID: 572250551}
   description: 
@@ -428,7 +565,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 5a014403ce6b5fc45979ded831e47b4a, type: 3}
 --- !u!114 &572250536
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -440,9 +577,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: 
+  storyText: "Breaking news! Sea mammals are attacking our forest! They are armed,
+    and  are being super mean and rude about it!\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 926864263}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -455,7 +593,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &572250537
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -472,7 +610,7 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 05d6e22a574c25b45a5e034e5d6a17fb, type: 3}
 --- !u!114 &572250538
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -484,9 +622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: 
+  storyText: "Oh my gosh, what\u2019s going on?!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1733738391}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -499,7 +637,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &572250539
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -511,7 +649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  duration: 1
+  duration: 3
   targetAlpha: 0
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -519,7 +657,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &572250540
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -537,6 +675,33 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &572250541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  storyText: "Oh yeah, I\u2019ve got a good feeling about this!"
+  description: 
+  character: {fileID: 647531724}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &572250542
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -557,6 +722,62 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &572250543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  storyText: "Do not panic, we will get through this! Woodland creatures are resilient
+    and there is no way this soggy menace will defeat us!\r"
+  description: 
+  character: {fileID: 926864263}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &572250544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  storyText: "If you see a sea mammal in your village, do not engage! Alert your
+    local militia and stay indoors for your own safety!\r"
+  description: 
+  character: {fileID: 926864263}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &572250545
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -624,6 +845,33 @@ MonoBehaviour:
     stringVal: Beach
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &572250548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: Let's go.
+  description: 
+  character: {fileID: 574218618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &572250549
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -638,12 +886,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  duration: 1
+  duration: 3
   targetAlpha: 0
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &572250550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  storyText: Time to protect our village and drive these guys back into the water!
+  description: 
+  character: {fileID: 1733738391}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &572250551
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -659,6 +934,112 @@ MonoBehaviour:
   scope: 1
   key: currentMusic
   value: 0
+--- !u!114 &572250552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  storyText: "Follow my lead, I\u2019ve got the perfect battle formation."
+  description: 
+  character: {fileID: 574218618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &572250553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  storyText: The village is under attack, the forest is being invaded from the ocean!
+  description: 
+  character: {fileID: 647531724}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &572250554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &572250555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &574218618 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3423354723753205138}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &582359172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -875,6 +1256,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &647531724 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+    type: 3}
+  m_PrefabInstance: {fileID: 4613389547363735442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &756713772
@@ -1102,6 +1495,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926864263 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
+    type: 3}
+  m_PrefabInstance: {fileID: 259687323}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1059006117 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2623991866613993231, guid: 77de7d8b50c9be94a94f6fdcf69301b0,
@@ -1749,6 +2154,18 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2450147385165801580, guid: 133ecded0868a9842a5c011de777d802, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 133ecded0868a9842a5c011de777d802, type: 3}
+--- !u!114 &1733738391 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+    type: 3}
+  m_PrefabInstance: {fileID: 7149000977470918914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1806492798
 GameObject:
   m_ObjectHideFlags: 1
@@ -1804,6 +2221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShadowHog
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
+        type: 3}
+      propertyPath: nameText
+      value: Spike Mike
       objectReference: {fileID: 0}
     - target: {fileID: 6142128870832138366, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
         type: 3}
@@ -1992,6 +2414,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameText
+      value: Jass Stripe
       objectReference: {fileID: 0}
     - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
         type: 3}
