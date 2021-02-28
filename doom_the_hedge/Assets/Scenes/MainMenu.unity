@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1227,6 +1227,7 @@ GameObject:
   - component: {fileID: 1521331646}
   - component: {fileID: 1521331645}
   - component: {fileID: 1521331644}
+  - component: {fileID: 1521331651}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1259,9 +1260,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1521331649}
+  - {fileID: 1521331642}
   selectedCommands:
-  - {fileID: 1521331644}
+  - {fileID: 1521331643}
   variables: []
   description: 
   stepPause: 0
@@ -1298,6 +1299,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1521331651}
   - {fileID: 1521331643}
   suppressAllAutoSelections: 0
 --- !u!114 &1521331643
@@ -1316,7 +1318,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Story_Forest
+    stringVal: Intro
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1521331644
@@ -1467,6 +1469,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1521331651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521331640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &1812803530
 GameObject:
   m_ObjectHideFlags: 1
