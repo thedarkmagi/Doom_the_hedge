@@ -28,6 +28,8 @@ public class boss : MonoBehaviour
     public float travelDownSpeed;
     private float startTime;
     private float journeyLength;
+
+    public GameObject waveController;
     // Start is called before the first frame update
     void Start()
     {
@@ -145,5 +147,9 @@ public class boss : MonoBehaviour
     {
         transform.localPosition = Vector3.zero;
         //Destroy(gameObject);
+        if(waveController)
+        {
+            Destroy(waveController);
+        }
     }
 }
