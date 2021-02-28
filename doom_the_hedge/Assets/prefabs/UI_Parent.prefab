@@ -3085,15 +3085,14 @@ MonoBehaviour:
   - {fileID: 579709766860002236}
   - {fileID: 579709768078752627}
   descriptionChr:
-  - "Spike Mike <br>TOP: Mike\u2019s military experience increases weapon range.       
-    MIDDLE: Mike wields a longrange rapid-fire Spine Rifle.            BOTTOM: Mike
-    moves pretty slow, but takes reduced damage."
-  - 'Farrah Bunny <br>TOP: Farrah heals an additional amount from Health Carrots. 
-    MIDDLE: Farrah carries her trusty two-barrel Salad Shotgun!      BOTTOM: Runs
-    faster, but jump for accuracy.'
-  - 'Jass Stripe <br>TOP: Jass catches enemies off-guard to deal more damage.        
-    MIDDLE: Jass carries their unique Stink Bomb Launcher.                 BOTTOM:
-    Standard paw movement.'
+  - "Spike Mike is a grizzled old hedgehog. He used to fight 10 miles in the snow
+    both ways, but doesn\u2019t like to talk about it.  <br>Mike wields a longrange
+    rapid-fire Spine Rifle."
+  - Farrah Bunny is tuff as fluff! An acclaimed performer turned squad leader, she
+    is well-known for her heroics in the Burrow Wars. <br>Farrah carries her trusty
+    two-barrel Salad Shotgun!
+  - Jass Stripe is a skunk with spunk! They have a big fluffy tail, a talent for
+    stink and a heart of gold. <br>Jass carries their unique Stink Bomb Launcher.
   healthBars:
   - {fileID: 7394151079583582898}
   - {fileID: 4965908212174457982}
