@@ -43,6 +43,7 @@ public class gun : MonoBehaviour
     public List<gunData> weapons;
     public gunData currentGun;
     public int currentWeapon;
+    private Animator anim;
 
     public bool reloaded;
     // Start is called before the first frame update
@@ -53,6 +54,8 @@ public class gun : MonoBehaviour
         {
             //currentGun.projectile.SetActive(false);
         }
+
+        
     }
 
     // Update is called once per frame
@@ -62,6 +65,7 @@ public class gun : MonoBehaviour
         if(currentGun.currReloadTime<0)
         {
             reloaded = true;
+            currentGun.the_gun.GetComponent<Animator>().SetBool("reload", false);
         }
     }
 
@@ -127,13 +131,15 @@ public class gun : MonoBehaviour
             currentGun.curFireRate = 0;
         }
         else
-        {
+        {   currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
             reload();
+            
         }
     }
 
     public void reload()
     {
+        
         //play anim or whatever reload delay
         reloaded = false;
         currentGun.currReloadTime = currentGun.reloadTime;
