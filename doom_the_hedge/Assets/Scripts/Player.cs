@@ -65,11 +65,11 @@ public class Player : MonoBehaviour
         }
 
         //swapping logic 
-        if(Input.GetKeyDown(KeyCode.Q))
+        if(Input.GetKeyDown(KeyCode.Q) && Gun.isFinishedReloading())
         {
             swapTowerPosition(slot.top);
         }
-        else if(Input.GetKeyDown(KeyCode.E))
+        else if(Input.GetKeyDown(KeyCode.E) && Gun.isFinishedReloading())
         {
             swapTowerPosition(slot.bottom);
         }

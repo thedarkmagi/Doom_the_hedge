@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 4172450916973965896}
   - component: {fileID: -2258356945166820557}
   m_Layer: 0
-  m_Name: Skunk_Bomb
+  m_Name: Skunk_Bomb 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,6 +133,8 @@ MonoBehaviour:
   lifetime: 0
   targetTag: 
   radius: 0
+  particleToSpawn: {fileID: 707688961201028349, guid: 7434fbb3f6438394e8336684a70fce7e,
+    type: 3}
 --- !u!114 &7901594608906487200
 MonoBehaviour:
   m_ObjectHideFlags: 0

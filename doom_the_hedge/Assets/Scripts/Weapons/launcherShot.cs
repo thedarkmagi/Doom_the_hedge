@@ -8,6 +8,7 @@ public class launcherShot : MonoBehaviour
     public float lifetime;
     public string targetTag;
     public float radius;
+    public GameObject particleToSpawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +72,10 @@ public class launcherShot : MonoBehaviour
     }
     void aodHit()
     {
+        if(particleToSpawn)
+        {
+            Instantiate(particleToSpawn, transform.position, Quaternion.identity,null);
+        }
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, radius, Vector3.forward);
         for (int i = 0; i < hits.Length; i++)
         {

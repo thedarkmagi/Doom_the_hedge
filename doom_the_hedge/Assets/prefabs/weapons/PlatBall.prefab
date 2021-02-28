@@ -133,6 +133,8 @@ MonoBehaviour:
   lifetime: 0
   targetTag: 
   radius: 0
+  particleToSpawn: {fileID: 2546095561081915730, guid: 563deef1124e5ef4bad3cf78781b3d9b,
+    type: 3}
 --- !u!114 &7901594608906487200
 MonoBehaviour:
   m_ObjectHideFlags: 0
