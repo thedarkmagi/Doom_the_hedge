@@ -9,6 +9,7 @@ public class gamemanager : MonoBehaviour
     public static gamemanager instance;
     public GameObject GameplayUI, PauseUI,GameOverUI;
     public GameObject player;
+    public AkEvent audioplayer;
     public bool Paused;
     public string mainscene;
 
@@ -93,6 +94,7 @@ public class gamemanager : MonoBehaviour
 
     public void RestartLevel()
     {
+        audioplayer.Stop(0);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
