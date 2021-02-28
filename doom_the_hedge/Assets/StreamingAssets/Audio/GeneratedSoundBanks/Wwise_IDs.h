@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID OTTERDEATH = 1109759313U;
         static const AkUniqueID OTTERMOVEMENT = 3615308082U;
         static const AkUniqueID OTTERWEAPON_FIRE = 1123532588U;
+        static const AkUniqueID PLATYPUSWEAPON_FIRE = 2037021532U;
         static const AkUniqueID PLAY_GAMECOMPLETEMUSIC = 3646633498U;
         static const AkUniqueID PLAY_INTROCUTSCENEMUSIC = 509751257U;
         static const AkUniqueID PLAY_LEVEL1MUSIC = 3605952550U;
@@ -37,7 +38,6 @@ namespace AK
         static const AkUniqueID PLAY_MAINMENU = 3738780720U;
         static const AkUniqueID PLAY_PLATYPUSDEATH = 922371940U;
         static const AkUniqueID PLAY_PLATYPUSMOVEMENT = 1384682229U;
-        static const AkUniqueID PLAY_PLATYPUSWEAPON = 3220201466U;
         static const AkUniqueID PLAY_STORY1MUSIC = 1348496591U;
         static const AkUniqueID PLAY_STORY2MUSIC = 1978838842U;
         static const AkUniqueID PLAY_STORY3MUSIC = 14830353U;
@@ -52,6 +52,7 @@ namespace AK
         static const AkUniqueID SALADSHOTGUN_RELOAD = 2863745006U;
         static const AkUniqueID SKUNKFOOTSTEPS = 1269630546U;
         static const AkUniqueID SKUNKWEAPON_FIRE = 1650535520U;
+        static const AkUniqueID SKUNKWEAPON_FIRERELOAD = 3687401063U;
         static const AkUniqueID SKUNKWEAPON_IMPACT = 1851786378U;
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_EXIT = 502835106U;

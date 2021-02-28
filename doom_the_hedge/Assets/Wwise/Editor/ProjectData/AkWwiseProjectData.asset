@@ -198,7 +198,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585870979790560754
+    m_lastTime: -8585870932303684525
     List:
     - name: Ambience
       guid: 1343d89febd694488b268580bc693e81
@@ -230,6 +230,76 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Dolphin
+      guid: a0dfc2ad0e0e3047b39b4e608fa491d8
+      id: 3640564759
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Dolphin
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Enemy\Dolphin
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DolphinDeath
+      guid: 3a7fc358f1780041a330d2d83534e65b
+      id: 4147878575
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Dolphin
+        ObjectType: 4
+      - ElementName: DolphinDeath
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Dolphin\DolphinDeath
+      maxAttenuation: 0
+      maxDuration: 1.779354
+      minDuration: 1.256063
+    - name: DolphinMovement
+      guid: bb3a231b5096dc4990e25445a350a3a7
+      id: 177596184
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Dolphin
+        ObjectType: 4
+      - ElementName: DolphinMovement
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Dolphin\DolphinMovement
+      maxAttenuation: 0
+      maxDuration: 0.992917
+      minDuration: 0.768833
+    - name: DolphinWeapon_Fire
+      guid: dd5a933feb633a4f8eead19042279cdf
+      id: 2309630522
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Dolphin
+        ObjectType: 4
+      - ElementName: DolphinWeapon_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Dolphin\DolphinWeapon_Fire
+      maxAttenuation: 0
+      maxDuration: 2.172125
+      minDuration: 1.696792
     - name: Enemy
       guid: 7c5cc2e39e5f434db619f4fd1942c123
       id: 2299321487
@@ -458,6 +528,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: OtterDeath
+      guid: 5aae6579a344a44291f5f5e5d2b620e2
+      id: 1109759313
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Otter
+        ObjectType: 4
+      - ElementName: OtterDeath
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Otter\OtterDeath
+      maxAttenuation: 0
+      maxDuration: 1.503562
+      minDuration: 1.005437
+    - name: OtterMovement
+      guid: c6e709a108bcd64184416fcc7c3485b3
+      id: 3615308082
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Otter
+        ObjectType: 4
+      - ElementName: OtterMovement
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Otter\OtterMovement
+      maxAttenuation: 0
+      maxDuration: 0.44425
+      minDuration: 0.348292
     - name: OtterWeapon_Fire
       guid: 7ef01918f88cfe4b91d6cb03c1987dfd
       id: 1123532588
@@ -476,6 +582,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.510917
       minDuration: 0.464771
+    - name: Platypus
+      guid: f7bab7d07728ec4c897f63caf4439677
+      id: 1895091957
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Platypus
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Enemy\Platypus
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlatypusWeapon_Fire
+      guid: 69316f847d88da43b557a5ecaec23c87
+      id: 2037021532
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Platypus
+        ObjectType: 4
+      - ElementName: PlatypusWeapon_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Platypus\PlatypusWeapon_Fire
+      maxAttenuation: 0
+      maxDuration: 2.018687
+      minDuration: 1.752375
     - name: Play_GameCompleteMusic
       guid: b3889ac328b3a1459c1b0b4045ce893e
       id: 3646633498
@@ -574,6 +714,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_PlatypusDeath
+      guid: 5f38dc9579eb814f83a3a4aceb4e7870
+      id: 922371940
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Platypus
+        ObjectType: 4
+      - ElementName: Play_PlatypusDeath
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Platypus\Play_PlatypusDeath
+      maxAttenuation: 0
+      maxDuration: 0.370167
+      minDuration: 0.350333
+    - name: Play_PlatypusMovement
+      guid: ce22e145c4479641b56803be8317b2a0
+      id: 1384682229
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Platypus
+        ObjectType: 4
+      - ElementName: Play_PlatypusMovement
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Platypus\Play_PlatypusMovement
+      maxAttenuation: 0
+      maxDuration: 0.407625
+      minDuration: 0.335146
     - name: Play_Story1Music
       guid: 2f63fd827f517048b5da1686e893953b
       id: 1348496591
@@ -644,6 +820,76 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.449187
       minDuration: 0.350354
+    - name: Porpoise
+      guid: 5e3e520878cc9742961921e88309c324
+      id: 250773972
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Porpoise
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Enemy\Porpoise
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PorpoiseDeath
+      guid: d0adb73dece1a54fb407e68128222328
+      id: 4073565546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Porpoise
+        ObjectType: 4
+      - ElementName: PorpoiseDeath
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Porpoise\PorpoiseDeath
+      maxAttenuation: 0
+      maxDuration: 0.851
+      minDuration: 0.731479
+    - name: PorpoiseMovement
+      guid: c6024b34176e1845b1cdd0344157a3b3
+      id: 2624668811
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Porpoise
+        ObjectType: 4
+      - ElementName: PorpoiseMovement
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Porpoise\PorpoiseMovement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PorpoiseWeapon_Fire
+      guid: ba7a66782bf9b442a56cc20ad3aca488
+      id: 2230862155
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Porpoise
+        ObjectType: 4
+      - ElementName: PorpoiseWeapon_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Porpoise\PorpoiseWeapon_Fire
+      maxAttenuation: 0
+      maxDuration: 0.389583
+      minDuration: 0.389583
     - name: Rabbit
       guid: 58ace03c50b4fa4ea505e26deaff14c7
       id: 2689485353
@@ -750,6 +996,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.797125
       minDuration: 1.349208
+    - name: SaladShotgun_FireReload
+      guid: 38d7d6d3bba1e1498804869436e92bb1
+      id: 349320802
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Rabbit
+        ObjectType: 4
+      - ElementName: RabbitWeapon
+        ObjectType: 4
+      - ElementName: SaladShotgun_FireReload
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon\SaladShotgun_FireReload
+      maxAttenuation: 0
+      maxDuration: 1.797125
+      minDuration: 1.34975
     - name: SaladShotgun_Reload
       guid: 5c00d17b36c57b4ca7798d540af005ef
       id: 2863745006
@@ -799,24 +1065,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: SkunkFootsteps
-      guid: 5eb031982d86a346aef292120c2df1c4
-      id: 1269630546
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX Events
-        ObjectType: 4
-      - ElementName: PlayerCharacters
-        ObjectType: 4
-      - ElementName: Skunk
-        ObjectType: 4
-      - ElementName: SkunkFootsteps
-        ObjectType: 4
-      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps
-      maxAttenuation: 0
-      maxDuration: 0.248667
-      minDuration: 0.132
-    - name: SkunkFootsteps
       guid: e011554cdd25094da57f99dcce7d788f
       id: 1269630546
       PathAndIcons:
@@ -833,6 +1081,24 @@ MonoBehaviour:
       - ElementName: SkunkFootsteps
         ObjectType: 3
       Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps\SkunkFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.248667
+      minDuration: 0.132
+    - name: SkunkFootsteps
+      guid: 5eb031982d86a346aef292120c2df1c4
+      id: 1269630546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkFootsteps
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -874,6 +1140,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.024812
       minDuration: 1.187688
+    - name: SkunkWeapon_FireReload
+      guid: d2f1e0c3ccdd1b47acce4ebb79da2be0
+      id: 3687401063
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkWeapon
+        ObjectType: 4
+      - ElementName: SkunkWeapon_FireReload
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon\SkunkWeapon_FireReload
+      maxAttenuation: 0
+      maxDuration: 2.160417
+      minDuration: 2.005396
     - name: SkunkWeapon_Impact
       guid: e8ff051c7f51a748835b62c0f5e71ffc
       id: 1851786378
@@ -988,6 +1274,94 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.204625
       minDuration: 0.204625
+    - name: Whale
+      guid: 51992c235d35114bb4d3c63102f136ed
+      id: 2774797848
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Whale
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Enemy\Whale
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WhaleDeath
+      guid: 8786087c87f354439040a09be585b7b0
+      id: 2205501422
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Whale
+        ObjectType: 4
+      - ElementName: WhaleDeath
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Whale\WhaleDeath
+      maxAttenuation: 0
+      maxDuration: 1.611042
+      minDuration: 0.974625
+    - name: WhaleShockwave_Jump
+      guid: 038ed60ca3d0f349818d6a5c1a48345d
+      id: 2395666464
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Whale
+        ObjectType: 4
+      - ElementName: WhaleShockwave_Jump
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Whale\WhaleShockwave_Jump
+      maxAttenuation: 0
+      maxDuration: 0.867063
+      minDuration: 0.832021
+    - name: WhaleShockwave_Land
+      guid: d75d34383c6d7f4cbafeb4450aae2597
+      id: 3864760795
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Whale
+        ObjectType: 4
+      - ElementName: WhaleShockwave_Land
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Whale\WhaleShockwave_Land
+      maxAttenuation: 0
+      maxDuration: 2.612417
+      minDuration: 2.254917
+    - name: WhaleWeaponBubble_Fire
+      guid: 6130bbb7a5044e428b4ec7272e7ac302
+      id: 1166130081
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Whale
+        ObjectType: 4
+      - ElementName: WhaleWeaponBubble_Fire
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Enemy\Whale\WhaleWeaponBubble_Fire
+      maxAttenuation: 0
+      maxDuration: 0.262875
+      minDuration: 0.246958
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1030,5 +1404,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /doom_the_hedge_WwiseProject
+  - /doom_the_hedge_WwiseProject/Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/Music Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Enemy
+  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Enemy/Dolphin
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
