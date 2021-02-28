@@ -181,7 +181,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1321655446" Language="SFX" Hash="271657571">
+		<SoundBank Id="1321655446" Language="SFX" Hash="2390266202">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\LevelMusic</ObjectPath>
 			<ShortName>LevelMusic</ShortName>
 			<Path>LevelMusic.bnk</Path>
@@ -225,7 +225,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1369650004" Language="SFX" Hash="394340281">
+		<SoundBank Id="1369650004" Language="SFX" Hash="2085297789">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\Menu_OtherMusic</ObjectPath>
 			<ShortName>Menu_OtherMusic</ShortName>
 			<Path>Menu_OtherMusic.bnk</Path>
@@ -2305,7 +2305,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2376466361" Language="SFX" Hash="2847297419">
+		<SoundBank Id="2376466361" Language="SFX" Hash="2912290292">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Other</ObjectPath>
 			<ShortName>Other</ShortName>
 			<Path>Other.bnk</Path>
@@ -2445,7 +2445,7 @@
 				<Event Id="151821121" Name="WhaleDialogue_Stop" ObjectPath="\Events\Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4184936253" Language="SFX" Hash="1359848202">
+		<SoundBank Id="4184936253" Language="SFX" Hash="1631002329">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music Soundbanks\StoryMusic</ObjectPath>
 			<ShortName>StoryMusic</ShortName>
 			<Path>StoryMusic.bnk</Path>
