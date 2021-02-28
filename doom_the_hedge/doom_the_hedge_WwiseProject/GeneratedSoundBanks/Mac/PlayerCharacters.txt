@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	108803881	HedgehogWeapon_Fire			\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogWeapon\HedgehogWeapon_Fire	
 	331083659	HedgehogFootsteps			\Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps\HedgehogFootsteps	
+	349320802	SaladShotgun_FireReload			\Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitWeapon\SaladShotgun_FireReload	
 	1269630546	SkunkFootsteps			\Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps\SkunkFootsteps	
 	1494531899	RabbitFootstep			\Default Work Unit\SFX Events\PlayerCharacters\Rabbit\RabbitFootsteps\RabbitFootstep	
 	1650535520	SkunkWeapon_Fire			\Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkWeapon\SkunkWeapon_Fire	

@@ -138,7 +138,39 @@
 												</Event>
 											</ChildrenList>
 										</Folder>
-										<Folder Name="HedgehogWeapon" ID="{D53936E1-DF95-41D4-8A8D-6AE2008537F0}" ShortID="504937896"/>
+										<Folder Name="HedgehogWeapon" ID="{D53936E1-DF95-41D4-8A8D-6AE2008537F0}" ShortID="504937896">
+											<ChildrenList>
+												<Event Name="HedgehogWeapon_Reload" ID="{F47A9143-9A63-455F-BE28-1B6C9BEB791E}">
+													<ChildrenList>
+														<Action Name="" ID="{499AD209-430C-4D16-8776-C229F98BD349}" ShortID="946769002">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="WeaponReload" ID="{7DF2DB22-4354-400D-B686-F915B39E2FDA}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="HedgehogWeapon_Fire" ID="{CEC6CC47-BBF5-4BBA-B4A9-32DBB5028295}">
+													<ChildrenList>
+														<Action Name="" ID="{76170B4A-8FA5-4128-8EA2-A6B2D01A7378}" ShortID="104407550">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="WeaponFire" ID="{F3793BD6-AF92-4526-A804-29EF02E450CF}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{3FE0E790-B88C-4F1D-B0AA-C1CB429DD986}" ShortID="844897301">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="WeaponTail" ID="{97947A7A-6E57-4B40-8A03-A00153083A48}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Rabbit" ID="{3CE0AC58-B450-4EFA-A505-E26DEAFF14C7}" ShortID="907249996">
@@ -374,8 +406,149 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="OtterDeath" ID="{7965AE5A-44A3-42A4-91F5-F5E5D2B620E2}">
+											<ChildrenList>
+												<Action Name="" ID="{5D7A6B54-D647-4C17-A4D1-355E1D4C9D33}" ShortID="861286531">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="OtterDeath" ID="{27B9C027-5575-4919-B89B-C5EA88409D5F}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="OtterMovement" ID="{A109E7C6-BC08-41D6-8441-6FCC7C3485B3}">
+											<ChildrenList>
+												<Action Name="" ID="{31874B34-6E91-41F1-8007-76B674CFA2D3}" ShortID="842382067">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="OtterMovement" ID="{99EE27D6-ECE7-46B8-9B9B-5B3EA034E632}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Dolphin" ID="{ADC2DFA0-0E0E-4730-B39B-4E608FA491D8}" ShortID="897782733">
+									<ChildrenList>
+										<Event Name="DolphinDeath" ID="{58C37F3A-78F1-4100-A330-D2D83534E65B}">
+											<ChildrenList>
+												<Action Name="" ID="{01E6AC93-3D48-454B-BA72-D0F0A4D338F0}" ShortID="708867446">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DolphinDeath" ID="{C7A9F33D-1A2E-4F42-8B34-8B3C9870A96E}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="DolphinWeapon_Fire" ID="{3F935ADD-63EB-4F3A-8EEA-D19042279CDF}">
+											<ChildrenList>
+												<Action Name="" ID="{32A41323-999B-4C32-89A1-BDB953F633F8}" ShortID="552230596">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DolphinWeapon" ID="{167DA9A6-56F6-4126-A6FA-40A61AA628C5}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="DolphinMovement" ID="{1B233ABB-9650-49DC-90E2-5445A350A3A7}">
+											<ChildrenList>
+												<Action Name="" ID="{07A656F3-40C2-4557-8136-02ED5EFE1DD1}" ShortID="482954066">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DolphinMovement" ID="{3D8C73C8-B85B-48D6-AB51-9DD879CDBA8B}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Platypus" ID="{D0B7BAF7-2877-4CEC-897F-63CAF4439677}" ShortID="136816325">
+									<ChildrenList>
+										<Event Name="Play_PlatypusDeath" ID="{95DC385F-EB79-4F81-83A3-A4ACEB4E7870}">
+											<ChildrenList>
+												<Action Name="" ID="{125EF24C-BFC3-45D2-B079-20EA17B96990}" ShortID="1062138139">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PlatypusDeath" ID="{8AEA16DB-9328-4873-8F3A-621174D11A12}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_PlatypusWeapon" ID="{C224F54C-DABB-48E3-B3ED-B59543EDC062}">
+											<ChildrenList>
+												<Action Name="" ID="{21AB50F5-2F32-46CA-9BFA-561ED7EBDD78}" ShortID="77863539">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PlatypusWeapon" ID="{6ECF4D65-9624-42DD-BE24-E7F0B5404EE1}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_PlatypusMovement" ID="{45E122CE-47C4-4196-B568-03BE8317B2A0}">
+											<ChildrenList>
+												<Action Name="" ID="{B5044245-9599-42A8-93B0-C17473219386}" ShortID="655223375">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PlatypusMovement" ID="{3BDAE512-8F57-4B71-AF83-6DF563D69650}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Porpoise" ID="{08523E5E-CC78-4297-9619-21E88309C324}" ShortID="752026244">
+									<ChildrenList>
+										<Event Name="PorpoiseDeath" ID="{3DB7ADD0-E1EC-4FA5-B407-E68128222328}">
+											<ChildrenList>
+												<Action Name="" ID="{39169A30-BBBB-48E7-88C4-3D47F43B09B0}" ShortID="227251258">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PorpoiseDeath" ID="{57542594-93B2-4578-B9D3-3DA50F958A6F}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="PorpoiseMovement" ID="{344B02C6-6E17-4518-B1CD-D0344157A3B3}">
+											<ChildrenList>
+												<Action Name="" ID="{701BCA5C-5D61-48BB-AE12-228139682BC5}" ShortID="776310992">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PorpoiseMovement" ID="{0092869F-6C69-4023-87EE-18C2F7D5685E}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="PorpoiseWeapon_Fire" ID="{78667ABA-F92B-42B4-A56C-C20AD3ACA488}">
+											<ChildrenList>
+												<Action Name="" ID="{2BC30D27-CF80-415E-A6FB-A5ECCD5F6383}" ShortID="519888892">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Fire" ID="{FF8F707A-4B21-4A02-8708-3EC9B417914A}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{DFD14476-6FA4-4C25-8ACC-6136E7115051}" ShortID="976382571">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Tail" ID="{AA8F7007-5449-428C-96B0-88E9FC78D7D9}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Whale" ID="{232C9951-355D-4B11-B4D3-C63102F136ED}" ShortID="1060583566"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Ambience" ID="{9FD84313-D6EB-4894-8B26-8580BC693E81}" ShortID="908599601">
@@ -559,6 +732,50 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="WhaleShockwave_Jump" ID="{0CD68E03-D0A3-49F3-818D-6A5C1A48345D}">
+					<ChildrenList>
+						<Action Name="" ID="{8714F954-0F43-41EE-A4BF-FD943BC78874}" ShortID="422380516">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{D7FE1B0D-402A-4921-81B9-B502872A14F0}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WhaleShockwave_Land" ID="{38345DD7-6D3C-4C7F-BAFE-B4450AAE2597}">
+					<ChildrenList>
+						<Action Name="" ID="{14F6CA64-A2A5-493B-AEB8-004419AF2C8E}" ShortID="914266532">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{A0133243-C791-45EC-83A7-054339613917}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WhaleDeath" ID="{7C088687-F387-4354-9040-A09BE585B7B0}">
+					<ChildrenList>
+						<Action Name="" ID="{ABD1F6B9-8B16-4465-AB6A-E3EEF70AC0ED}" ShortID="275545820">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WhaleDeath" ID="{AD4A9792-32AD-42AC-9CED-8421F56AC4CF}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WhaleWeaponBubble_Fire" ID="{B7BB3061-04A5-424E-8B4E-C7272E7AC302}">
+					<ChildrenList>
+						<Action Name="" ID="{1CC0BF36-6FAE-4625-B234-1D9868CDCDD5}" ShortID="428824116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WhaleWeaponBubble" ID="{76887C6D-94D0-402F-8855-1F4B4ABBD98D}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

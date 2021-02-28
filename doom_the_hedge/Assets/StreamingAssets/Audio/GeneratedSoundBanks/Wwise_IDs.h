@@ -14,6 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BEACHAMBIENCE_PLAY = 4036018679U;
+        static const AkUniqueID DOLPHINDEATH = 4147878575U;
+        static const AkUniqueID DOLPHINMOVEMENT = 177596184U;
+        static const AkUniqueID DOLPHINWEAPON_FIRE = 2309630522U;
         static const AkUniqueID FORESTAMBIENCE_PLAY = 3299866627U;
         static const AkUniqueID HEALTHPICKUP = 3065686491U;
         static const AkUniqueID HEDGEHOGFOOTSTEPS = 331083659U;
@@ -22,6 +25,8 @@ namespace AK
         static const AkUniqueID HITMARKER = 3733553022U;
         static const AkUniqueID LOWHEALTH = 1017222595U;
         static const AkUniqueID MENUTOGGLE = 3876141876U;
+        static const AkUniqueID OTTERDEATH = 1109759313U;
+        static const AkUniqueID OTTERMOVEMENT = 3615308082U;
         static const AkUniqueID OTTERWEAPON_FIRE = 1123532588U;
         static const AkUniqueID PLAY_GAMECOMPLETEMUSIC = 3646633498U;
         static const AkUniqueID PLAY_INTROCUTSCENEMUSIC = 509751257U;
@@ -30,13 +35,20 @@ namespace AK
         static const AkUniqueID PLAY_LEVEL3ESCALATIONMUSIC = 2759422985U;
         static const AkUniqueID PLAY_LEVEL3MUSIC = 1946308780U;
         static const AkUniqueID PLAY_MAINMENU = 3738780720U;
+        static const AkUniqueID PLAY_PLATYPUSDEATH = 922371940U;
+        static const AkUniqueID PLAY_PLATYPUSMOVEMENT = 1384682229U;
+        static const AkUniqueID PLAY_PLATYPUSWEAPON = 3220201466U;
         static const AkUniqueID PLAY_STORY1MUSIC = 1348496591U;
         static const AkUniqueID PLAY_STORY2MUSIC = 1978838842U;
         static const AkUniqueID PLAY_STORY3MUSIC = 14830353U;
         static const AkUniqueID PLAYERDAMAGE = 337406793U;
+        static const AkUniqueID PORPOISEDEATH = 4073565546U;
+        static const AkUniqueID PORPOISEMOVEMENT = 2624668811U;
+        static const AkUniqueID PORPOISEWEAPON_FIRE = 2230862155U;
         static const AkUniqueID RABBITFOOTSTEP = 1494531899U;
         static const AkUniqueID ROOMCLEAR = 1974576135U;
         static const AkUniqueID SALADSHOTGUN_FIRE = 4010101365U;
+        static const AkUniqueID SALADSHOTGUN_FIRERELOAD = 349320802U;
         static const AkUniqueID SALADSHOTGUN_RELOAD = 2863745006U;
         static const AkUniqueID SKUNKFOOTSTEPS = 1269630546U;
         static const AkUniqueID SKUNKWEAPON_FIRE = 1650535520U;
@@ -46,6 +58,10 @@ namespace AK
         static const AkUniqueID UI_PAUSE = 2792155208U;
         static const AkUniqueID UI_RESUME = 2391028579U;
         static const AkUniqueID UI_SELECT = 2774129122U;
+        static const AkUniqueID WHALEDEATH = 2205501422U;
+        static const AkUniqueID WHALESHOCKWAVE_JUMP = 2395666464U;
+        static const AkUniqueID WHALESHOCKWAVE_LAND = 3864760795U;
+        static const AkUniqueID WHALEWEAPONBUBBLE_FIRE = 1166130081U;
     } // namespace EVENTS
 
     namespace BANKS
