@@ -94,7 +94,8 @@ public class gamemanager : MonoBehaviour
 
     public void RestartLevel()
     {
-        audioplayer.Stop(0);
+        
+        Destroy(audioplayer.gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
