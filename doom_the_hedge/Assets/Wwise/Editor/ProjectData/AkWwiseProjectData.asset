@@ -198,7 +198,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585870932303684525
+    m_lastTime: -8585870917683839847
     List:
     - name: Ambience
       guid: 1343d89febd694488b268580bc693e81
@@ -361,6 +361,24 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: HedgehogFootsteps
+      guid: a3705f975ce93343a168070d2df827c4
+      id: 331083659
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Hedgehog
+        ObjectType: 4
+      - ElementName: HedgehogFootsteps
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.475437
+      minDuration: 0.415771
+    - name: HedgehogFootsteps
       guid: 9c95d77a34fd7a418e74fb1552aab08b
       id: 331083659
       PathAndIcons:
@@ -377,24 +395,6 @@ MonoBehaviour:
       - ElementName: HedgehogFootsteps
         ObjectType: 3
       Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps\HedgehogFootsteps
-      maxAttenuation: 0
-      maxDuration: 0.475437
-      minDuration: 0.415771
-    - name: HedgehogFootsteps
-      guid: a3705f975ce93343a168070d2df827c4
-      id: 331083659
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX Events
-        ObjectType: 4
-      - ElementName: PlayerCharacters
-        ObjectType: 4
-      - ElementName: Hedgehog
-        ObjectType: 4
-      - ElementName: HedgehogFootsteps
-        ObjectType: 4
-      Path: Default Work Unit\SFX Events\PlayerCharacters\Hedgehog\HedgehogFootsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1180,6 +1180,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.056521
       minDuration: 1.814792
+    - name: StopAll
+      guid: 8968fb952027a6408768e92e51b926f4
+      id: 3086540886
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopAll
+        ObjectType: 3
+      Path: Default Work Unit\StopAll
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: UI
       guid: e92a4fb3ad31b54a81fee1d76c19dc40
       id: 1551306167
@@ -1404,11 +1416,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /doom_the_hedge_WwiseProject
-  - /doom_the_hedge_WwiseProject/Events
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/Music Events
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Enemy
-  - /doom_the_hedge_WwiseProject/Events/Default Work Unit/SFX Events/Enemy/Dolphin
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
