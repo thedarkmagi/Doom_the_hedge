@@ -52,7 +52,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: {fileID: 1658768117738525542}
-  type: 0
+  type: 3
+  healthdrop: {fileID: 4305910878278568877, guid: dc2bae579eddad04ba1befaa1399b055,
+    type: 3}
+  dropRate: 16.7
   _gun: {fileID: 5867560463390721530}
   agroRange: {fileID: 1658768118696312815}
   agg: {fileID: 1658768118696312812}
@@ -232,7 +235,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 5
+  m_Radius: 45
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1658768118897765406
 GameObject:

@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2628950191031043517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 23.1, y: 0, z: 13.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2628950191708136361}
@@ -56,7 +56,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 20
+  m_Radius: 45
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2628950191708136354
 GameObject:
@@ -111,6 +111,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: {fileID: 2628950191708136367}
   type: 1
+  healthdrop: {fileID: 4305910878278568877, guid: dc2bae579eddad04ba1befaa1399b055,
+    type: 3}
+  dropRate: 20
   _gun: {fileID: 7067005101677391453}
   agroRange: {fileID: 2628950191031043518}
   agg: {fileID: 2628950191031043516}

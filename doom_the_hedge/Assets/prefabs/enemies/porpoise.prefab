@@ -149,6 +149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: {fileID: 3342956903645375430}
   type: 2
+  healthdrop: {fileID: 4305910878278568877, guid: dc2bae579eddad04ba1befaa1399b055,
+    type: 3}
+  dropRate: 25
   _gun: {fileID: 7497493236867932816}
   agroRange: {fileID: 3342956903988104013}
   agg: {fileID: 3342956903988104015}
