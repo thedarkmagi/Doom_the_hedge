@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,12 +123,263 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &33536023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameText
+      value: Harvey Humpback
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameColor.g
+      value: 0.73333335
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameColor.r
+      value: 0.89019614
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: d86445195218e1e40b7813db785cfade,
+        type: 3}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_Name
+      value: Whale
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d9acc6cecd92924f9f52a55832d4308, type: 3}
 --- !u!224 &111752823 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6184045160356323961, guid: 466f32b4a946d9742a0469eef275cb4f,
     type: 3}
   m_PrefabInstance: {fileID: 582359172}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &265930771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+    type: 3}
+  m_PrefabInstance: {fileID: 33536023}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &343488020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748792395272, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_Name
+      value: SayDialogJam
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a1db2697837aff41968bdb0181a143d, type: 3}
 --- !u!1 &355703944
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,12 +473,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!224 &433043188 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6184045160814249834, guid: 466f32b4a946d9742a0469eef275cb4f,
-    type: 3}
-  m_PrefabInstance: {fileID: 582359172}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &474308688 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
@@ -257,6 +502,30 @@ GameObject:
   - component: {fileID: 572250535}
   - component: {fileID: 572250538}
   - component: {fileID: 572250539}
+  - component: {fileID: 572250541}
+  - component: {fileID: 572250540}
+  - component: {fileID: 572250545}
+  - component: {fileID: 572250544}
+  - component: {fileID: 572250543}
+  - component: {fileID: 572250542}
+  - component: {fileID: 572250546}
+  - component: {fileID: 572250547}
+  - component: {fileID: 572250553}
+  - component: {fileID: 572250552}
+  - component: {fileID: 572250551}
+  - component: {fileID: 572250550}
+  - component: {fileID: 572250549}
+  - component: {fileID: 572250548}
+  - component: {fileID: 572250554}
+  - component: {fileID: 572250559}
+  - component: {fileID: 572250558}
+  - component: {fileID: 572250557}
+  - component: {fileID: 572250556}
+  - component: {fileID: 572250555}
+  - component: {fileID: 572250561}
+  - component: {fileID: 572250560}
+  - component: {fileID: 572250563}
+  - component: {fileID: 572250562}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -295,7 +564,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 73
-    width: 111
+    width: 112.76595
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -309,6 +578,30 @@ MonoBehaviour:
   - {fileID: 572250535}
   - {fileID: 572250538}
   - {fileID: 572250539}
+  - {fileID: 572250541}
+  - {fileID: 572250540}
+  - {fileID: 572250545}
+  - {fileID: 572250544}
+  - {fileID: 572250543}
+  - {fileID: 572250542}
+  - {fileID: 572250546}
+  - {fileID: 572250547}
+  - {fileID: 572250553}
+  - {fileID: 572250552}
+  - {fileID: 572250551}
+  - {fileID: 572250550}
+  - {fileID: 572250549}
+  - {fileID: 572250548}
+  - {fileID: 572250554}
+  - {fileID: 572250559}
+  - {fileID: 572250558}
+  - {fileID: 572250557}
+  - {fileID: 572250556}
+  - {fileID: 572250555}
+  - {fileID: 572250561}
+  - {fileID: 572250560}
+  - {fileID: 572250563}
+  - {fileID: 572250562}
   suppressAllAutoSelections: 0
 --- !u!114 &572250533
 MonoBehaviour:
@@ -323,11 +616,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 376, y: 214}
+  scrollPos: {x: 38.904934, y: 64.28147}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 417
-  zoom: 1
+  blockViewHeight: 280
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -337,7 +630,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 572250532}
   selectedCommands:
-  - {fileID: 572250535}
+  - {fileID: 572250562}
   variables: []
   description: 
   stepPause: 0
@@ -379,13 +672,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Hedgehog confident: Watson, have you seen my violin?
-
-      Bunny
-      bunnyworry <<<: No, why don''t you find it yourself using your amazing powers
-      of deduction...
-
-      Hedgehog hedgehogangry fade : dont cross me ever again'
+    stringVal: "Skunk Skunkopenmouth: Wow, we actually beat a whale!\nBunny bunnyspeak:
+      Yeah! That\u2019s what you get when you mess with the forest!\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -416,10 +704,10 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1484761751}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 745612c7f5bf2964695e29345353d2f9, type: 3}
+  portrait: {fileID: 21300000, guid: 4f5ced912e7877548affee9295a0a66f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 606657036}
+  toPosition: {fileID: 111752823}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -444,12 +732,12 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 474308688}
+  character: {fileID: 858490493}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 52d8d5bdc86e8b545a13f501b365f773, type: 3}
+  portrait: {fileID: 21300000, guid: b253f6a3774f1b044ab36685e1195d36, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 111752823}
+  toPosition: {fileID: 606657036}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -472,14 +760,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  display: 1
+  display: 3
   stage: {fileID: 0}
   character: {fileID: 474308688}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  replacedCharacter: {fileID: 858490493}
+  portrait: {fileID: 21300000, guid: 181f86fe3b6f0654a976dda066bf46a2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1307494446}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -490,7 +778,66 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &572250539
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'ShadowHog hedgehogneutral <<< fade: Heh, nice one.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Whale whale1: Welp, I guess that\u2019s it... What am I supposed
+      to do now?\nBunny bunnycrazy fade: UH, WHAT?!?"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -500,22 +847,708 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
+  itemId: 7
   indentLevel: 0
-  display: 1
+  display: 3
   stage: {fileID: 0}
-  character: {fileID: 858490493}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 8b01c3cd61221a44a985bcfddacd815f, type: 3}
+  character: {fileID: 265930771}
+  replacedCharacter: {fileID: 474308688}
+  portrait: {fileID: 21300000, guid: d86445195218e1e40b7813db785cfade, type: 3}
   offset: 0
-  fromPosition: {fileID: 433043188}
-  toPosition: {fileID: 111752823}
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "ShadowHog hedgehogneutral: Last I checked, sea mammals lived in the
+      sea.\nWhale whale1: We had a\u2026 disagreement, with the Fish Empire. Things
+      got a little violent and communications broke down. \nWhale whale1: The Empress
+      has exiled us until we apologise, but she started the fighting to begin with."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 474308688}
+  replacedCharacter: {fileID: 858490493}
+  portrait: {fileID: 21300000, guid: 181f86fe3b6f0654a976dda066bf46a2, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Skunk skunkteeth <<<: Hey, um, Mr. Whale? What are you talking about?
+      Why are we not fighting right now?
+
+      Whale whale1: Well you see, smelly
+      rodent, my subjects and I no longer have a place to go.
+
+      Whale whale1:
+      Invading your forest was a drastic last resort, but now we have no options
+      left.'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 858490493}
+  replacedCharacter: {fileID: 1484761751}
+  portrait: {fileID: 21300000, guid: 8b01c3cd61221a44a985bcfddacd815f, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 858490493}
+  replacedCharacter: {fileID: 474308688}
+  portrait: {fileID: 21300000, guid: 74dce20508c69dc4baaa15025c4f988d, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Skunk skunkthinking <<< fade: Well, maybe we can help you guys figure
+      something out? I\u2019m a very good listener!"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Skunk skunkneutral >>>: Tell the Empress that my forest village is
+      happy to help manage negotiations between the Empress and Mr Whale.\nSkunk
+      skunkneutral >>>: We\u2019ll make a fair treaty so the sea mammals can stay
+      in the ocean.\nFish fishyladyopenmouth: Is that everything, Harvey? No apology?"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 858490493}
+  replacedCharacter: {fileID: 265930771}
+  portrait: {fileID: 21300000, guid: 4bfe72ca529d473419c9d21e24b13e3d, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Fish fishylady: Saumon Avocat, Imperial Envoy at your service. What
+      do you require from me?
+
+'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 1830067458}
+  replacedCharacter: {fileID: 1484761751}
+  portrait: {fileID: 21300000, guid: d26defb41a116f247b6427f43e5788b3, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Bunny bunnyneutral: Yeah, how can the fish expect you to leave the
+      water? Not cool.
+
+      Whale whale1: A neutral mediator, interesting... Messenger,
+      I have a proposal for the Empress!'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 1484761751}
+  replacedCharacter: {fileID: 858490493}
+  portrait: {fileID: 21300000, guid: a8f132018a487824f9e7d74cc1b980f7, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 265930771}
+  replacedCharacter: {fileID: 858490493}
+  portrait: {fileID: 21300000, guid: d86445195218e1e40b7813db785cfade, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "ShadowHog hedgehogspeak >>>: Their name is Jass Stripe, and they
+      just gave every one of your sea mammals a chance to return to a normal life.
+      \nShadowHog hedgehogspeak >>>: The least you can do is respect their kindness
+      and diplomacy by offering reparations to our village.\nShadowhog hedgehogsomber
+      >>>: We cannot afford to be so close-minded and stubborn.\nShadowhog hedgehogsomber
+      >>>: Even when everything looks bleak, you have to take care of the creatures
+      that are relying on you.\nWhale whale1 fade: O-o-of course, sir. We will start
+      planning that immediately, let me go gather my advisors."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 474308688}
+  replacedCharacter: {fileID: 858490493}
+  portrait: {fileID: 21300000, guid: 863b34ab77b46db48811568e1e4eecfb, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Skunk skunkblush fade: Aww, well tha-'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 858490493}
+  replacedCharacter: {fileID: 1830067458}
+  portrait: {fileID: 21300000, guid: 185709c90050a1347b35c209c1750891, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Whale Whale1: ...Go ahead, tell the old bag that I\u2019m sorry.
+      Make it polite though.\nFish fishylady: I shall just write that up and then
+      depart posthaste.\nWhale whale1: Smelly rodent, you have helped us far more
+      than we deserve. Thank you for your understanding."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Bunny bunnyspeak >>>: Ooh, that was so sweet, Spike Mike! You\u2019re
+      a big softie after all! \nBunny bunnyspeak >>>: And good job, kid!  You\u2019ve
+      got a real charm about you, like a pantomime actor but less creepy."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 1484761751}
+  replacedCharacter: {fileID: 265930771}
+  portrait: {fileID: 21300000, guid: 4f5ced912e7877548affee9295a0a66f, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &572250562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Skunk skunkblush: Thanks for trusting me everyone, I just want us
+      all to move past this so we can get along peacefully.\r\nSkunk skunkblush:
+      Plus, this place is amazing! Like a perfect holiday destination, I can\u2019t
+      wait to tell everyone in the village about it!\r"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &572250563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572250530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  indentLevel: 0
+  display: 3
+  stage: {fileID: 0}
+  character: {fileID: 858490493}
+  replacedCharacter: {fileID: 474308688}
+  portrait: {fileID: 21300000, guid: 185709c90050a1347b35c209c1750891, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!1001 &582359172
@@ -643,7 +1676,9 @@ GameObject:
   m_Component:
   - component: {fileID: 756713775}
   - component: {fileID: 756713774}
+  - component: {fileID: 756713776}
   - component: {fileID: 756713773}
+  - component: {fileID: 756713777}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -651,14 +1686,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &756713773
-AudioListener:
+--- !u!114 &756713773
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756713772}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8c6d4f5d25e15459ba657f9818dda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
 --- !u!20 &756713774
 Camera:
   m_ObjectHideFlags: 0
@@ -716,6 +1757,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &756713776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756713772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0010c103eed4e34eab6d149cb80ada0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &756713777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756713772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &846466010
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +1903,132 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &897939645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870419, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameText
+      value: Saumon Avocat
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameColor.b
+      value: 0.76470596
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameColor.g
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameColor.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: d26defb41a116f247b6427f43e5788b3,
+        type: 3}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 99109dacc6861874db13c808babf8239,
+        type: 3}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_Name
+      value: Fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d9acc6cecd92924f9f52a55832d4308, type: 3}
 --- !u!1 &1125074026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2450147385165801581, guid: 133ecded0868a9842a5c011de777d802,
@@ -858,7 +2079,7 @@ PrefabInstance:
     - target: {fileID: 7090527791833146921, guid: 2e6c17a5efd40ca46a781055f8d53e66,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7090527791833146921, guid: 2e6c17a5efd40ca46a781055f8d53e66,
         type: 3}
@@ -1028,12 +2249,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e6c17a5efd40ca46a781055f8d53e66, type: 3}
---- !u!224 &1307494446 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6184045160283290165, guid: 466f32b4a946d9742a0469eef275cb4f,
-    type: 3}
-  m_PrefabInstance: {fileID: 582359172}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1484761751 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9156275175417816804, guid: e3ef5bbb8869ee243832f56092917754,
@@ -1061,7 +2276,7 @@ PrefabInstance:
     - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0,
         type: 3}
@@ -1146,7 +2361,7 @@ PrefabInstance:
     - target: {fileID: 2450147385165801583, guid: 133ecded0868a9842a5c011de777d802,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2450147385165801583, guid: 133ecded0868a9842a5c011de777d802,
         type: 3}
@@ -1245,6 +2460,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830067458 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+    type: 3}
+  m_PrefabInstance: {fileID: 897939645}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2107984995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107984997}
+  - component: {fileID: 2107984996}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2107984996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107984995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a139285962aa2a44bf110a9b3fe9701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: f8278710b1d626043a7c27fdd2992e07,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  diffractionFlags: 11
+  engineLogging: 0
+--- !u!4 &2107984997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107984995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3423354723753205138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1260,7 +2545,7 @@ PrefabInstance:
     - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
         type: 3}
       propertyPath: nameText
-      value: Hedgehog
+      value: Spike Mike
       objectReference: {fileID: 0}
     - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
         type: 3}
@@ -1510,17 +2795,12 @@ PrefabInstance:
     - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
         type: 3}
       propertyPath: nameText
-      value: Skunk
+      value: Jass Stripe
       objectReference: {fileID: 0}
     - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
         type: 3}
       propertyPath: m_Name
       value: Skunk
-      objectReference: {fileID: 0}
-    - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d9acc6cecd92924f9f52a55832d4308, type: 3}
