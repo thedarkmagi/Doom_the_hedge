@@ -1694,7 +1694,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2299321487" Language="SFX" Hash="3789287394">
+		<SoundBank Id="2299321487" Language="SFX" Hash="2940689369">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX Soundbanks\Enemy</ObjectPath>
 			<ShortName>Enemy</ShortName>
 			<Path>Enemy.bnk</Path>
@@ -1891,20 +1891,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2037021532" Name="PlatypusWeapon_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\Enemy\Platypus\PlatypusWeapon_Fire" DurationType="OneShot" DurationMin="1.752375" DurationMax="2.018687">
+				<Event Id="2037021532" Name="PlatypusWeapon_Fire" ObjectPath="\Events\Default Work Unit\SFX Events\Enemy\Platypus\PlatypusWeapon_Fire" DurationType="OneShot" DurationMin="1.233708" DurationMax="1.536792">
 					<IncludedMemoryFiles>
-						<File Id="19836032" Language="SFX">
-							<ShortName>dth_sfx_platypus_explosion.wav</ShortName>
-							<Path>SFX\dth_sfx_platypus_explosion_10C4C929.wem</Path>
-						</File>
-						<File Id="162668483" Language="SFX">
-							<ShortName>dth_sfx_platypus_explosion-003.wav</ShortName>
-							<Path>SFX\dth_sfx_platypus_explosion-003_10C4C929.wem</Path>
-						</File>
-						<File Id="353274357" Language="SFX">
-							<ShortName>dth_sfx_platypus_explosion-002.wav</ShortName>
-							<Path>SFX\dth_sfx_platypus_explosion-002_10C4C929.wem</Path>
-						</File>
 						<File Id="583496590" Language="SFX">
 							<ShortName>dth_sfx_platypus_fire-005.wav</ShortName>
 							<Path>SFX\dth_sfx_platypus_fire-005_10C4C929.wem</Path>
@@ -1925,6 +1913,26 @@
 							<ShortName>dth_sfx_platypus_fire-004.wav</ShortName>
 							<Path>SFX\dth_sfx_platypus_fire-004_10C4C929.wem</Path>
 						</File>
+						<File Id="920231582" Language="SFX">
+							<ShortName>dth_sfx_platypus_fire-001.wav</ShortName>
+							<Path>SFX\dth_sfx_platypus_fire-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2215583030" Name="PlatypusWeapon_Impact" ObjectPath="\Events\Default Work Unit\SFX Events\Enemy\Platypus\PlatypusWeapon_Impact" DurationType="OneShot" DurationMin="1.752375" DurationMax="2.018687">
+					<IncludedMemoryFiles>
+						<File Id="19836032" Language="SFX">
+							<ShortName>dth_sfx_platypus_explosion.wav</ShortName>
+							<Path>SFX\dth_sfx_platypus_explosion_10C4C929.wem</Path>
+						</File>
+						<File Id="162668483" Language="SFX">
+							<ShortName>dth_sfx_platypus_explosion-003.wav</ShortName>
+							<Path>SFX\dth_sfx_platypus_explosion-003_10C4C929.wem</Path>
+						</File>
+						<File Id="353274357" Language="SFX">
+							<ShortName>dth_sfx_platypus_explosion-002.wav</ShortName>
+							<Path>SFX\dth_sfx_platypus_explosion-002_10C4C929.wem</Path>
+						</File>
 						<File Id="820268618" Language="SFX">
 							<ShortName>dth_sfx_platypus_explosion-004.wav</ShortName>
 							<Path>SFX\dth_sfx_platypus_explosion-004_10C4C929.wem</Path>
@@ -1932,10 +1940,6 @@
 						<File Id="869771633" Language="SFX">
 							<ShortName>dth_sfx_platypus_explosion-005.wav</ShortName>
 							<Path>SFX\dth_sfx_platypus_explosion-005_10C4C929.wem</Path>
-						</File>
-						<File Id="920231582" Language="SFX">
-							<ShortName>dth_sfx_platypus_fire-001.wav</ShortName>
-							<Path>SFX\dth_sfx_platypus_fire-001_10C4C929.wem</Path>
 						</File>
 						<File Id="1007745427" Language="SFX">
 							<ShortName>dth_sfx_platypus_explosion-001.wav</ShortName>

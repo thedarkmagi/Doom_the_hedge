@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1384682229	Play_PlatypusMovement			\Default Work Unit\SFX Events\Enemy\Platypus\Play_PlatypusMovement	
 	2037021532	PlatypusWeapon_Fire			\Default Work Unit\SFX Events\Enemy\Platypus\PlatypusWeapon_Fire	
 	2205501422	WhaleDeath			\Default Work Unit\SFX Events\Enemy\Whale\WhaleDeath	
+	2215583030	PlatypusWeapon_Impact			\Default Work Unit\SFX Events\Enemy\Platypus\PlatypusWeapon_Impact	
 	2230862155	PorpoiseWeapon_Fire			\Default Work Unit\SFX Events\Enemy\Porpoise\PorpoiseWeapon_Fire	
 	2309630522	DolphinWeapon_Fire			\Default Work Unit\SFX Events\Enemy\Dolphin\DolphinWeapon_Fire	
 	2395666464	WhaleShockwave_Jump			\Default Work Unit\SFX Events\Enemy\Whale\WhaleShockwave_Jump	

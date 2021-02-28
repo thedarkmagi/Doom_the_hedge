@@ -643,17 +643,21 @@
 										</Event>
 										<Event Name="PlatypusWeapon_Fire" ID="{846F3169-887D-43DA-B557-A5ECAEC23C87}">
 											<ChildrenList>
-												<Action Name="" ID="{BDABBEB1-B555-4EE6-B23C-C7827EEBA6C6}" ShortID="397429760">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Explosion" ID="{9F8B1D7A-8416-44A3-993E-9DEC6F957913}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
 												<Action Name="" ID="{F4DADD1A-87E9-491E-B2C5-8E57B01EA9D3}" ShortID="214529705">
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Fire" ID="{531A312D-CED7-41E9-A7C9-9F28113E00D9}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="PlatypusWeapon_Impact" ID="{08B73DF0-8977-4C3E-AEB7-690F69672B31}">
+											<ChildrenList>
+												<Action Name="" ID="{11936991-0AC3-4523-A3A6-861227F213E7}" ShortID="761702833">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Explosion" ID="{9F8B1D7A-8416-44A3-993E-9DEC6F957913}" WorkUnitID="{60B8B527-0513-443B-8ED0-90246AB27DD6}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

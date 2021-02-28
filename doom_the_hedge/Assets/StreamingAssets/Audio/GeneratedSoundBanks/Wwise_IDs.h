@@ -34,6 +34,7 @@ namespace AK
         static const AkUniqueID OTTERMOVEMENT = 3615308082U;
         static const AkUniqueID OTTERWEAPON_FIRE = 1123532588U;
         static const AkUniqueID PLATYPUSWEAPON_FIRE = 2037021532U;
+        static const AkUniqueID PLATYPUSWEAPON_IMPACT = 2215583030U;
         static const AkUniqueID PLAY_GAMECOMPLETEMUSIC = 3646633498U;
         static const AkUniqueID PLAY_INTROCUTSCENEMUSIC = 509751257U;
         static const AkUniqueID PLAY_LEVEL1MUSIC = 3605952550U;
