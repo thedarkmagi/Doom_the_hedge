@@ -335,7 +335,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 572250532}
   selectedCommands:
-  - {fileID: 572250540}
+  - {fileID: 572250535}
   variables: []
   description: 
   stepPause: 0
@@ -379,9 +379,8 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Skunk skunkteeth: Hey Farrah, are you doing okay?\nBunny bunnyworry:
       Yeah, that fight just shook me a little. I\u2019ve been in danger before, but
-      that was a pretty precarious situation.\nSkunk skunkteeth fade: I didn\u2019t
-      want to say anything, but that was the most stressful thing I\u2019ve ever
-      done in my life..."
+      that was way too close.\nSkunk skunkteeth fade: I didn\u2019t want to say anything,
+      but that was the most stressful thi-"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -456,7 +455,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &572250538
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -473,11 +472,10 @@ MonoBehaviour:
     stringVal: "Skunk skunkneutral >>>: Who told you about this? Was it someone you
       trust?\nShadowHog hedgehogangry <<<: I trusted them completely, no matter what.
       But that\u2019s nothing to do with you, kid.\nSkunk skunkthinking >>>: Hey,
-      I just want to get to know you a little better. It wouldn\u2019t kill you to
-      open up a little.\nShadowHog hedgehogspeak <<<: I\u2019m not taking that risk.
-      Besides, it\u2019s late, better get some shut-eye.\nSkunk skunkthinking >>>:
-      Yeah, facing a huge monster is going to be tough... Good night everyone, sleep
-      well!"
+      I just want to get to know you better. It wouldn\u2019t kill you to open up
+      a little...\nShadowHog hedgehogspeak <<<: I\u2019m not taking that risk. Besides,
+      it\u2019s late. Better get some shut-eye.\nSkunk skunkthinking >>>: Yeah, facing
+      a huge monster is going to be tough... Good night everyone, sleep well!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -492,7 +490,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &572250539
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -539,10 +537,11 @@ MonoBehaviour:
     stringVal: "ShadowHog hedgehogspeak <<<: I\u2019ve heard stories about the sea
       mammals. Rumors, legends, whatever you want to call them.\nShadowHog hedgehogspeak
       <<<: They say their leader is a whale as big as a village; wrinkled and gnarly
-      from age and old wounds. Lives in the ocean, but often floats around just below
-      the surface.\nBunny bunnycrazy: That can\u2019t be true, no single animal is
-      as big as a village! A few trees maybe... You've gotta be kidding, right?\nShadowHog
-      hedgehogsomber <<<: I have no reason to lie to you, soldier."
+      from age and old wounds. \nShadowHog hedgehogspeak <<<: Lives in the ocean,
+      but often floats around just below the surface.\nBunny bunnycrazy: That can\u2019t
+      be true, no single animal is as big as a village! A few trees maybe... You've
+      gotta be kidding, right?\nShadowHog hedgehogsomber <<<: I have no reason to
+      lie to you, soldier."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -710,6 +709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756713775}
   - component: {fileID: 756713774}
+  - component: {fileID: 756713776}
   - component: {fileID: 756713773}
   m_Layer: 0
   m_Name: Main Camera
@@ -718,14 +718,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &756713773
-AudioListener:
+--- !u!114 &756713773
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756713772}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8c6d4f5d25e15459ba657f9818dda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
 --- !u!20 &756713774
 Camera:
   m_ObjectHideFlags: 0
@@ -783,6 +789,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &756713776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756713772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0010c103eed4e34eab6d149cb80ada0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &846466010
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,6 +933,125 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!1001 &1150947354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748772749480, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757129748792395272, guid: 8a1db2697837aff41968bdb0181a143d,
+        type: 3}
+      propertyPath: m_Name
+      value: SayDialogJam
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a1db2697837aff41968bdb0181a143d, type: 3}
 --- !u!1001 &1152686063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1305,6 +1452,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2033568273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2033568275}
+  - component: {fileID: 2033568274}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2033568274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033568273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a139285962aa2a44bf110a9b3fe9701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: f8278710b1d626043a7c27fdd2992e07,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  diffractionFlags: 11
+  engineLogging: 0
+--- !u!4 &2033568275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033568273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3423354723753205138
 PrefabInstance:
