@@ -71,7 +71,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b92a42c93c818744839ae6f90e5f226f
     GuidInternal: 
-    m_lastTime: -8585870835575830739
+    m_lastTime: -8585870819693742670
     List:
     - name: BeachAmbience
       guid: adbcc0b5ff7f5c48a254ab0c03f84a7c
@@ -84,6 +84,17 @@ MonoBehaviour:
       - ElementName: BeachAmbience
         ObjectType: 7
       Path: Default Work Unit\SFX Soundbanks\BeachAmbience
+    - name: Dialogue
+      guid: 61c64940d6278a4ea056d8c04d7538f0
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Soundbanks
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 7
+      Path: Default Work Unit\SFX Soundbanks\Dialogue
     - name: Enemy
       guid: 8a97d9c5ac82b1419afb89134dd6b3ba
       id: 2299321487
@@ -198,7 +209,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a75c45de65f72442911ce50edccb6100
     GuidInternal: 
-    m_lastTime: -8585870835576190624
+    m_lastTime: -8585870819694152536
     List:
     - name: Ambience
       guid: 1343d89febd694488b268580bc693e81
@@ -227,6 +238,20 @@ MonoBehaviour:
       - ElementName: BeachAmbience_Play
         ObjectType: 3
       Path: Default Work Unit\SFX Events\Ambience\BeachAmbience_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dialogue
+      guid: 959879b7abebff4fb556cf190d89e418
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\Dialogue
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -314,6 +339,38 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: FishDialogue_Play
+      guid: b914575d0d8ef040a60ab1a20d89a548
+      id: 281343018
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: FishDialogue_Play
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\FishDialogue_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FishDialogue_Stop
+      guid: 9b827b0b66e6f64b87bc1a0fbe496f10
+      id: 1685545044
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: FishDialogue_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\FishDialogue_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: ForestAmbience_Play
       guid: a7f247f89b580449b0181e992f8cd632
       id: 3299866627
@@ -360,6 +417,38 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: HedgehogDialogue_Play
+      guid: 009a546b603a2948a92e1e7880c97f73
+      id: 2937842769
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: HedgehogDialogue_Play
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\HedgehogDialogue_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HedgehogDialogue_Stop
+      guid: 48524d309fff14449054b8c9a738a9a7
+      id: 4189257735
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: HedgehogDialogue_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\HedgehogDialogue_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: HedgehogFootsteps
       guid: a3705f975ce93343a168070d2df827c4
       id: 331083659
@@ -906,6 +995,38 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: RabbitDialogue_Play
+      guid: 7ca5b4b310725e41bc7770d0e31ab399
+      id: 2641029028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: RabbitDialogue_Play
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RabbitDialogue_Stop
+      guid: 451c68df0dc235458eb07876fa3405cc
+      id: 1118508958
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: RabbitDialogue_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\RabbitDialogue_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: RabbitFootstep
       guid: beb9bba8afd4964ab8e16203660002b7
       id: 1494531899
@@ -1064,6 +1185,56 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: SkunkDialogue_Play
+      guid: be5a59f2b268d94ba9d4e0097e8c98fc
+      id: 1685137252
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: SkunkDialogue_Play
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SkunkDialogue_Stop
+      guid: 8fccf89c42692b43b11ac0d1bf7bed5c
+      id: 162720350
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: SkunkDialogue_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\SkunkDialogue_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SkunkFootsteps
+      guid: 5eb031982d86a346aef292120c2df1c4
+      id: 1269630546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: PlayerCharacters
+        ObjectType: 4
+      - ElementName: Skunk
+        ObjectType: 4
+      - ElementName: SkunkFootsteps
+        ObjectType: 4
+      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.248667
+      minDuration: 0.132
     - name: SkunkFootsteps
       guid: e011554cdd25094da57f99dcce7d788f
       id: 1269630546
@@ -1081,24 +1252,6 @@ MonoBehaviour:
       - ElementName: SkunkFootsteps
         ObjectType: 3
       Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps\SkunkFootsteps
-      maxAttenuation: 0
-      maxDuration: 0.248667
-      minDuration: 0.132
-    - name: SkunkFootsteps
-      guid: 5eb031982d86a346aef292120c2df1c4
-      id: 1269630546
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SFX Events
-        ObjectType: 4
-      - ElementName: PlayerCharacters
-        ObjectType: 4
-      - ElementName: Skunk
-        ObjectType: 4
-      - ElementName: SkunkFootsteps
-        ObjectType: 4
-      Path: Default Work Unit\SFX Events\PlayerCharacters\Skunk\SkunkFootsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1320,6 +1473,38 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.611042
       minDuration: 0.974625
+    - name: WhaleDialogue_Play
+      guid: 96f705aab25c464aa1ca52c72c24a11a
+      id: 1329157803
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: WhaleDialogue_Play
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WhaleDialogue_Stop
+      guid: e8679cee18da4a4489e9b9edf18257f3
+      id: 151821121
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX Events
+        ObjectType: 4
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: WhaleDialogue_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX Events\Dialogue\WhaleDialogue_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: WhaleShockwave_Jump
       guid: 038ed60ca3d0f349818d6a5c1a48345d
       id: 2395666464

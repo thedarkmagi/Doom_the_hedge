@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 8867888249557535668}
   - component: {fileID: 5457049111234518331}
   m_Layer: 0
-  m_Name: Bush_red (4)
+  m_Name: Shield bush
   m_TagString: enviroment
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1063378993570854447
 Transform:

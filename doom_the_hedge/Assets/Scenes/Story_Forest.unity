@@ -326,7 +326,6 @@ GameObject:
   - component: {fileID: 572250549}
   - component: {fileID: 572250550}
   - component: {fileID: 572250548}
-  - component: {fileID: 572250551}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -379,7 +378,6 @@ MonoBehaviour:
   - {fileID: 572250549}
   - {fileID: 572250537}
   - {fileID: 572250536}
-  - {fileID: 572250551}
   - {fileID: 572250540}
   - {fileID: 572250539}
   - {fileID: 572250535}
@@ -417,7 +415,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 572250532}
   selectedCommands:
-  - {fileID: 572250551}
+  - {fileID: 572250540}
   variables: []
   description: 
   stepPause: 0
@@ -870,33 +868,6 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
---- !u!114 &572250551
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572250530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 23
-  indentLevel: 0
-  storyText: hikkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-  description: 
-  character: {fileID: 1484761751}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: e15cd033e8242884fa44bbbffb3635e4, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1001 &582359172
 PrefabInstance:
   m_ObjectHideFlags: 0
