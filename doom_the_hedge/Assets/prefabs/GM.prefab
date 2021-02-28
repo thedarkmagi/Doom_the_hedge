@@ -45,4 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameplayUI: {fileID: 0}
   PauseUI: {fileID: 0}
+  GameOverUI: {fileID: 0}
   player: {fileID: 0}
+  mainscene: 

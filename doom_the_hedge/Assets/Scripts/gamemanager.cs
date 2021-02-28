@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
-using UnityStandardAssets.Utility;
+using UnityEngine.SceneManagement;
+
 
 public class gamemanager : MonoBehaviour
 {
     public static gamemanager instance;
-    public GameObject GameplayUI, PauseUI;
+    public GameObject GameplayUI, PauseUI,GameOverUI;
     public GameObject player;
     private bool Paused;
+    public string mainscene;
 
 
     private void Awake()
@@ -36,13 +37,24 @@ public class gamemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Escape))|| Input.GetKeyDown(KeyCode.P))
+
+        if (player.GetComponent<HpPool>().HP > 1)
         {
-            Paused = !Paused;
-            
+            if ((Input.GetKeyDown(KeyCode.Escape)) || Input.GetKeyDown(KeyCode.P))
+            {
+                Paused = !Paused;
+
+            }
+
+            PauseMenu();
+        }else
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            GameOverUI.GetComponent<Canvas>().enabled = true;
+            Cursor.visible = true;
+            Time.timeScale = 0;
         }
 
-        PauseMenu();
     }
 
     public void Resume()
@@ -77,6 +89,16 @@ public class gamemanager : MonoBehaviour
     public void closeGame()
     {
         Application.Quit();
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void mainMenu()
+    {
+        SceneManager.LoadScene(mainscene);
     }
 
 }

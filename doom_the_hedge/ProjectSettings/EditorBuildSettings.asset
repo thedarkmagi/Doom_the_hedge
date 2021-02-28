@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DipoScene.unity
+    guid: f4ef8581d6f4d274ba2ce04308979362
+  - enabled: 1
+    path: Assets/Scenes/Narrative.unity
+    guid: 47c695f6468da5a42bc999fb89791c28
   m_configObjects: {}
