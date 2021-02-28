@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -368,7 +368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -54.32405
     y: -85.76327
-    width: 112.0253
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -408,11 +408,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 347.79193, y: 345.66312}
+  scrollPos: {x: 158.8114, y: 255.76328}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 419
-  zoom: 0.7900002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -423,8 +423,12 @@ MonoBehaviour:
   - {fileID: 572250532}
   selectedCommands:
   - {fileID: 572250543}
+<<<<<<< Updated upstream
   variables:
   - {fileID: 572250551}
+=======
+  variables: []
+>>>>>>> Stashed changes
   description: 
   stepPause: 0
   colorCommands: 1
@@ -467,14 +471,14 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Skunk skunkblush >>>: ... We should introduce ourselves, we barely
       know each other after all.\nSkunk skunkneutral >>>: My name is Jass Stripe,
-      my pronouns are they/them, and I\u2019m a specialist-in-training! I just graduated
-      with a masters in Military Aromachology.\nBunny bunnyneutral <<<: Great to
-      meet you Jass! As the leader of this squad, I should learn everything I can
-      about you two.\nBunny bunnyspeak <<<: I\u2019m Farrah Bunny, artiste extraordinaire
-      and decorated soldier. You may know me from my one-woman performance of Hare-Spray,
-      or my regiment\u2019s contributions in the Burrow Wars.\nSkunk skunkopenmouth
-      >>>: Wow, that\u2019s so cool!\nSkunk skunkneutral >>>: What about you Mr.
-      Hedgehog, what\u2019s your name?"
+      my pronouns are they/them, and I\u2019m a specialist-in-training! \nSkunk skunkneutral
+      >>>:I just graduated with a masters in Military Aromachology.\nBunny bunnyneutral
+      <<<: Great to meet you Jass! As the leader of this squad, I should learn everything
+      I can about you two.\nBunny bunnyspeak <<<: I\u2019m Farrah Bunny, artiste
+      extraordinaire and decorated soldier. \nBunny bunnyspeak <<<: You may know
+      me from my one-woman performance of Hare-Spray, or my medals from the Burrow
+      Wars.\nSkunk skunkopenmouth >>>: Wow, that\u2019s so cool!\nSkunk skunkneutral
+      >>>: What about you Mr. Hedgehog?"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -706,8 +710,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Bunny bunnycrazy:  Be nice to the kid, asshole, it\u2019s their first
-      day on the frontline.\nShadowHog hedgehogsomber <<<: Hmph.\nBunny bunnyneutral:
+    stringVal: "Bunny bunnycrazy:  Be nice to the kid, old-timer. It\u2019s their
+      first day on the frontline.\nShadowHog hedgehogsomber <<<: Hmph.\nBunny bunnyneutral:
       Anyway, it\u2019s getting late. Sleep well, we\u2019re taking back the beach
       tomorrow."
   clearPrevious:
@@ -789,7 +793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -56.652786
     y: 11.298779
-    width: 109.49365
+    width: 107
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2247,6 +2251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowHog
       objectReference: {fileID: 0}
+    - target: {fileID: 6142128870832138361, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
+        type: 3}
+      propertyPath: nameText
+      value: Spike Mike
+      objectReference: {fileID: 0}
     - target: {fileID: 6142128870832138366, guid: 56ce6beb34bf5594cbd0c4b4fe477e1c,
         type: 3}
       propertyPath: m_RootOrder
@@ -2434,6 +2443,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 764712729731870420, guid: 4d9acc6cecd92924f9f52a55832d4308,
+        type: 3}
+      propertyPath: nameText
+      value: Jass Stripe
       objectReference: {fileID: 0}
     - target: {fileID: 764712729731870421, guid: 4d9acc6cecd92924f9f52a55832d4308,
         type: 3}
