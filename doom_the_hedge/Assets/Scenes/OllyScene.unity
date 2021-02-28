@@ -10482,16 +10482,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3351446530363718287, guid: 0c336aa6fa5d0e84b9aba6cb611179d3,
-        type: 3}
-      propertyPath: travelUpSpeed
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3351446530363718287, guid: 0c336aa6fa5d0e84b9aba6cb611179d3,
-        type: 3}
-      propertyPath: travelDownSpeed
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 6749168516858647984, guid: 0c336aa6fa5d0e84b9aba6cb611179d3,
         type: 3}
       propertyPath: m_Name
