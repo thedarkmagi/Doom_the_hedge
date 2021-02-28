@@ -65,14 +65,19 @@ public class Player : MonoBehaviour
         }
 
         //swapping logic 
-        if(Input.GetKeyDown(KeyCode.Q) && Gun.isFinishedReloading())
+        if(Input.GetKeyDown(KeyCode.Q) && Gun.isFinishedReloading() && !getBoolFromAnim())
         {
             swapTowerPosition(slot.top);
         }
-        else if(Input.GetKeyDown(KeyCode.E) && Gun.isFinishedReloading())
+        else if(Input.GetKeyDown(KeyCode.E) && Gun.isFinishedReloading() && !getBoolFromAnim())
         {
             swapTowerPosition(slot.bottom);
         }
+    }
+
+    bool getBoolFromAnim()
+    {
+        return Gun.currentGun.the_gun.GetComponent<Animator>().GetBool("reload");
     }
 
     void swapTowerPosition(slot position)

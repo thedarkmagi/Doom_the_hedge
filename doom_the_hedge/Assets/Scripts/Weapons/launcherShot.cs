@@ -72,10 +72,11 @@ public class launcherShot : MonoBehaviour
     }
     void aodHit()
     {
-        if(particleToSpawn)
-        {
+        //if(particleToSpawn)
+        //{
+
             Instantiate(particleToSpawn, transform.position, Quaternion.identity,null);
-        }
+        //}
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, radius, Vector3.forward);
         for (int i = 0; i < hits.Length; i++)
         {
