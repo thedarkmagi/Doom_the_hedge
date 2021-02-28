@@ -127,25 +127,43 @@ public class UIManager : MonoBehaviour
         {
             temp = hptemp - 79;
             activebar = 4;
+            healthBars[3].value = 5;
+            healthBars[2].value = 5;
+            healthBars[1].value = 5;
+            healthBars[0].value = 5;
         }
         else if(hptemp >= 60)
         {
             temp = hptemp - 59;
+            healthBars[4].value = 0;
             activebar = 3;
+            healthBars[2].value = 5;
+            healthBars[1].value = 5;
+            healthBars[0].value = 5;
         }
         else if (hptemp >= 40)
         {
             temp = hptemp - 39;
+            healthBars[4].value = 0;
+            healthBars[3].value = 0;
             activebar = 2;
+            healthBars[1].value = 5;
+            healthBars[0].value = 5;
         }
         else if (hptemp >= 20)
         {
             temp = hptemp - 19;
+            healthBars[4].value = 0;
+            healthBars[3].value = 0;
+            healthBars[2].value = 0;
             activebar = 1;
+            healthBars[0].value = 5;
         }
         else if (hptemp > 0)
         {
             temp = hptemp;
+            foreach (Slider bars in healthBars)
+                bars.value = 0;
             activebar = 0;
         }
         healthBars[activebar].value = (int) temp / 4;
