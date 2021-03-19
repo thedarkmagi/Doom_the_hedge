@@ -294,7 +294,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62.06383
     y: 23.652176
-    width: 112.76595
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -325,11 +325,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 51.531914, y: 156.49675}
+  scrollPos: {x: 42.053192, y: 146.34782}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 417
-  zoom: 0.94000006
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -381,10 +381,14 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Skunk skunkteeth: Hey Farrah, are you doing okay?\nBunny bunnyworry:
-      Yeah, that fight just shook me a little. I\u2019ve been in danger before, but
-      that was way too close.\nSkunk skunkteeth fade: I didn\u2019t want to say anything,
-      but that was the most stressful thi-"
+    stringVal: 'Skunk skunkteeth: Hey Farrah, are you doing okay?
+
+      Bunny bunnyworry:
+      Yeah, that fight just shook me a little. They caught us off-guard; that was
+      way too close.
+
+      Skunk skunkteeth fade: I''ve never been ambushed before,
+      that was the most stressful thi-'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -590,7 +594,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &572250542
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -609,7 +613,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &572250543
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -623,7 +627,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.361706
     y: 106.269196
-    width: 119.14893
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -636,7 +640,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &572250544
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
