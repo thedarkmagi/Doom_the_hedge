@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2830436615961735914}
-  - component: {fileID: 8194956843893060804}
+  - component: {fileID: 3177733635050528295}
   m_Layer: 0
   m_Name: BeachWall
   m_TagString: enviroment
@@ -273,8 +273,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &8194956843893060804
-CapsuleCollider:
+--- !u!65 &3177733635050528295
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -283,10 +283,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 4.436434
-  m_Height: 40.568653
-  m_Direction: 2
-  m_Center: {x: 6, y: 3.5, z: 12.135046}
+  serializedVersion: 2
+  m_Size: {x: 5.9871063, y: 16.59847, z: 38.521873}
+  m_Center: {x: 5.2167664, y: 7.4009876, z: 12.218487}
 --- !u!1 &8536531729441852871
 GameObject:
   m_ObjectHideFlags: 0
