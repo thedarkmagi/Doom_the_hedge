@@ -7018,7 +7018,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press ESC to toggle the pause menu
+  m_text: Press P to toggle the pause menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be0314bd3c4b67b45886122cc2a1d14c, type: 2}
   m_sharedMaterial: {fileID: 5474564927855451955, guid: be0314bd3c4b67b45886122cc2a1d14c,
