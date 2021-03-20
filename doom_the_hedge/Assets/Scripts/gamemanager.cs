@@ -60,7 +60,8 @@ public class gamemanager : MonoBehaviour
 
     public void Resume()
     {
-        Paused = !Paused;
+        //Paused = !Paused;
+        Paused = false;
     }
 
 
