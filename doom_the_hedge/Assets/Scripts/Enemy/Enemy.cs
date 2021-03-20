@@ -142,6 +142,7 @@ public class Enemy : MonoBehaviour
                     }
                     currAimTime = 0;
                     _gun.fire();
+                    _gun.reload();
                 }
             }
 
