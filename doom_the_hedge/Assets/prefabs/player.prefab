@@ -677,6 +677,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 680031785186862930, guid: 2aab7ae3c2e23f245a665fce29360306,
         type: 3}
+    - target: {fileID: 5073555633769389508, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
+      propertyPath: m_MaxDistance
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5073555634073963004, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -801,7 +806,7 @@ PrefabInstance:
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: weapons.Array.data[2].radius
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
@@ -851,7 +856,7 @@ PrefabInstance:
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
       propertyPath: weapons.Array.data[1].lifetime
-      value: 1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}

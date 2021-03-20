@@ -616,6 +616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
         type: 3}
+      propertyPath: weapons.Array.data[2].radius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5073555634130482517, guid: b92c56ecb1e8bca48bb5f07cc3334c71,
+        type: 3}
       propertyPath: weapons.Array.data[2].fireRate
       value: 3
       objectReference: {fileID: 0}
