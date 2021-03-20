@@ -77,7 +77,7 @@ public class launcherShot : MonoBehaviour
 
             Instantiate(particleToSpawn, transform.position, Quaternion.identity,null);
         //}
-        RaycastHit[] hits = Physics.SphereCastAll(transform.position, radius, Vector3.forward);
+        RaycastHit[] hits = Physics.SphereCastAll(transform.position, radius, Vector3.one);
         for (int i = 0; i < hits.Length; i++)
         {
             if (hits[i].collider.CompareTag(targetTag))
