@@ -17,10 +17,12 @@ public class shotgunBlast : MonoBehaviour
 
     public GameObject bullet;
     RaycastHit[] m_Hit;
+    bool firstFrame;
     // Start is called before the first frame update
     void Start()
     {
         gameObject.SetActive(false);
+        firstFrame = false;
     }
 
     // Update is called once per frame
@@ -31,8 +33,9 @@ public class shotgunBlast : MonoBehaviour
         {
             kill();
         }
-        else
+        else if (firstFrame)
         {
+            firstFrame = false;
             m_Hit = Physics.BoxCastAll(_collider.bounds.center, transform.localScale,
                 transform.forward, transform.rotation, m_MaxDistance);
             if (m_Hit.Length > 0)
@@ -64,6 +67,7 @@ public class shotgunBlast : MonoBehaviour
         var shot = Instantiate(bullet, transform.position, Quaternion.identity, null);
         var data = shot.GetComponent<dumbyShot>();
         data.lifetime = 4;
+        firstFrame = true;
     }
 
     void OnDrawGizmos()
