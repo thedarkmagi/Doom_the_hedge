@@ -44,8 +44,9 @@ public class gun : MonoBehaviour
     public gunData currentGun;
     public int currentWeapon;
     private Animator anim;
-
+    float starttimer=0;
     public bool reloaded;
+    public bool reloading=true;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,8 +69,37 @@ public class gun : MonoBehaviour
             if (targetTag == "enemy")
             {
                 currentGun.the_gun.GetComponent<Animator>().SetBool("reload", false);
+                
             }
         }
+         if(currentGun.currAmmo <1)
+        {
+
+            if (targetTag == "enemy")
+            {
+                currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
+
+                if (currentGun.the_gun.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("reload"))
+                {
+                    reloading = true;
+
+                }
+                else if (reloading)
+                {
+                    
+                    reloading = false;                
+                }
+                                
+            }
+            
+        }
+          if  (reloading)
+            {
+                reload();
+                 reloading = false;
+            
+        }
+
     }
 
     public bool isFinishedReloading()
@@ -151,15 +181,10 @@ public class gun : MonoBehaviour
             }
             currentGun.curFireRate = 0;
         }
-        else
-        {
-            if (targetTag == "enemy")
-            {
-                currentGun.the_gun.GetComponent<Animator>().SetBool("reload", true);
-            }
-            reload();
-            
-        }
+        else if (targetTag != "enemy")
+                reload();
+
+        
     }
 
     public void reload()
@@ -178,8 +203,14 @@ public class gun : MonoBehaviour
         var bullet = shot.GetComponent<bullet>();
 
         // set direction 
+
         Vector3 dir = currentGun.aimTarget.transform.position - transform.position;
         rb.velocity = dir * currentGun.velocity;
+        if (targetTag == "enemy")
+        {
+            shot.transform.rotation = currentGun.the_gun.transform.rotation;
+
+        }
         //set shot details
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;

@@ -74,8 +74,24 @@ public class launcherShot : MonoBehaviour
     {
         //if(particleToSpawn)
         //{
-
-            Instantiate(particleToSpawn, transform.position, Quaternion.identity,null);
+        float yfromground;
+        RaycastHit hit;
+        // Does the ray intersect any objects excluding the player layer
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.up*-1), out hit, Mathf.Infinity, 0))
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.up * -1) * hit.distance, Color.yellow);
+            //Debug.Log("Did Hit");
+            yfromground = hit.distance;
+        }
+        else
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.up * -1) * 1000, Color.white);
+            //Debug.Log("Did not Hit");
+            yfromground = transform.position.y;
+        }
+    
+            Instantiate(particleToSpawn, new Vector3(transform.position.x, yfromground + 3, transform.position.z), Quaternion.identity,null);
+        
         //}
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, radius, Vector3.one);
         for (int i = 0; i < hits.Length; i++)
