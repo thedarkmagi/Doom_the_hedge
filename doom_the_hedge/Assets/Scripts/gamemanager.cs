@@ -62,6 +62,7 @@ public class gamemanager : MonoBehaviour
     {
         //Paused = !Paused;
         Paused = false;
+        PauseMenu();
     }
 
 

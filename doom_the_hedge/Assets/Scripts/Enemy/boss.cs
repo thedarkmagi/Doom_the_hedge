@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 
 public enum AttackModes
@@ -15,6 +16,7 @@ public class boss : MonoBehaviour
     public GameObject shockwaveObj;
     public shockwaveOpperator shock;
     public HpPool hp;
+    public Flowchart flwcrt;
 
     public float fireRate;
     public float currFireRate;
@@ -29,7 +31,8 @@ public class boss : MonoBehaviour
     public float travelDownSpeed;
     private float startTime;
     private float journeyLength;
-
+    float hp_max;
+    bool activatewave=true;
     public GameObject waveController;
     // Start is called before the first frame update
     void Start()
@@ -38,6 +41,7 @@ public class boss : MonoBehaviour
         //shock = GetComponent<shockwaveOpperator>();
         startTime = Time.time;
         journeyLength = Vector3.Distance(startPos.transform.position, endPos.transform.position);
+        hp_max = hp.HP;
     }
 
     // Update is called once per frame
@@ -71,11 +75,23 @@ public class boss : MonoBehaviour
                 shockwave();
             }
         }
+        if (hp.HP < hp_max - 50&&activatewave)
+        {
+            waveController.GetComponent<waveController>().Activate1stwave();
+            activatewave = false;
+        }
+
+        if(hp.HP < hp_max/2)
+        {
+            var midhealth = new Color(0.5f, 0.5f, 0.5f, 1);            
+            var Renderer = GetComponent<MeshRenderer>();
+            Renderer.material.SetColor("_BaseColor", midhealth);
+        }
     }
 
     void bubbleBlast()
     {
-        int ind = Random.Range(0, bubbleBlastLevels.Count-1);
+        int ind = Random.Range(0, bubbleBlastLevels.Count);
         var guns = bubbleBlastLevels[ind].GetComponentsInChildren<gun>();
 
         foreach (var _gun in guns)
@@ -85,7 +101,7 @@ public class boss : MonoBehaviour
                 _gun.fire();
             }
         }
-
+        if(hp.HP < hp_max*3/4)
         nextAttackMode = AttackModes.shockwave;
         if(Random.Range(0.0f,1.0f)>0.5f)
         {
@@ -118,6 +134,7 @@ public class boss : MonoBehaviour
                     direction = travelDirection.up;
                     //do attack stuff 
                     shockwaveSlam();
+                    flwcrt.ExecuteBlock("Shake");
                 }
                 break;
             case travelDirection.inactive:
