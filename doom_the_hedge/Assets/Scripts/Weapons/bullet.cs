@@ -7,6 +7,7 @@ public class bullet : MonoBehaviour
     public float damage;
     public float lifetime;
     public string targetTag;
+    public GameObject hit;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,8 @@ public class bullet : MonoBehaviour
 
     void kill()
     {
+        
+
         Destroy(this.gameObject);
     }
 
@@ -36,6 +39,8 @@ public class bullet : MonoBehaviour
             //Destroy(collision.collider.gameObject);
             var target = collision.gameObject.GetComponent<HpPool>();
             target.takeDamage(damage);
+            if (targetTag == "enemy")
+                Instantiate(hit, transform.position, Quaternion.identity);
             kill();
         }
     }
@@ -51,6 +56,8 @@ public class bullet : MonoBehaviour
         }
         else if (other.CompareTag("enviroment"))
         {
+            if (targetTag == "enemy")
+               Instantiate(hit, transform.position, Quaternion.identity);
             kill();
         }
     }

@@ -14,6 +14,7 @@ public class boss : MonoBehaviour
 {
     public List<GameObject> bubbleBlastLevels;
     public GameObject shockwaveObj;
+    public Material[] materials;
     public shockwaveOpperator shock;
     public HpPool hp;
     public Flowchart flwcrt;
@@ -27,6 +28,7 @@ public class boss : MonoBehaviour
     public GameObject startPos;
     public GameObject endPos;
     public GameObject trigger;
+    public GameObject psfx;
     public float travelUpSpeed;
     public float travelDownSpeed;
     private float startTime;
@@ -42,6 +44,7 @@ public class boss : MonoBehaviour
         startTime = Time.time;
         journeyLength = Vector3.Distance(startPos.transform.position, endPos.transform.position);
         hp_max = hp.HP;
+        GetComponent<MeshRenderer>().material = materials[0];
     }
 
     // Update is called once per frame
@@ -79,14 +82,19 @@ public class boss : MonoBehaviour
         {
             waveController.GetComponent<waveController>().Activate1stwave();
             activatewave = false;
+            GetComponent<MeshRenderer>().material = materials[1];
         }
 
         if(hp.HP < hp_max/2)
         {
-            var midhealth = new Color(0.5f, 0.5f, 0.5f, 1);            
-            var Renderer = GetComponent<MeshRenderer>();
-            Renderer.material.SetColor("_BaseColor", midhealth);
+            //var midhealth = new Color(0.5f, 0.5f, 0.5f, 1);            
+            //var Renderer = GetComponent<MeshRenderer>();
+            //Renderer.material.SetColor("_BaseColor", midhealth);
+
+            GetComponent<MeshRenderer>().material = materials[2];
         }
+        if (hp.HP < hp_max * 3 / 4)
+            GetComponent<MeshRenderer>().material = materials[3];
     }
 
     void bubbleBlast()
@@ -135,6 +143,7 @@ public class boss : MonoBehaviour
                     //do attack stuff 
                     shockwaveSlam();
                     flwcrt.ExecuteBlock("Shake");
+                   psfx.GetComponent<ParticleSystem>().Play();
                 }
                 break;
             case travelDirection.inactive:

@@ -9,6 +9,7 @@ public struct gunData
     public GameObject the_gun;
     public GameObject projectile;
     public GameObject aimTarget;
+    
     public float fireRate;
     public float curFireRate;
     public int maxAmmo;
@@ -194,6 +195,8 @@ public class gun : MonoBehaviour
         reloaded = false;
         currentGun.currReloadTime = currentGun.reloadTime;
         currentGun.currAmmo = currentGun.maxAmmo;
+        //if (targetTag == "enemy")
+          //  mflashPS.Stop(true);
     }
 
     void fire_rifle()
@@ -201,15 +204,18 @@ public class gun : MonoBehaviour
         var shot = Instantiate(currentGun.projectile, currentGun.the_gun.transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
         var bullet = shot.GetComponent<bullet>();
+        
+            
 
         // set direction 
 
         Vector3 dir = currentGun.aimTarget.transform.position - transform.position;
         rb.velocity = dir * currentGun.velocity;
         if (targetTag == "enemy")
-        {
+        {   
             shot.transform.rotation = currentGun.the_gun.transform.rotation;
-
+            currentGun.the_gun.gameObject.GetComponentInChildren<ParticleSystem>().Play();
+            
         }
         //set shot details
         bullet.damage = currentGun.damage;
@@ -228,7 +234,8 @@ public class gun : MonoBehaviour
         bullet.fire();
         bullet._collider.enabled = true;
         // set direction 
-
+        //if (targetTag == "enemy")
+           // mflashPS.Stop(true);
         //set shot details
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;
@@ -241,10 +248,18 @@ public class gun : MonoBehaviour
         var shot = Instantiate(currentGun.projectile, currentGun.the_gun.transform.position, Quaternion.identity, null);
         var rb = shot.GetComponent<Rigidbody>();
         var bullet = shot.GetComponent<launcherShot>();
-
+        
         // set direction 
         Vector3 dir = currentGun.aimTarget.transform.position - transform.position;
         rb.velocity = dir * currentGun.velocity;
+
+        if (targetTag == "enemy")
+        {
+            
+            currentGun.the_gun.gameObject.GetComponentInChildren<ParticleSystem>().Play();
+
+        }
+
         //set shot details
         bullet.damage = currentGun.damage;
         bullet.lifetime = currentGun.lifetime;
