@@ -34,21 +34,21 @@ public class boss : MonoBehaviour
     private float startTime;
     private float journeyLength;
     float hp_max;
-    bool activatewave=true;
+    bool activatewave=true,finalphase=false;
     public GameObject waveController;
     // Start is called before the first frame update
     void Start()
     {
         trigger.GetComponent<Collider>().enabled = false;
         //shock = GetComponent<shockwaveOpperator>();
-        startTime = Time.time;
+        startTime = Time.fixedTime;
         journeyLength = Vector3.Distance(startPos.transform.position, endPos.transform.position);
         hp_max = hp.HP;
         GetComponent<MeshRenderer>().material = materials[0];
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (hp.HP <= 0)
         {
@@ -56,7 +56,7 @@ public class boss : MonoBehaviour
         }
         else
         {
-            currFireRate += Time.deltaTime;
+            currFireRate += Time.fixedDeltaTime;
             if (currFireRate > fireRate)
             {
 
@@ -78,23 +78,26 @@ public class boss : MonoBehaviour
                 shockwave();
             }
         }
-        if (hp.HP < hp_max - 50&&activatewave)
+        if (!finalphase)
         {
-            waveController.GetComponent<waveController>().Activate1stwave();
-            activatewave = false;
-            GetComponent<MeshRenderer>().material = materials[1];
-        }
+            if (hp.HP < hp_max - 100 && activatewave)
+            {
+                waveController.GetComponent<waveController>().Activate1stwave();
+                activatewave = false;
+                GetComponent<MeshRenderer>().material = materials[1];
+            }
 
-        if(hp.HP < hp_max/2)
-        {
-            //var midhealth = new Color(0.5f, 0.5f, 0.5f, 1);            
-            //var Renderer = GetComponent<MeshRenderer>();
-            //Renderer.material.SetColor("_BaseColor", midhealth);
-
-            GetComponent<MeshRenderer>().material = materials[2];
+            if (hp.HP < hp_max *3/4)
+            {
+                GetComponent<MeshRenderer>().material = materials[2];
+            }
+            if (hp.HP < hp_max /2)
+            {
+                GetComponent<MeshRenderer>().material = materials[3];
+                flwcrt.ExecuteBlock("phase2");
+                finalphase = true;
+            }
         }
-        if (hp.HP < hp_max * 3 / 4)
-            GetComponent<MeshRenderer>().material = materials[3];
     }
 
     void bubbleBlast()
@@ -109,12 +112,12 @@ public class boss : MonoBehaviour
                 _gun.fire();
             }
         }
-        if(hp.HP < hp_max*3/4)
-        nextAttackMode = AttackModes.shockwave;
-        if(Random.Range(0.0f,1.0f)>0.5f)
+        
+        if(Random.Range(0.0f,1.0f)>0.6f)
         {
             nextAttackMode = AttackModes.bubbleBlast;
-        }
+        }else if(hp.HP < hp_max /2)
+        nextAttackMode = AttackModes.shockwave;
     }
     void shockwaveSlam()
     {
@@ -161,7 +164,7 @@ public class boss : MonoBehaviour
     void travelInDirection(GameObject target, float speed)
     {
         // Distance moved equals elapsed time times speed..
-        float distCovered = (Time.time - startTime) * speed;
+        float distCovered = (Time.fixedTime - startTime) * speed;
         ;
 
         // Fraction of journey completed equals current distance divided by total distance.
